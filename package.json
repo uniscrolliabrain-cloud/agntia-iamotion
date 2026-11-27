@@ -26,7 +26,8 @@
     "plan:claims": "node lab/scripts/plan-legacy-claims.mjs",
     "extract:usage": "node lab/scripts/extract-git-usage.mjs",
     "report:context": "node lab/scripts/report-business-context.mjs",
-    "inspect:images": "python lab/scripts/inspect-library-images.py"
+    "inspect:images": "python lab/scripts/inspect-library-images.py",
+    "report:prompts": "node lab/scripts/report-prompt-intent.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",
