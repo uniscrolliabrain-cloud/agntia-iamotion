@@ -54,3 +54,14 @@ Un macroturno por fase o grupo explícito; leer HEAD y dependencias, rama de eje
 - [Quality benchmark](art-direction/QUALITY-BENCHMARK.md)
 - [RAG wiring](art-direction/RAG-ARTISTIC-WIRING.md)
 - [Animation and interchange](art-direction/ANIMATION-INTERCHANGE.md)
+
+## Motion graphics and kinetic typography extension
+- [README.md](motion-graphics/README.md)
+- [COMPOSITION.md](motion-graphics/COMPOSITION.md)
+- [KINETIC-TYPE.md](motion-graphics/KINETIC-TYPE.md)
+- [GRAPHICS-AND-DATA.md](motion-graphics/GRAPHICS-AND-DATA.md)
+- [TIMELINE-AND-AUDIO.md](motion-graphics/TIMELINE-AND-AUDIO.md)
+- [RENDER-ADAPTERS.md](motion-graphics/RENDER-ADAPTERS.md)
+- [RAG-LEXICON.md](motion-graphics/RAG-LEXICON.md)
+- [PATCHSETS-AND-BENCHMARK.md](motion-graphics/PATCHSETS-AND-BENCHMARK.md)
+Proposed P33–P44, M7–M8; planning only.
