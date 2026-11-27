@@ -2,6 +2,17 @@
 
 Rama local `campaign/visual-knowledge-lab-execution` desde `e813901194bef2478bf300738273eadf38d9e5c8`. El [registro de ejecución](ledger.json) enumera P01–P52 y las 260 unidades. Los tres commits principales son `3fa751d` para auditoría y simulación de migración, `ca0f959` para contratos y `0cfd2ec` para el render y la demo. `c07fca0` verifica el cambio de la imagen renderizada en Chromium.
 
+## Quinto tramo de ejecución
+
+- P13–P14. UI Lab compila el timeline de «Flotar» al construir la demo. El sampler aplica el desplazamiento en la vista WebGL. Chromium verificó el clip de apertura, la flotación y el cambio a PNG con movimiento reducido. El sampler recibe tiempo explícito y el bundle de la vista contiene el timeline validado en el build.
+- P18/P21–P26. El corpus sintético guarda JSONL, bajas, índice inverso y manifiesto por hash. Después de la lectura verificada, el flujo genera un briefing y una propuesta MotionSpec con un mock local. Se añadieron embeddings con ámbito, modelo y presupuesto, búsqueda híbrida con fallback léxico, y un registro de prompts versionados. El test de recuperación del pipeline abarca un juicio sintético. La evaluación humana del corpus real y la conexión al host quedan pendientes.
+- P27–P30. El pipeline local ordena dependencias, verifica hashes de caché y registra eventos sin incluir errores originales. Verificó una ejecución de tres etapas y la reutilización de caché. El flujo de revisión de snapshots exigió autorización, revisión vigente y derechos en pruebas sintéticas. Los comandos del nuevo workflow de verificación se ejecutaron localmente. Su ejecución en GitHub Actions sigue sin verificarse.
+- P31–P32. El SDK consulta metadatos con autorización del host, comprueba el ámbito y el hash del manifiesto, y aplica los derechos vigentes. El tarball de `0a5f1c8` pasó el control de contenido y se instaló en un proyecto temporal. Allí se verificaron las exportaciones, la autorización de metadatos sintéticos y el tiempo exacto de frames.
+- P33–P34. Se añadieron un IR de capas con comprobación de ciclos y un reloj racional exacto, más formas acotadas y serialización SVG determinista. La muestra SVG pasó el parser XML local. El adaptador de comportamientos al IR y la integración de formas en el renderizador siguen pendientes.
+- Pasaron 70 pruebas Node, tres Python, typecheck y build de UI Lab. El ledger registra 124 de 260 unidades verificadas. El build de UI Lab mantiene una advertencia de tamaño del chunk 3D.
+
+Los recibos de este tramo están en `lab/staging/`. `rag-durable.json`, `proposal.json` y `pipeline.json` reproducen el flujo sintético. `browser-float.txt` registra el smoke test de Chromium. `long-turn-final/` contiene el tarball, el informe de contenido, el registro de instalación y la muestra SVG.
+
 ## Cuarto tramo de ejecución
 
 - P13–P15. Doce primitivas producen tracks acotados. La composición serial y paralela usa milisegundos enteros para intervalos, admite repeticiones finitas autorizadas y rechaza la superposición de la misma propiedad sobre el mismo destino. El plan reproduce cuatro propuestas sobre tres casos sintéticos. Las 133 fichas reales quedan pendientes de identidades visuales revisadas. El runtime web y Blender todavía no consumen estos timelines.
@@ -45,20 +56,20 @@ Rama local `campaign/visual-knowledge-lab-execution` desde `e813901194bef2478bf3
 | Área | Evidencia disponible | Pendiente |
 | --- | --- | --- |
 | Infraestructura | Lockfile, instalación, compilación, tipos, ocho pruebas y paquete local | CI remota, rollback, matriz de instalación y observabilidad |
-| RAG | Auditoría, contratos de evidencia y catálogo previo | Ontología migrada, corpus, recuperación evaluada y conexión con propuestas |
-| Compilador | Compatibilidad con MotionSpec V1 | IR, DAG, timeline racional, negociación y pruebas entre renderizadores |
-| Gráficos y tipografía | Sin nueva evidencia de ejecución | Layout, fuentes, datos, captions y presentaciones |
+| RAG | Auditoría, ontología, corpus sintético, recuperación y propuesta local | Corpus real revisado, evaluación humana y autorización del host |
+| Compilador | MotionSpec V1, composición de behavior y reloj racional | Adaptar el timeline al IR y verificar entre renderizadores |
+| Gráficos y tipografía | Formas validadas y exportación SVG local | Layout, fuentes, datos, captions y presentaciones |
 | Blender | Receta sintética, builder local y tres formatos reales | Worker aislado general, validador, tolerancias y revisión |
-| Living | Control local de clips y fallback | Runtime común, infografías, texto, controles, partículas y métricas |
+| Living | Sampler local, clips, flotación y fallback verificados en Chromium | Runtime común, infografías, texto, controles, partículas y métricas |
 | UI Lab | Prototipo de correo y prueba Chromium | Otras cinco demos, catálogo, inspector, timeline y regresión |
 | Sensorial | Diseño documental | Autorización explícita de fase 2 |
-| Integración | Tarball e importación desde proyecto limpio | Harness multi-tenant, autoridad, idempotencia e integración con el padre |
+| Integración | SDK local con autorización y derechos vigentes, tarball instalado en proyecto limpio | Harness multi-tenant real, idempotencia e integración con el padre |
 | Producción | Workflow de verificación y recibos locales | CI remota, auditorías, SBOM, release candidate y despliegue autorizado |
 
 La puntuación inicial y final de madurez sigue pendiente de un desglose verificable de los subchecks. Esta ejecución no certifica el umbral 80/100.
 
 ## Reanudar
 
-Retomar el corpus durable P18.C/E, el adaptador de evaluación P21.C/E y el consumo de timelines por renderizadores P13.E/P14.E. Continuar P22–P26 con puertos y mocks explícitos dentro de la autorización local. Mantener P05.E pendiente de identidades revisadas, P06.C/E pendiente de persistencia durable y P07.E pendiente de evidencia de uso revisada. Generar recibos en `lab/staging/` con audit:library, stage:library, export:ontology, reconcile:library y plan:claims. Ejecutar build antes de export:ontology y plan:claims. El registro incluye rutas y hashes. Las instrucciones de la demo están en [UI Lab](../../apps/ui-lab/src/README.md).
+Retomar P33.C/E y P34.E para adaptar los tracks al IR y generar manifests de formas. Continuar P35–P42 con layout, tipografía, sampler de composición y negociación real de renderizadores. Mantener abierta la evaluación humana P21.E y la integración fuera del sandbox. Mantener P05.E pendiente de identidades revisadas, P06.C/E pendiente de persistencia durable y P07.E pendiente de evidencia de uso revisada. Generar recibos en `lab/staging/` con audit:library, stage:library, export:ontology, reconcile:library y plan:claims. Ejecutar build antes de export:ontology y plan:claims. El registro incluye rutas y hashes. Las instrucciones de la demo están en [UI Lab](../../apps/ui-lab/src/README.md).
 
 Para regresar a la línea base, usar la rama `main` en un checkout limpio. El plan no escribió punteros, snapshots públicos, revisiones ni activos. Los recibos y binarios generados están fuera de seguimiento Git.
