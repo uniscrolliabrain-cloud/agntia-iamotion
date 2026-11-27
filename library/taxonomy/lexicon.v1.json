@@ -1,0 +1,978 @@
+{
+  "version": 1,
+  "terms": [
+    {
+      "id": "subject.object",
+      "facet": "subject",
+      "label": "object",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: object",
+      "parentId": null
+    },
+    {
+      "id": "subject.avatar",
+      "facet": "subject",
+      "label": "avatar",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: avatar",
+      "parentId": null
+    },
+    {
+      "id": "subject.scene",
+      "facet": "subject",
+      "label": "scene",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: scene",
+      "parentId": null
+    },
+    {
+      "id": "subject.symbol",
+      "facet": "subject",
+      "label": "symbol",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: symbol",
+      "parentId": null
+    },
+    {
+      "id": "subject.geometry",
+      "facet": "subject",
+      "label": "geometry",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: geometry",
+      "parentId": null
+    },
+    {
+      "id": "subject.diagram",
+      "facet": "subject",
+      "label": "diagram",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: diagram",
+      "parentId": null
+    },
+    {
+      "id": "subject.photo",
+      "facet": "subject",
+      "label": "photo",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: photo",
+      "parentId": null
+    },
+    {
+      "id": "subject.illustration",
+      "facet": "subject",
+      "label": "illustration",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: illustration",
+      "parentId": null
+    },
+    {
+      "id": "subject.texture",
+      "facet": "subject",
+      "label": "texture",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: texture",
+      "parentId": null
+    },
+    {
+      "id": "subject.logo",
+      "facet": "subject",
+      "label": "logo",
+      "aliases": [],
+      "definition": "Controlled subject descriptor: logo",
+      "parentId": null
+    },
+    {
+      "id": "business.finance",
+      "facet": "business",
+      "label": "finance",
+      "aliases": [
+        "finanzas",
+        "tesorería",
+        "facturación"
+      ],
+      "definition": "Controlled business descriptor: finance",
+      "parentId": null
+    },
+    {
+      "id": "business.sales",
+      "facet": "business",
+      "label": "sales",
+      "aliases": [
+        "ventas"
+      ],
+      "definition": "Controlled business descriptor: sales",
+      "parentId": null
+    },
+    {
+      "id": "business.people",
+      "facet": "business",
+      "label": "people",
+      "aliases": [
+        "personas",
+        "rrhh"
+      ],
+      "definition": "Controlled business descriptor: people",
+      "parentId": null
+    },
+    {
+      "id": "business.operations",
+      "facet": "business",
+      "label": "operations",
+      "aliases": [
+        "operaciones"
+      ],
+      "definition": "Controlled business descriptor: operations",
+      "parentId": null
+    },
+    {
+      "id": "business.legal",
+      "facet": "business",
+      "label": "legal",
+      "aliases": [
+        "legal",
+        "contratos"
+      ],
+      "definition": "Controlled business descriptor: legal",
+      "parentId": null
+    },
+    {
+      "id": "business.technology",
+      "facet": "business",
+      "label": "technology",
+      "aliases": [],
+      "definition": "Controlled business descriptor: technology",
+      "parentId": null
+    },
+    {
+      "id": "business.communication",
+      "facet": "business",
+      "label": "communication",
+      "aliases": [
+        "correo",
+        "comunicación"
+      ],
+      "definition": "Controlled business descriptor: communication",
+      "parentId": null
+    },
+    {
+      "id": "business.learning",
+      "facet": "business",
+      "label": "learning",
+      "aliases": [
+        "formación",
+        "aprendizaje"
+      ],
+      "definition": "Controlled business descriptor: learning",
+      "parentId": null
+    },
+    {
+      "id": "business.governance",
+      "facet": "business",
+      "label": "governance",
+      "aliases": [],
+      "definition": "Controlled business descriptor: governance",
+      "parentId": null
+    },
+    {
+      "id": "business.marketing",
+      "facet": "business",
+      "label": "marketing",
+      "aliases": [],
+      "definition": "Controlled business descriptor: marketing",
+      "parentId": null
+    },
+    {
+      "id": "ux.launcher",
+      "facet": "ux",
+      "label": "launcher",
+      "aliases": [],
+      "definition": "Controlled ux descriptor: launcher",
+      "parentId": null
+    },
+    {
+      "id": "ux.navigation",
+      "facet": "ux",
+      "label": "navigation",
+      "aliases": [],
+      "definition": "Controlled ux descriptor: navigation",
+      "parentId": null
+    },
+    {
+      "id": "ux.hero",
+      "facet": "ux",
+      "label": "hero",
+      "aliases": [],
+      "definition": "Controlled ux descriptor: hero",
+      "parentId": null
+    },
+    {
+      "id": "ux.editorial",
+      "facet": "ux",
+      "label": "editorial",
+      "aliases": [
+        "editorial"
+      ],
+      "definition": "Controlled ux descriptor: editorial",
+      "parentId": null
+    },
+    {
+      "id": "ux.empty-state",
+      "facet": "ux",
+      "label": "empty-state",
+      "aliases": [],
+      "definition": "Controlled ux descriptor: empty-state",
+      "parentId": null
+    },
+    {
+      "id": "ux.node",
+      "facet": "ux",
+      "label": "node",
+      "aliases": [],
+      "definition": "Controlled ux descriptor: node",
+      "parentId": null
+    },
+    {
+      "id": "ux.feedback",
+      "facet": "ux",
+      "label": "feedback",
+      "aliases": [],
+      "definition": "Controlled ux descriptor: feedback",
+      "parentId": null
+    },
+    {
+      "id": "ux.avatar",
+      "facet": "ux",
+      "label": "avatar",
+      "aliases": [],
+      "definition": "Controlled ux descriptor: avatar",
+      "parentId": null
+    },
+    {
+      "id": "ux.background",
+      "facet": "ux",
+      "label": "background",
+      "aliases": [],
+      "definition": "Controlled ux descriptor: background",
+      "parentId": null
+    },
+    {
+      "id": "geometry.silhouette",
+      "facet": "geometry",
+      "label": "silhouette",
+      "aliases": [],
+      "definition": "Controlled geometry descriptor: silhouette",
+      "parentId": null
+    },
+    {
+      "id": "geometry.symmetry",
+      "facet": "geometry",
+      "label": "symmetry",
+      "aliases": [],
+      "definition": "Controlled geometry descriptor: symmetry",
+      "parentId": null
+    },
+    {
+      "id": "geometry.volume",
+      "facet": "geometry",
+      "label": "volume",
+      "aliases": [],
+      "definition": "Controlled geometry descriptor: volume",
+      "parentId": null
+    },
+    {
+      "id": "geometry.edge",
+      "facet": "geometry",
+      "label": "edge",
+      "aliases": [],
+      "definition": "Controlled geometry descriptor: edge",
+      "parentId": null
+    },
+    {
+      "id": "geometry.depth",
+      "facet": "geometry",
+      "label": "depth",
+      "aliases": [],
+      "definition": "Controlled geometry descriptor: depth",
+      "parentId": null
+    },
+    {
+      "id": "geometry.negative-space",
+      "facet": "geometry",
+      "label": "negative-space",
+      "aliases": [],
+      "definition": "Controlled geometry descriptor: negative-space",
+      "parentId": null
+    },
+    {
+      "id": "geometry.layer",
+      "facet": "geometry",
+      "label": "layer",
+      "aliases": [],
+      "definition": "Controlled geometry descriptor: layer",
+      "parentId": null
+    },
+    {
+      "id": "material.ceramic",
+      "facet": "material",
+      "label": "ceramic",
+      "aliases": [
+        "cerámica",
+        "ceramica"
+      ],
+      "definition": "Controlled material descriptor: ceramic",
+      "parentId": null
+    },
+    {
+      "id": "material.enamel",
+      "facet": "material",
+      "label": "enamel",
+      "aliases": [
+        "esmalte"
+      ],
+      "definition": "Controlled material descriptor: enamel",
+      "parentId": null
+    },
+    {
+      "id": "material.brass",
+      "facet": "material",
+      "label": "brass",
+      "aliases": [
+        "latón",
+        "laton"
+      ],
+      "definition": "Controlled material descriptor: brass",
+      "parentId": null
+    },
+    {
+      "id": "material.glass",
+      "facet": "material",
+      "label": "glass",
+      "aliases": [],
+      "definition": "Controlled material descriptor: glass",
+      "parentId": null
+    },
+    {
+      "id": "material.paper",
+      "facet": "material",
+      "label": "paper",
+      "aliases": [
+        "papel"
+      ],
+      "definition": "Controlled material descriptor: paper",
+      "parentId": null
+    },
+    {
+      "id": "material.wood",
+      "facet": "material",
+      "label": "wood",
+      "aliases": [
+        "madera"
+      ],
+      "definition": "Controlled material descriptor: wood",
+      "parentId": null
+    },
+    {
+      "id": "material.fabric",
+      "facet": "material",
+      "label": "fabric",
+      "aliases": [],
+      "definition": "Controlled material descriptor: fabric",
+      "parentId": null
+    },
+    {
+      "id": "material.skin",
+      "facet": "material",
+      "label": "skin",
+      "aliases": [],
+      "definition": "Controlled material descriptor: skin",
+      "parentId": null
+    },
+    {
+      "id": "color.ivory",
+      "facet": "color",
+      "label": "ivory",
+      "aliases": [
+        "marfil"
+      ],
+      "definition": "Controlled color descriptor: ivory",
+      "parentId": null
+    },
+    {
+      "id": "color.violet",
+      "facet": "color",
+      "label": "violet",
+      "aliases": [
+        "violeta"
+      ],
+      "definition": "Controlled color descriptor: violet",
+      "parentId": null
+    },
+    {
+      "id": "color.lavender",
+      "facet": "color",
+      "label": "lavender",
+      "aliases": [
+        "lavanda"
+      ],
+      "definition": "Controlled color descriptor: lavender",
+      "parentId": null
+    },
+    {
+      "id": "color.champagne",
+      "facet": "color",
+      "label": "champagne",
+      "aliases": [],
+      "definition": "Controlled color descriptor: champagne",
+      "parentId": null
+    },
+    {
+      "id": "color.earth",
+      "facet": "color",
+      "label": "earth",
+      "aliases": [],
+      "definition": "Controlled color descriptor: earth",
+      "parentId": null
+    },
+    {
+      "id": "color.ink",
+      "facet": "color",
+      "label": "ink",
+      "aliases": [],
+      "definition": "Controlled color descriptor: ink",
+      "parentId": null
+    },
+    {
+      "id": "lighting.key",
+      "facet": "lighting",
+      "label": "key",
+      "aliases": [],
+      "definition": "Controlled lighting descriptor: key",
+      "parentId": null
+    },
+    {
+      "id": "lighting.fill",
+      "facet": "lighting",
+      "label": "fill",
+      "aliases": [],
+      "definition": "Controlled lighting descriptor: fill",
+      "parentId": null
+    },
+    {
+      "id": "lighting.rim",
+      "facet": "lighting",
+      "label": "rim",
+      "aliases": [],
+      "definition": "Controlled lighting descriptor: rim",
+      "parentId": null
+    },
+    {
+      "id": "lighting.soft",
+      "facet": "lighting",
+      "label": "soft",
+      "aliases": [
+        "difusa",
+        "suave"
+      ],
+      "definition": "Controlled lighting descriptor: soft",
+      "parentId": null
+    },
+    {
+      "id": "lighting.hard",
+      "facet": "lighting",
+      "label": "hard",
+      "aliases": [],
+      "definition": "Controlled lighting descriptor: hard",
+      "parentId": null
+    },
+    {
+      "id": "lighting.contact-shadow",
+      "facet": "lighting",
+      "label": "contact-shadow",
+      "aliases": [],
+      "definition": "Controlled lighting descriptor: contact-shadow",
+      "parentId": null
+    },
+    {
+      "id": "composition.centered",
+      "facet": "composition",
+      "label": "centered",
+      "aliases": [
+        "centrado",
+        "centro"
+      ],
+      "definition": "Controlled composition descriptor: centered",
+      "parentId": null
+    },
+    {
+      "id": "composition.three-quarter",
+      "facet": "composition",
+      "label": "three-quarter",
+      "aliases": [
+        "tres cuartos"
+      ],
+      "definition": "Controlled composition descriptor: three-quarter",
+      "parentId": null
+    },
+    {
+      "id": "composition.frontal",
+      "facet": "composition",
+      "label": "frontal",
+      "aliases": [],
+      "definition": "Controlled composition descriptor: frontal",
+      "parentId": null
+    },
+    {
+      "id": "composition.safe-area",
+      "facet": "composition",
+      "label": "safe-area",
+      "aliases": [],
+      "definition": "Controlled composition descriptor: safe-area",
+      "parentId": null
+    },
+    {
+      "id": "composition.negative-space",
+      "facet": "composition",
+      "label": "negative-space",
+      "aliases": [],
+      "definition": "Controlled composition descriptor: negative-space",
+      "parentId": null
+    },
+    {
+      "id": "style.product",
+      "facet": "style",
+      "label": "product",
+      "aliases": [],
+      "definition": "Controlled style descriptor: product",
+      "parentId": null
+    },
+    {
+      "id": "style.editorial",
+      "facet": "style",
+      "label": "editorial",
+      "aliases": [
+        "editorial"
+      ],
+      "definition": "Controlled style descriptor: editorial",
+      "parentId": null
+    },
+    {
+      "id": "style.abstract",
+      "facet": "style",
+      "label": "abstract",
+      "aliases": [],
+      "definition": "Controlled style descriptor: abstract",
+      "parentId": null
+    },
+    {
+      "id": "style.photographic",
+      "facet": "style",
+      "label": "photographic",
+      "aliases": [],
+      "definition": "Controlled style descriptor: photographic",
+      "parentId": null
+    },
+    {
+      "id": "style.sculptural",
+      "facet": "style",
+      "label": "sculptural",
+      "aliases": [
+        "escultórico",
+        "escultural"
+      ],
+      "definition": "Controlled style descriptor: sculptural",
+      "parentId": null
+    },
+    {
+      "id": "motion.breathe",
+      "facet": "motion",
+      "label": "breathe",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: breathe",
+      "parentId": null
+    },
+    {
+      "id": "motion.float",
+      "facet": "motion",
+      "label": "float",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: float",
+      "parentId": null
+    },
+    {
+      "id": "motion.drift",
+      "facet": "motion",
+      "label": "drift",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: drift",
+      "parentId": null
+    },
+    {
+      "id": "motion.settle",
+      "facet": "motion",
+      "label": "settle",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: settle",
+      "parentId": null
+    },
+    {
+      "id": "motion.focus",
+      "facet": "motion",
+      "label": "focus",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: focus",
+      "parentId": null
+    },
+    {
+      "id": "motion.orbit",
+      "facet": "motion",
+      "label": "orbit",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: orbit",
+      "parentId": null
+    },
+    {
+      "id": "motion.pulse",
+      "facet": "motion",
+      "label": "pulse",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: pulse",
+      "parentId": null
+    },
+    {
+      "id": "motion.reveal",
+      "facet": "motion",
+      "label": "reveal",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: reveal",
+      "parentId": null
+    },
+    {
+      "id": "motion.cascade",
+      "facet": "motion",
+      "label": "cascade",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: cascade",
+      "parentId": null
+    },
+    {
+      "id": "motion.fold",
+      "facet": "motion",
+      "label": "fold",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: fold",
+      "parentId": null
+    },
+    {
+      "id": "motion.emerge",
+      "facet": "motion",
+      "label": "emerge",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: emerge",
+      "parentId": null
+    },
+    {
+      "id": "motion.dissolve",
+      "facet": "motion",
+      "label": "dissolve",
+      "aliases": [],
+      "definition": "Controlled motion descriptor: dissolve",
+      "parentId": null
+    },
+    {
+      "id": "reconstruction.2d",
+      "facet": "reconstruction",
+      "label": "2d",
+      "aliases": [],
+      "definition": "Controlled reconstruction descriptor: 2d",
+      "parentId": null
+    },
+    {
+      "id": "reconstruction.2.5d",
+      "facet": "reconstruction",
+      "label": "2.5d",
+      "aliases": [],
+      "definition": "Controlled reconstruction descriptor: 2.5d",
+      "parentId": null
+    },
+    {
+      "id": "reconstruction.3d",
+      "facet": "reconstruction",
+      "label": "3d",
+      "aliases": [],
+      "definition": "Controlled reconstruction descriptor: 3d",
+      "parentId": null
+    },
+    {
+      "id": "reconstruction.segmentation",
+      "facet": "reconstruction",
+      "label": "segmentation",
+      "aliases": [],
+      "definition": "Controlled reconstruction descriptor: segmentation",
+      "parentId": null
+    },
+    {
+      "id": "reconstruction.depth-map",
+      "facet": "reconstruction",
+      "label": "depth-map",
+      "aliases": [],
+      "definition": "Controlled reconstruction descriptor: depth-map",
+      "parentId": null
+    },
+    {
+      "id": "reconstruction.mesh",
+      "facet": "reconstruction",
+      "label": "mesh",
+      "aliases": [],
+      "definition": "Controlled reconstruction descriptor: mesh",
+      "parentId": null
+    },
+    {
+      "id": "export.master",
+      "facet": "export",
+      "label": "master",
+      "aliases": [],
+      "definition": "Controlled export descriptor: master",
+      "parentId": null
+    },
+    {
+      "id": "export.preview",
+      "facet": "export",
+      "label": "preview",
+      "aliases": [],
+      "definition": "Controlled export descriptor: preview",
+      "parentId": null
+    },
+    {
+      "id": "export.runtime",
+      "facet": "export",
+      "label": "runtime",
+      "aliases": [],
+      "definition": "Controlled export descriptor: runtime",
+      "parentId": null
+    },
+    {
+      "id": "export.png",
+      "facet": "export",
+      "label": "png",
+      "aliases": [],
+      "definition": "Controlled export descriptor: png",
+      "parentId": null
+    },
+    {
+      "id": "export.webp",
+      "facet": "export",
+      "label": "webp",
+      "aliases": [],
+      "definition": "Controlled export descriptor: webp",
+      "parentId": null
+    },
+    {
+      "id": "export.svg",
+      "facet": "export",
+      "label": "svg",
+      "aliases": [],
+      "definition": "Controlled export descriptor: svg",
+      "parentId": null
+    },
+    {
+      "id": "export.glb",
+      "facet": "export",
+      "label": "glb",
+      "aliases": [],
+      "definition": "Controlled export descriptor: glb",
+      "parentId": null
+    },
+    {
+      "id": "export.webm",
+      "facet": "export",
+      "label": "webm",
+      "aliases": [],
+      "definition": "Controlled export descriptor: webm",
+      "parentId": null
+    },
+    {
+      "id": "export.mp4",
+      "facet": "export",
+      "label": "mp4",
+      "aliases": [],
+      "definition": "Controlled export descriptor: mp4",
+      "parentId": null
+    },
+    {
+      "id": "semantic.title",
+      "facet": "semantic",
+      "label": "title",
+      "aliases": [],
+      "definition": "Controlled semantic descriptor: title",
+      "parentId": null
+    },
+    {
+      "id": "semantic.alias",
+      "facet": "semantic",
+      "label": "alias",
+      "aliases": [],
+      "definition": "Controlled semantic descriptor: alias",
+      "parentId": null
+    },
+    {
+      "id": "semantic.alt",
+      "facet": "semantic",
+      "label": "alt",
+      "aliases": [],
+      "definition": "Controlled semantic descriptor: alt",
+      "parentId": null
+    },
+    {
+      "id": "semantic.caption",
+      "facet": "semantic",
+      "label": "caption",
+      "aliases": [],
+      "definition": "Controlled semantic descriptor: caption",
+      "parentId": null
+    },
+    {
+      "id": "semantic.keyword",
+      "facet": "semantic",
+      "label": "keyword",
+      "aliases": [],
+      "definition": "Controlled semantic descriptor: keyword",
+      "parentId": null
+    },
+    {
+      "id": "relationships.variant-of",
+      "facet": "relationships",
+      "label": "variant-of",
+      "aliases": [],
+      "definition": "Controlled relationships descriptor: variant-of",
+      "parentId": null
+    },
+    {
+      "id": "relationships.derived-from",
+      "facet": "relationships",
+      "label": "derived-from",
+      "aliases": [],
+      "definition": "Controlled relationships descriptor: derived-from",
+      "parentId": null
+    },
+    {
+      "id": "relationships.same-family",
+      "facet": "relationships",
+      "label": "same-family",
+      "aliases": [],
+      "definition": "Controlled relationships descriptor: same-family",
+      "parentId": null
+    },
+    {
+      "id": "relationships.depicts",
+      "facet": "relationships",
+      "label": "depicts",
+      "aliases": [],
+      "definition": "Controlled relationships descriptor: depicts",
+      "parentId": null
+    },
+    {
+      "id": "relationships.used-in",
+      "facet": "relationships",
+      "label": "used-in",
+      "aliases": [],
+      "definition": "Controlled relationships descriptor: used-in",
+      "parentId": null
+    },
+    {
+      "id": "relationships.compatible-with",
+      "facet": "relationships",
+      "label": "compatible-with",
+      "aliases": [],
+      "definition": "Controlled relationships descriptor: compatible-with",
+      "parentId": null
+    },
+    {
+      "id": "relationships.alternative-to",
+      "facet": "relationships",
+      "label": "alternative-to",
+      "aliases": [],
+      "definition": "Controlled relationships descriptor: alternative-to",
+      "parentId": null
+    },
+    {
+      "id": "relationships.animates-as",
+      "facet": "relationships",
+      "label": "animates-as",
+      "aliases": [],
+      "definition": "Controlled relationships descriptor: animates-as",
+      "parentId": null
+    },
+    {
+      "id": "governance.pending-review",
+      "facet": "governance",
+      "label": "pending-review",
+      "aliases": [],
+      "definition": "Controlled governance descriptor: pending-review",
+      "parentId": null
+    },
+    {
+      "id": "governance.approved",
+      "facet": "governance",
+      "label": "approved",
+      "aliases": [],
+      "definition": "Controlled governance descriptor: approved",
+      "parentId": null
+    },
+    {
+      "id": "governance.rejected",
+      "facet": "governance",
+      "label": "rejected",
+      "aliases": [],
+      "definition": "Controlled governance descriptor: rejected",
+      "parentId": null
+    },
+    {
+      "id": "governance.restricted",
+      "facet": "governance",
+      "label": "restricted",
+      "aliases": [],
+      "definition": "Controlled governance descriptor: restricted",
+      "parentId": null
+    },
+    {
+      "id": "learning.prompt",
+      "facet": "learning",
+      "label": "prompt",
+      "aliases": [],
+      "definition": "Controlled learning descriptor: prompt",
+      "parentId": null
+    },
+    {
+      "id": "learning.critique",
+      "facet": "learning",
+      "label": "critique",
+      "aliases": [],
+      "definition": "Controlled learning descriptor: critique",
+      "parentId": null
+    },
+    {
+      "id": "learning.revision",
+      "facet": "learning",
+      "label": "revision",
+      "aliases": [],
+      "definition": "Controlled learning descriptor: revision",
+      "parentId": null
+    },
+    {
+      "id": "learning.evaluation",
+      "facet": "learning",
+      "label": "evaluation",
+      "aliases": [],
+      "definition": "Controlled learning descriptor: evaluation",
+      "parentId": null
+    },
+    {
+      "id": "learning.lesson",
+      "facet": "learning",
+      "label": "lesson",
+      "aliases": [],
+      "definition": "Controlled learning descriptor: lesson",
+      "parentId": null
+    }
+  ]
+}
