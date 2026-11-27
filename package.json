@@ -31,7 +31,8 @@
     "report:appearance": "node lab/scripts/report-library-appearance.mjs",
     "plan:motion": "node lab/scripts/plan-motion-candidates.mjs",
     "smoke:rag": "node lab/scripts/smoke-rag-brief.mjs",
-    "smoke:proposal": "node lab/scripts/smoke-motion-proposal.mjs"
+    "smoke:proposal": "node lab/scripts/smoke-motion-proposal.mjs",
+    "smoke:pipeline": "node lab/scripts/smoke-local-pipeline.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",
