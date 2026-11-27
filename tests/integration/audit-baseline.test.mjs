@@ -153,3 +153,29 @@ test('ignores interrupted writes and refuses a corrupt staged snapshot', async (
   await put(path, 'corrupt');
   assert.equal((await store.stage(root)).status, 'blocked');
 });
+
+test('promotion requires a scoped review and current rights before advancing a snapshot', async (t) => {
+  const { promoteReviewedSnapshot } = await import('../../lab/scripts/promote-reviewed-snapshot.mjs');
+  const { root } = await fixture(t);
+  const store = await openSnapshotStore(join(root, 'store'));
+  const { snapshotId, expectedRevision } = await store.stage(root);
+  const request = { scope: 'test', actorId: 'tester', snapshotId, expectedRevision, reviewRef: 'test/review' };
+  const { actorId, ...identity } = request;
+  const policy = {
+    authorize: async (options) => options.actorId === actorId,
+    review: async () => ({ ...identity, decision: 'approved' }),
+    rightsApproved: async ({ binaryIds }) => binaryIds.length === 1,
+  };
+  const denied = await promoteReviewedSnapshot(request, store);
+  assert.equal(denied.code, 'PROMOTION_AUTHORITY_REQUIRED');
+  const stale = await promoteReviewedSnapshot(request, store, { ...policy,
+    review: async () => ({ ...identity, expectedRevision: 1, decision: 'approved' }),
+  });
+  assert.equal(stale.code, 'STALE_OR_UNAPPROVED_REVIEW');
+  assert.equal((await promoteReviewedSnapshot(request, store, { ...policy,
+    rightsApproved: async () => false,
+  })).code, 'RIGHTS_PENDING');
+  assert.equal((await store.current()).revision, 0);
+  assert.equal((await promoteReviewedSnapshot(request, store, policy)).status, 'promoted');
+  assert.equal((await promoteReviewedSnapshot(request, store, policy)).code, 'STALE_POINTER');
+});

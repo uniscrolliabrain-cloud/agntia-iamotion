@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -17,3 +19,9 @@ jobs:
       - run: pnpm test
       - run: pnpm run build:demo
       - run: pnpm audit:library > "$RUNNER_TEMP/library-audit.json"
+      - name: Verify the local synthetic pipeline
+        run: |
+          mkdir -p lab/staging
+          pnpm smoke:rag lab/staging/rag-corpora > lab/staging/rag-durable.json
+          pnpm smoke:proposal > "$RUNNER_TEMP/motion-proposal.json"
+          pnpm smoke:pipeline > "$RUNNER_TEMP/local-pipeline.json"
