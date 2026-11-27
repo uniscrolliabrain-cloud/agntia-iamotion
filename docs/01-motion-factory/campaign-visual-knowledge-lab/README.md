@@ -44,3 +44,13 @@ Un macroturno por fase o grupo explícito; leer HEAD y dependencias, rama de eje
 - [TECHNICAL-DECISIONS.md](TECHNICAL-DECISIONS.md)
 - [CLI-AND-ERROR-CONTRACT.md](CLI-AND-ERROR-CONTRACT.md)
 - [STORAGE-AND-MIGRATION.md](STORAGE-AND-MIGRATION.md)
+
+## Artistic intelligence research extension
+- [Research and artistic contracts](art-direction/README.md)
+- [Materials](art-direction/MATERIALS.md)
+- [Geometry](art-direction/GEOMETRY.md)
+- [Light, color and camera](art-direction/LIGHT-COLOR-CAMERA.md)
+- [Motion choreography](art-direction/MOTION-CHOREOGRAPHY.md)
+- [Quality benchmark](art-direction/QUALITY-BENCHMARK.md)
+- [RAG wiring](art-direction/RAG-ARTISTIC-WIRING.md)
+- [Animation and interchange](art-direction/ANIMATION-INTERCHANGE.md)
