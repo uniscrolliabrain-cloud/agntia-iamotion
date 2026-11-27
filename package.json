@@ -15,9 +15,10 @@
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit",
     "build:demo": "vite build apps/ui-lab --base /agntia-iamotion/",
-    "test": "node --test --test-isolation=none",
+    "test": "tsc -p tsconfig.json && node --test --test-isolation=none",
     "audit:library": "node lab/scripts/audit-baseline.mjs",
-    "plan:library": "node lab/scripts/plan-library-migration.mjs"
+    "plan:library": "node lab/scripts/plan-library-migration.mjs",
+    "schemas:library": "node lab/scripts/export-library-schemas.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",
