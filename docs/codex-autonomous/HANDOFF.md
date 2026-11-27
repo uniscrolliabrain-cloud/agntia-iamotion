@@ -2,6 +2,17 @@
 
 Rama local `campaign/visual-knowledge-lab-execution` desde `e813901194bef2478bf300738273eadf38d9e5c8`. El [registro de ejecución](ledger.json) enumera P01–P52 y las 260 unidades. Los tres commits principales son `3fa751d` para auditoría y simulación de migración, `ca0f959` para contratos y `0cfd2ec` para el render y la demo. `c07fca0` verifica el cambio de la imagen renderizada en Chromium.
 
+## Tercer tramo de ejecución
+
+- P07. El adaptador Git leyó 41 archivos fuente en `4979c06` y obtuvo cero referencias coincidentes. Dos informes fueron idénticos. Los casos positivos y negativos de JSX, HTML, CSS, globs, enlaces simbólicos y cambios del árbol de trabajo se verificaron en fixtures. El extractor cubre atributos HTML básicos y `url()` de declaraciones CSS. Quedan pendientes `srcset`, CSS embebido y la evaluación manual sobre fuentes autorizadas.
+- P08. Las 133 fichas tienen contexto especificado mediante IDs de colecciones y workspaces. La taxonomía distingue aplicación, Mi Empresa y demo. El informe expresa intención de uso. La conexión con usos observados por workspace sigue pendiente.
+- P09. Pillow 13.0.0 midió 387 ráster y el parser estático leyó 16 SVG. El informe reproduce los resultados byte a byte y registró cero errores. La paleta y luminancia se calculan en el primer fotograma con sRGB supuesto, sin aplicar perfiles ICC.
+- P10. En 133 fichas se localizaron 3100 menciones positivas, 85 negativas y 86 ambiguas o inciertas, con offsets del texto original. La extracción es heurística y conserva la base de intención.
+- P11. Las cuatro familias conservan paletas, materiales y propósitos separados. Los ocho ejemplos son candidatos. Las reglas de compatibilidad son direccionales, específicas al contexto y pendientes de revisión artística.
+- P12. El informe de apariencia separa mediciones ráster, metadatos SVG e intención en 403 registros. Las partes observadas de esos binarios siguen desconocidas. Las pruebas sintéticas validan regiones, evidencia y ciclos de parentesco.
+- P13. El contrato de comportamiento comprueba destino, capacidad declarada del renderizador, unidades, tiempos, loops y pose estática obligatoria. Quedan pendientes la composición de primitivas y la conexión al runtime. MotionSpec V1 conserva su API.
+- Verificación de este tramo con 34 pruebas Node, tres pruebas de imágenes Python, typecheck y build de UI Lab. El ledger registra 54 de 260 unidades verificadas. Este recuento no es una puntuación de madurez.
+
 ## Segundo tramo de ejecución
 
 - P02. El catálogo real quedó preparado en `lab/staging/library-snapshots/`, revisión esperada 0 y puntero inicial intacto. Las pruebas sintéticas cubren preparación concurrente, escritura parcial, corrupción, promoción con revisión y rollback. Cada transición publica un registro mediante enlace exclusivo. La promoción en este almacén local compara revisiones y registra una referencia de revisión. La autoridad del host sigue pendiente.
@@ -40,6 +51,6 @@ La puntuación inicial y final de madurez sigue pendiente de un desglose verific
 
 ## Reanudar
 
-Retomar P07 con el adaptador de árboles Git, HTML y CSS. Mantener P05.E pendiente de identidades revisadas y P06.C/E pendiente de persistencia durable. Generar recibos en `lab/staging/` con audit:library, stage:library, export:ontology, reconcile:library y plan:claims. Ejecutar build antes de export:ontology y plan:claims. El registro incluye rutas y hashes. Las instrucciones de la demo están en [UI Lab](../../apps/ui-lab/src/README.md).
+Retomar P13.C/E y P14 con el adaptador de propuestas y la expansión de primitivas. Mantener P05.E pendiente de identidades revisadas, P06.C/E pendiente de persistencia durable y P07.E pendiente de evidencia de uso revisada. Generar recibos en `lab/staging/` con audit:library, stage:library, export:ontology, reconcile:library y plan:claims. Ejecutar build antes de export:ontology y plan:claims. El registro incluye rutas y hashes. Las instrucciones de la demo están en [UI Lab](../../apps/ui-lab/src/README.md).
 
 Para regresar a la línea base, usar la rama `main` en un checkout limpio. El plan no escribió punteros, snapshots públicos, revisiones ni activos. Los recibos y binarios generados están fuera de seguimiento Git.
