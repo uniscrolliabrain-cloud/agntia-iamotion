@@ -30,7 +30,10 @@ export const ShapeSpecSchema = z.strictObject({
   fill: z.union([NoneOrColor, Gradient]),
   stroke: NoneOrColor,
   strokeWidth: z.number().min(0).max(256),
-  label: z.string().min(1).max(160).optional(),
+  label: z.string().min(1).max(160).refine(
+    (value) => !/[\u0000-\u0008\u000b\u000c\u000e-\u001f\ufffe\uffff\p{Surrogate}]/u.test(value),
+    'Label contains a character that cannot be serialized as XML',
+  ).optional(),
 });
 type Shape = z.infer<typeof ShapeSpecSchema>;
 const Canvas = z.strictObject({ width: Size, height: Size });
@@ -47,7 +50,11 @@ export function validateShape(input: unknown) {
     let open = false;
     let drawn = false;
     for (const command of geometry.commands) {
-      if (command.type === 'M') { open = true; drawn = false; }
+      if (command.type === 'M') {
+        if (open && !drawn) return { ok: false, code: 'INVALID_PATH_TOPOLOGY' } as const;
+        open = true;
+        drawn = false;
+      }
       else if (!open || (command.type === 'Z' && !drawn)) {
         return { ok: false, code: 'INVALID_PATH_TOPOLOGY' } as const;
       } else if (command.type === 'Z') open = false;

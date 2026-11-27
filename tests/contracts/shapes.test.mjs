@@ -10,6 +10,7 @@ test('produces deterministic SVG with escaped labels and only allowlisted paint'
   const out = serializeShapeSvg(rectangle, canvas);
   assert.equal(out.svg,
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title>A &lt; B &amp; C</title><rect x="2" y="3" width="10" height="12" rx="0" fill="#ffeecc" stroke="none" stroke-width="0"/></svg>');
+  assert.equal(serializeShapeSvg({ ...rectangle, label: '\u0000' }, canvas).code, 'INVALID_SHAPE');
   assert.equal(serializeShapeSvg({ ...rectangle, fill: 'not-a-color' }, canvas).code, 'INVALID_SHAPE');
   assert.equal(serializeShapeSvg({ ...rectangle, geometry: { ...rectangle.geometry, radius: -2 } }, canvas).ok, false);
   assert.equal(validateShape({ ...rectangle, fill: { angle: 90, stops: [

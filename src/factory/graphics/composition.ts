@@ -112,6 +112,8 @@ export function layerContainsFrame(
   frame: number, clock: Pick<CompositionProject, 'fps' | 'timebase'>,
 ) {
   const time = frameTime(frame, clock);
-  return BigInt(layer.inTick) * time.denominator <= time.numerator &&
-    time.numerator < BigInt(layer.outTick) * time.denominator;
+  const start = BigInt(Tick.parse(layer.inTick));
+  const end = BigInt(Tick.parse(layer.outTick));
+  if (start >= end) throw new Error('INVALID_LAYER_INTERVAL');
+  return start * time.denominator <= time.numerator && time.numerator < end * time.denominator;
 }
