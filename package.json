@@ -1,0 +1,27 @@
+{
+  "name": "@agntia/motion",
+  "version": "0.0.1-alpha.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "build:demo": "vite build apps/ui-lab --base /agntia-iamotion/"
+  },
+  "dependencies": {
+    "zod": "^4.0.0",
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vite": "^7.0.0"
+  }
+}
