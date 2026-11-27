@@ -32,3 +32,10 @@ test('model mismatch or unavailable vector falls back to lexical explicitly', ()
   assert.equal(output.reason, 'vector_invalid');
   assert.equal(output.hits[0].card.id, 'a');
 });
+
+test('applies negative terms to vector matches and abstains without a positive query', () => {
+  const index = new ScopedHybridIndex(cards, rows, model);
+  const vector = { ...model, values: [1, 0] };
+  assert.deepEqual(index.search('ceramica -esfera', settings, vector).hits.map(({ card }) => card.id), ['a']);
+  assert.deepEqual(index.search('-esfera', settings, vector).hits, []);
+});

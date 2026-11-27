@@ -19,3 +19,6 @@ export * from './factory/assets/rag-compiler.js';
 export * from './factory/assets/retrieval.js';
 export * from './llm/embeddings.js';
 export * from './factory/assets/hybrid-retrieval.js';
+export * from './llm/prompts/registry.js';
+export * from './llm/proposal-runner.js';
+export * from './llm/config.js';

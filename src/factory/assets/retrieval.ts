@@ -3,8 +3,15 @@ import type { RagCard } from './rag-compiler.js';
 type Field = 'title' | 'body';
 const weights: Record<Field, number> = { title: 4, body: 1 };
 const fields = ['title', 'body'] as const;
-const tokenize = (value: string) => value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
+export const tokenizeSearchText = (value: string) => value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
   .match(/[\p{L}\p{N}]+/gu) ?? [];
+export function parseSearchQuery(query: string) {
+  if (typeof query !== 'string' || query.length > 512) return null;
+  const exclusion = /(?:^|\s)-([\p{L}\p{M}\p{N}]+)(?=\s|$)/gu;
+  const negative = [...new Set([...query.matchAll(exclusion)].flatMap((match) => tokenizeSearchText(match[1])))];
+  const positive = [...new Set(tokenizeSearchText(query.replace(exclusion, ' ')))];
+  return positive.length ? { positive, negative } : null;
+}
 const compare = (a: string, b: string) => a < b ? -1 : a > b ? 1 : 0;
 
 interface Partition {
@@ -32,8 +39,8 @@ export class ScopedLexicalIndex {
     for (const card of cards) {
       if (ids.has(card.id)) throw new Error('DUPLICATE_RAG_CARD');
       ids.add(card.id);
-      const title = tokenize(card.title);
-      const body = tokenize(card.text);
+      const title = tokenizeSearchText(card.title);
+      const body = tokenizeSearchText(card.text);
       const partition: Partition = this.#partitions.get(card.scope) ??
         { documents: [], inverted: { title: new Map(), body: new Map() } };
       const posting: Posting = {
@@ -62,10 +69,9 @@ export class ScopedLexicalIndex {
     if (typeof query !== 'string' || query.length > 512 ||
         !Number.isInteger(options.limit ?? 10) || (options.limit ?? 10) < 1) return [];
     const limit = Math.min(50, options.limit ?? 10);
-    const exclusion = /(?:^|\s)-([\p{L}\p{M}\p{N}]+)(?=\s|$)/gu;
-    const negative = [...new Set([...query.matchAll(exclusion)].flatMap((match) => tokenize(match[1])))];
-    const positive = [...new Set(tokenize(query.replace(exclusion, ' ')))];
-    if (!positive.length) return [];
+    const parsed = parseSearchQuery(query);
+    if (!parsed) return [];
+    const { positive, negative } = parsed;
 
     const partition = this.#partitions.get(scope);
     if (!partition) return [];

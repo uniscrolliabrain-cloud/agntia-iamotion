@@ -1,6 +1,6 @@
 import { unitVector } from '../../llm/embeddings.js';
 import type { RagCard } from './rag-compiler.js';
-import { ScopedLexicalIndex } from './retrieval.js';
+import { parseSearchQuery, ScopedLexicalIndex, tokenizeSearchText } from './retrieval.js';
 
 interface VectorRecord {
   cardId: string;
@@ -52,6 +52,9 @@ export class ScopedHybridIndex {
         ![weights.lexical, weights.vector].every((w) => Number.isFinite(w) && w > 0 && w <= 10)) {
       return { mode: 'invalid_options', hits: [] } as const;
     }
+    const parsed = parseSearchQuery(query);
+    if (!parsed) return { mode: 'invalid_options', hits: [] } as const;
+    const { negative } = parsed;
     const lexical = this.#lexical.search(query, { ...access, limit: 50 });
     const fallback = (reason: 'vector_unavailable' | 'vector_invalid' | 'vector_no_match') =>
       ({ mode: 'lexical', reason, hits: lexical.slice(0, limit) } as const);
@@ -59,7 +62,8 @@ export class ScopedHybridIndex {
     const direction = sameModel(vector, this.model) && unitVector(vector.values, this.model.dimension);
     if (!direction) return fallback('vector_invalid');
     const vectorHits = (this.#vectors.get(access.scope) ?? []).filter(({ card }) =>
-      card.locale === access.locale && (access.bases?.has(card.basis) ?? card.basis !== 'proposed'))
+      card.locale === access.locale && (access.bases?.has(card.basis) ?? card.basis !== 'proposed') &&
+      (!negative.length || !tokenizeSearchText(`${card.title} ${card.text}`).some((word) => negative.includes(word))))
       .map(({ card, values }) => ({ card, score: values.reduce((sum, value, index) => sum + value * direction[index], 0) }))
       .filter(({ score }) => score > 0)
       .sort((a, b) => b.score - a.score || compare(a.card.id, b.card.id)).slice(0, 50);
