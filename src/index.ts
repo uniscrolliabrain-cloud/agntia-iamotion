@@ -25,3 +25,4 @@ export * from './llm/config.js';
 export * from './factory/behaviors/sampler.js';
 export * from './sdk/visual-library.js';
 export * from './factory/graphics/composition.js';
+export * from './factory/graphics/shapes.js';
