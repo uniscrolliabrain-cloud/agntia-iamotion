@@ -1,0 +1,1658 @@
+[
+  {
+    "id": "mi-empresa-v1-00-inicio-01",
+    "title": "00-inicio — ilustración editorial",
+    "slug": "agntia-mi-empresa-00-inicio-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Inicio del compilador empresarial. Representa maqueta de empresa formada por módulos de madera clara y cerámica, una pieza aún separada. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: mapa de dimensiones, ideas en desarrollo y siguiente paso; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "00-inicio — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/00-inicio-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/00-inicio/visuales/v1/00-inicio-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "00-inicio",
+      "00-inicio — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-00-inicio-02",
+    "title": "00-inicio — icono principal",
+    "slug": "agntia-mi-empresa-00-inicio-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Inicio: brújula de mesa. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "00-inicio — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/00-inicio-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/00-inicio/visuales/v1/00-inicio-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "00-inicio",
+      "00-inicio — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-00-inicio-03",
+    "title": "00-inicio — icono módulo encajable",
+    "slug": "agntia-mi-empresa-00-inicio-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de módulo encajable, para Inicio en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "00-inicio — icono módulo encajable",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/00-inicio-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/00-inicio/visuales/v1/00-inicio-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "00-inicio",
+      "00-inicio — icono módulo encajable"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-00-inicio-04",
+    "title": "00-inicio — icono cuaderno abierto",
+    "slug": "agntia-mi-empresa-00-inicio-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de cuaderno abierto, para Inicio en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "00-inicio — icono cuaderno abierto",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/00-inicio-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/00-inicio/visuales/v1/00-inicio-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "00-inicio",
+      "00-inicio — icono cuaderno abierto"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-01-identidad-01",
+    "title": "01-identidad — ilustración editorial",
+    "slug": "agntia-mi-empresa-01-identidad-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Identidad del compilador empresarial. Representa libro de historia abierto con raíz vegetal estilizada y piedra fundacional. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: cabecera editorial de propósito, misión, visión y cultura; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "01-identidad — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/01-identidad-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/01-identidad/visuales/v1/01-identidad-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "01-identidad",
+      "01-identidad — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-01-identidad-02",
+    "title": "01-identidad — icono principal",
+    "slug": "agntia-mi-empresa-01-identidad-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Identidad: huella grabada. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "01-identidad — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/01-identidad-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/01-identidad/visuales/v1/01-identidad-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "01-identidad",
+      "01-identidad — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-01-identidad-03",
+    "title": "01-identidad — icono horizonte",
+    "slug": "agntia-mi-empresa-01-identidad-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de horizonte, para Identidad en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "01-identidad — icono horizonte",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/01-identidad-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/01-identidad/visuales/v1/01-identidad-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "01-identidad",
+      "01-identidad — icono horizonte"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-01-identidad-04",
+    "title": "01-identidad — icono raíces",
+    "slug": "agntia-mi-empresa-01-identidad-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de raíces, para Identidad en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "01-identidad — icono raíces",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/01-identidad-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/01-identidad/visuales/v1/01-identidad-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "01-identidad",
+      "01-identidad — icono raíces"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-02-modelo-de-negocio-01",
+    "title": "02-modelo-de-negocio — ilustración editorial",
+    "slug": "agntia-mi-empresa-02-modelo-de-negocio-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Modelo de negocio del compilador empresarial. Representa piezas de un modelo empresarial encajando sobre una mesa de trabajo. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: canvas de propuesta de valor, clientes, ingresos y costes; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "02-modelo-de-negocio — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/02-modelo-de-negocio-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/02-modelo-de-negocio/visuales/v1/02-modelo-de-negocio-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "02-modelo-de-negocio",
+      "02-modelo-de-negocio — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-02-modelo-de-negocio-02",
+    "title": "02-modelo-de-negocio — icono principal",
+    "slug": "agntia-mi-empresa-02-modelo-de-negocio-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Modelo de negocio: pieza de encaje. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "02-modelo-de-negocio — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/02-modelo-de-negocio-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/02-modelo-de-negocio/visuales/v1/02-modelo-de-negocio-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "02-modelo-de-negocio",
+      "02-modelo-de-negocio — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-02-modelo-de-negocio-03",
+    "title": "02-modelo-de-negocio — icono balanza de valor",
+    "slug": "agntia-mi-empresa-02-modelo-de-negocio-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de balanza de valor, para Modelo de negocio en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "02-modelo-de-negocio — icono balanza de valor",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/02-modelo-de-negocio-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/02-modelo-de-negocio/visuales/v1/02-modelo-de-negocio-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "02-modelo-de-negocio",
+      "02-modelo-de-negocio — icono balanza de valor"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-02-modelo-de-negocio-04",
+    "title": "02-modelo-de-negocio — icono documento one-pager",
+    "slug": "agntia-mi-empresa-02-modelo-de-negocio-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de documento one-pager, para Modelo de negocio en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "02-modelo-de-negocio — icono documento one-pager",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-1.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-1/02-modelo-de-negocio-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/02-modelo-de-negocio/visuales/v1/02-modelo-de-negocio-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "02-modelo-de-negocio",
+      "02-modelo-de-negocio — icono documento one-pager"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-03-marca-01",
+    "title": "03-marca — ilustración editorial",
+    "slug": "agntia-mi-empresa-03-marca-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Marca del compilador empresarial. Representa muestrario editorial de papel, tipografía abstracta y materiales de marca. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: galería de referencias y guía de marca; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "03-marca — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/03-marca-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/03-marca/visuales/v1/03-marca-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "03-marca",
+      "03-marca — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-03-marca-02",
+    "title": "03-marca — icono principal",
+    "slug": "agntia-mi-empresa-03-marca-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Marca: muestrario cromático. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "03-marca — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/03-marca-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/03-marca/visuales/v1/03-marca-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "03-marca",
+      "03-marca — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-03-marca-03",
+    "title": "03-marca — icono pluma",
+    "slug": "agntia-mi-empresa-03-marca-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de pluma, para Marca en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "03-marca — icono pluma",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/03-marca-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/03-marca/visuales/v1/03-marca-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "03-marca",
+      "03-marca — icono pluma"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-03-marca-04",
+    "title": "03-marca — icono marco de imagen",
+    "slug": "agntia-mi-empresa-03-marca-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de marco de imagen, para Marca en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "03-marca — icono marco de imagen",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/03-marca-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/03-marca/visuales/v1/03-marca-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "03-marca",
+      "03-marca — icono marco de imagen"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-04-estrategia-01",
+    "title": "04-estrategia — ilustración editorial",
+    "slug": "agntia-mi-empresa-04-estrategia-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Estrategia del compilador empresarial. Representa ruta topográfica con tres hitos y horizonte abierto. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: objetivos trimestrales, anuales e iniciativas; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "04-estrategia — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/04-estrategia-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/04-estrategia/visuales/v1/04-estrategia-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "04-estrategia",
+      "04-estrategia — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-04-estrategia-02",
+    "title": "04-estrategia — icono principal",
+    "slug": "agntia-mi-empresa-04-estrategia-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Estrategia: diana. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "04-estrategia — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/04-estrategia-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/04-estrategia/visuales/v1/04-estrategia-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "04-estrategia",
+      "04-estrategia — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-04-estrategia-03",
+    "title": "04-estrategia — icono hito",
+    "slug": "agntia-mi-empresa-04-estrategia-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de hito, para Estrategia en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "04-estrategia — icono hito",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/04-estrategia-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/04-estrategia/visuales/v1/04-estrategia-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "04-estrategia",
+      "04-estrategia — icono hito"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-04-estrategia-04",
+    "title": "04-estrategia — icono brújula",
+    "slug": "agntia-mi-empresa-04-estrategia-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de brújula, para Estrategia en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "04-estrategia — icono brújula",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/04-estrategia-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/04-estrategia/visuales/v1/04-estrategia-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "04-estrategia",
+      "04-estrategia — icono brújula"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-05-organizacion-01",
+    "title": "05-organizacion — ilustración editorial",
+    "slug": "agntia-mi-empresa-05-organizacion-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Organización del compilador empresarial. Representa estructura modular de personas y agentes representados por figuras geométricas sin rostros. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: organigrama y responsabilidades; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "05-organizacion — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/05-organizacion-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/05-organizacion/visuales/v1/05-organizacion-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "05-organizacion",
+      "05-organizacion — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-05-organizacion-02",
+    "title": "05-organizacion — icono principal",
+    "slug": "agntia-mi-empresa-05-organizacion-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Organización: grupo humano. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "05-organizacion — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/05-organizacion-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/05-organizacion/visuales/v1/05-organizacion-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "05-organizacion",
+      "05-organizacion — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-05-organizacion-03",
+    "title": "05-organizacion — icono nodo coordinador",
+    "slug": "agntia-mi-empresa-05-organizacion-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de nodo coordinador, para Organización en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "05-organizacion — icono nodo coordinador",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/05-organizacion-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/05-organizacion/visuales/v1/05-organizacion-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "05-organizacion",
+      "05-organizacion — icono nodo coordinador"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-05-organizacion-04",
+    "title": "05-organizacion — icono puesto de trabajo",
+    "slug": "agntia-mi-empresa-05-organizacion-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de puesto de trabajo, para Organización en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "05-organizacion — icono puesto de trabajo",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-2.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-2/05-organizacion-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/05-organizacion/visuales/v1/05-organizacion-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "05-organizacion",
+      "05-organizacion — icono puesto de trabajo"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-06-productos-y-servicios-01",
+    "title": "06-productos-y-servicios — ilustración editorial",
+    "slug": "agntia-mi-empresa-06-productos-y-servicios-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Productos y servicios del compilador empresarial. Representa catálogo físico abierto con módulos de servicio abstractos. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: fichas de oferta, alcance y entregables; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "06-productos-y-servicios — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/06-productos-y-servicios-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/06-productos-y-servicios/visuales/v1/06-productos-y-servicios-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "06-productos-y-servicios",
+      "06-productos-y-servicios — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-06-productos-y-servicios-02",
+    "title": "06-productos-y-servicios — icono principal",
+    "slug": "agntia-mi-empresa-06-productos-y-servicios-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Productos y servicios: paquete. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "06-productos-y-servicios — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/06-productos-y-servicios-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/06-productos-y-servicios/visuales/v1/06-productos-y-servicios-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "06-productos-y-servicios",
+      "06-productos-y-servicios — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-06-productos-y-servicios-03",
+    "title": "06-productos-y-servicios — icono ficha de servicio",
+    "slug": "agntia-mi-empresa-06-productos-y-servicios-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de ficha de servicio, para Productos y servicios en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "06-productos-y-servicios — icono ficha de servicio",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/06-productos-y-servicios-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/06-productos-y-servicios/visuales/v1/06-productos-y-servicios-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "06-productos-y-servicios",
+      "06-productos-y-servicios — icono ficha de servicio"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-06-productos-y-servicios-04",
+    "title": "06-productos-y-servicios — icono etiqueta de precio",
+    "slug": "agntia-mi-empresa-06-productos-y-servicios-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de etiqueta de precio, para Productos y servicios en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "06-productos-y-servicios — icono etiqueta de precio",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/06-productos-y-servicios-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/06-productos-y-servicios/visuales/v1/06-productos-y-servicios-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "06-productos-y-servicios",
+      "06-productos-y-servicios — icono etiqueta de precio"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-07-mercado-01",
+    "title": "07-mercado — ilustración editorial",
+    "slug": "agntia-mi-empresa-07-mercado-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Mercado del compilador empresarial. Representa lente de observación sobre mapa abstracto de segmentos. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: matriz de clientes, competencia y oportunidades; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "07-mercado — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/07-mercado-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/07-mercado/visuales/v1/07-mercado-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "07-mercado",
+      "07-mercado — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-07-mercado-02",
+    "title": "07-mercado — icono principal",
+    "slug": "agntia-mi-empresa-07-mercado-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Mercado: lente. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "07-mercado — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/07-mercado-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/07-mercado/visuales/v1/07-mercado-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "07-mercado",
+      "07-mercado — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-07-mercado-03",
+    "title": "07-mercado — icono segmentos",
+    "slug": "agntia-mi-empresa-07-mercado-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de segmentos, para Mercado en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "07-mercado — icono segmentos",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/07-mercado-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/07-mercado/visuales/v1/07-mercado-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "07-mercado",
+      "07-mercado — icono segmentos"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-07-mercado-04",
+    "title": "07-mercado — icono señal de oportunidad",
+    "slug": "agntia-mi-empresa-07-mercado-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de señal de oportunidad, para Mercado en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "07-mercado — icono señal de oportunidad",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/07-mercado-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/07-mercado/visuales/v1/07-mercado-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "07-mercado",
+      "07-mercado — icono señal de oportunidad"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-08-finanzas-01",
+    "title": "08-finanzas — ilustración editorial",
+    "slug": "agntia-mi-empresa-08-finanzas-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Finanzas del compilador empresarial. Representa libro contable abierto, ábaco discreto y dos columnas de fichas. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: cuentas, presupuesto y escenarios separados; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "08-finanzas — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/08-finanzas-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/08-finanzas/visuales/v1/08-finanzas-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "08-finanzas",
+      "08-finanzas — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-08-finanzas-02",
+    "title": "08-finanzas — icono principal",
+    "slug": "agntia-mi-empresa-08-finanzas-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Finanzas: libro mayor. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "08-finanzas — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/08-finanzas-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/08-finanzas/visuales/v1/08-finanzas-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "08-finanzas",
+      "08-finanzas — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-08-finanzas-03",
+    "title": "08-finanzas — icono calculadora",
+    "slug": "agntia-mi-empresa-08-finanzas-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de calculadora, para Finanzas en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "08-finanzas — icono calculadora",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/08-finanzas-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/08-finanzas/visuales/v1/08-finanzas-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "08-finanzas",
+      "08-finanzas — icono calculadora"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-08-finanzas-04",
+    "title": "08-finanzas — icono balanza",
+    "slug": "agntia-mi-empresa-08-finanzas-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de balanza, para Finanzas en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "08-finanzas — icono balanza",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-3.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-3/08-finanzas-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/08-finanzas/visuales/v1/08-finanzas-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "08-finanzas",
+      "08-finanzas — icono balanza"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-09-relaciones-01",
+    "title": "09-relaciones — ilustración editorial",
+    "slug": "agntia-mi-empresa-09-relaciones-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Relaciones del compilador empresarial. Representa dos piezas enlazadas sobre agenda abierta. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: agenda de proveedores, socios y acuerdos; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "09-relaciones — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/09-relaciones-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/09-relaciones/visuales/v1/09-relaciones-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "09-relaciones",
+      "09-relaciones — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-09-relaciones-02",
+    "title": "09-relaciones — icono principal",
+    "slug": "agntia-mi-empresa-09-relaciones-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Relaciones: enlace. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "09-relaciones — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/09-relaciones-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/09-relaciones/visuales/v1/09-relaciones-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "09-relaciones",
+      "09-relaciones — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-09-relaciones-03",
+    "title": "09-relaciones — icono agenda",
+    "slug": "agntia-mi-empresa-09-relaciones-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de agenda, para Relaciones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "09-relaciones — icono agenda",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/09-relaciones-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/09-relaciones/visuales/v1/09-relaciones-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "09-relaciones",
+      "09-relaciones — icono agenda"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-09-relaciones-04",
+    "title": "09-relaciones — icono acuerdo",
+    "slug": "agntia-mi-empresa-09-relaciones-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de acuerdo, para Relaciones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "09-relaciones — icono acuerdo",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/09-relaciones-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/09-relaciones/visuales/v1/09-relaciones-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "09-relaciones",
+      "09-relaciones — icono acuerdo"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-10-operaciones-01",
+    "title": "10-operaciones — ilustración editorial",
+    "slug": "agntia-mi-empresa-10-operaciones-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Operaciones del compilador empresarial. Representa mesa de trabajo con estaciones modulares conectadas. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: flujo de entrega, excepciones y responsables; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "10-operaciones — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/10-operaciones-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/10-operaciones/visuales/v1/10-operaciones-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "10-operaciones",
+      "10-operaciones — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-10-operaciones-02",
+    "title": "10-operaciones — icono principal",
+    "slug": "agntia-mi-empresa-10-operaciones-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Operaciones: estación. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "10-operaciones — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/10-operaciones-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/10-operaciones/visuales/v1/10-operaciones-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "10-operaciones",
+      "10-operaciones — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-10-operaciones-03",
+    "title": "10-operaciones — icono relevo",
+    "slug": "agntia-mi-empresa-10-operaciones-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de relevo, para Operaciones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "10-operaciones — icono relevo",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/10-operaciones-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/10-operaciones/visuales/v1/10-operaciones-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "10-operaciones",
+      "10-operaciones — icono relevo"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-10-operaciones-04",
+    "title": "10-operaciones — icono control de calidad",
+    "slug": "agntia-mi-empresa-10-operaciones-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de control de calidad, para Operaciones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "10-operaciones — icono control de calidad",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/10-operaciones-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/10-operaciones/visuales/v1/10-operaciones-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "10-operaciones",
+      "10-operaciones — icono control de calidad"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-11-tecnologia-01",
+    "title": "11-tecnologia — ilustración editorial",
+    "slug": "agntia-mi-empresa-11-tecnologia-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Tecnología del compilador empresarial. Representa módulos de herramientas conectados a una base común. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: mapa de capacidades, conexiones y autorizaciones; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "11-tecnologia — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/11-tecnologia-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/11-tecnologia/visuales/v1/11-tecnologia-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "11-tecnologia",
+      "11-tecnologia — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-11-tecnologia-02",
+    "title": "11-tecnologia — icono principal",
+    "slug": "agntia-mi-empresa-11-tecnologia-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Tecnología: conector. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "11-tecnologia — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/11-tecnologia-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/11-tecnologia/visuales/v1/11-tecnologia-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "11-tecnologia",
+      "11-tecnologia — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-11-tecnologia-03",
+    "title": "11-tecnologia — icono módulo de aplicación",
+    "slug": "agntia-mi-empresa-11-tecnologia-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de módulo de aplicación, para Tecnología en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "11-tecnologia — icono módulo de aplicación",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/11-tecnologia-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/11-tecnologia/visuales/v1/11-tecnologia-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "11-tecnologia",
+      "11-tecnologia — icono módulo de aplicación"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-11-tecnologia-04",
+    "title": "11-tecnologia — icono interruptor",
+    "slug": "agntia-mi-empresa-11-tecnologia-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de interruptor, para Tecnología en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "11-tecnologia — icono interruptor",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-4.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-4/11-tecnologia-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/11-tecnologia/visuales/v1/11-tecnologia-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "11-tecnologia",
+      "11-tecnologia — icono interruptor"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-12-gobierno-01",
+    "title": "12-gobierno — ilustración editorial",
+    "slug": "agntia-mi-empresa-12-gobierno-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Gobierno del compilador empresarial. Representa archivo protegido con llave y documento de reglas. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: permisos, políticas y aprobaciones; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "12-gobierno — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/12-gobierno-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/12-gobierno/visuales/v1/12-gobierno-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "12-gobierno",
+      "12-gobierno — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-12-gobierno-02",
+    "title": "12-gobierno — icono principal",
+    "slug": "agntia-mi-empresa-12-gobierno-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Gobierno: llave. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "12-gobierno — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/12-gobierno-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/12-gobierno/visuales/v1/12-gobierno-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "12-gobierno",
+      "12-gobierno — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-12-gobierno-03",
+    "title": "12-gobierno — icono escudo",
+    "slug": "agntia-mi-empresa-12-gobierno-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de escudo, para Gobierno en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "12-gobierno — icono escudo",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/12-gobierno-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/12-gobierno/visuales/v1/12-gobierno-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "12-gobierno",
+      "12-gobierno — icono escudo"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-12-gobierno-04",
+    "title": "12-gobierno — icono sello de revisión",
+    "slug": "agntia-mi-empresa-12-gobierno-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de sello de revisión, para Gobierno en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "12-gobierno — icono sello de revisión",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/12-gobierno-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/12-gobierno/visuales/v1/12-gobierno-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "12-gobierno",
+      "12-gobierno — icono sello de revisión"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-13-fuentes-01",
+    "title": "13-fuentes — ilustración editorial",
+    "slug": "agntia-mi-empresa-13-fuentes-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Fuentes del compilador empresarial. Representa archivo abierto con papel, fotografía abstracta y cinta de audio. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: explorador de originales y procedencia; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "13-fuentes — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/13-fuentes-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/13-fuentes/visuales/v1/13-fuentes-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "13-fuentes",
+      "13-fuentes — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-13-fuentes-02",
+    "title": "13-fuentes — icono principal",
+    "slug": "agntia-mi-empresa-13-fuentes-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Fuentes: archivo. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "13-fuentes — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/13-fuentes-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/13-fuentes/visuales/v1/13-fuentes-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "13-fuentes",
+      "13-fuentes — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-13-fuentes-03",
+    "title": "13-fuentes — icono onda de audio",
+    "slug": "agntia-mi-empresa-13-fuentes-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de onda de audio, para Fuentes en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "13-fuentes — icono onda de audio",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/13-fuentes-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/13-fuentes/visuales/v1/13-fuentes-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "13-fuentes",
+      "13-fuentes — icono onda de audio"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-13-fuentes-04",
+    "title": "13-fuentes — icono fotograma",
+    "slug": "agntia-mi-empresa-13-fuentes-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de fotograma, para Fuentes en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "13-fuentes — icono fotograma",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/13-fuentes-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/13-fuentes/visuales/v1/13-fuentes-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "13-fuentes",
+      "13-fuentes — icono fotograma"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-14-entrevistas-01",
+    "title": "14-entrevistas — ilustración editorial",
+    "slug": "agntia-mi-empresa-14-entrevistas-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Entrevistas del compilador empresarial. Representa micrófono de sobremesa junto a libreta de notas. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: tarjetas de entrevistas y captura contextual; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "14-entrevistas — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/14-entrevistas-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/14-entrevistas/visuales/v1/14-entrevistas-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "14-entrevistas",
+      "14-entrevistas — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-14-entrevistas-02",
+    "title": "14-entrevistas — icono principal",
+    "slug": "agntia-mi-empresa-14-entrevistas-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Entrevistas: micrófono. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "14-entrevistas — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/14-entrevistas-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/14-entrevistas/visuales/v1/14-entrevistas-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "14-entrevistas",
+      "14-entrevistas — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-14-entrevistas-03",
+    "title": "14-entrevistas — icono conversación",
+    "slug": "agntia-mi-empresa-14-entrevistas-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de conversación, para Entrevistas en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "14-entrevistas — icono conversación",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/14-entrevistas-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/14-entrevistas/visuales/v1/14-entrevistas-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "14-entrevistas",
+      "14-entrevistas — icono conversación"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-14-entrevistas-04",
+    "title": "14-entrevistas — icono transcripción",
+    "slug": "agntia-mi-empresa-14-entrevistas-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de transcripción, para Entrevistas en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "14-entrevistas — icono transcripción",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-5.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-5/14-entrevistas-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/14-entrevistas/visuales/v1/14-entrevistas-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "14-entrevistas",
+      "14-entrevistas — icono transcripción"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-15-procesos-01",
+    "title": "15-procesos — ilustración editorial",
+    "slug": "agntia-mi-empresa-15-procesos-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Procesos del compilador empresarial. Representa secuencia de bloques con bifurcación y punto de control. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: editor de SOP y mapa de decisiones; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "15-procesos — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/15-procesos-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/15-procesos/visuales/v1/15-procesos-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "15-procesos",
+      "15-procesos — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-15-procesos-02",
+    "title": "15-procesos — icono principal",
+    "slug": "agntia-mi-empresa-15-procesos-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Procesos: paso. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "15-procesos — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/15-procesos-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/15-procesos/visuales/v1/15-procesos-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "15-procesos",
+      "15-procesos — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-15-procesos-03",
+    "title": "15-procesos — icono bifurcación",
+    "slug": "agntia-mi-empresa-15-procesos-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de bifurcación, para Procesos en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "15-procesos — icono bifurcación",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/15-procesos-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/15-procesos/visuales/v1/15-procesos-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "15-procesos",
+      "15-procesos — icono bifurcación"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-15-procesos-04",
+    "title": "15-procesos — icono verificación",
+    "slug": "agntia-mi-empresa-15-procesos-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de verificación, para Procesos en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "15-procesos — icono verificación",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/15-procesos-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/15-procesos/visuales/v1/15-procesos-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "15-procesos",
+      "15-procesos — icono verificación"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-16-talento-01",
+    "title": "16-talento — ilustración editorial",
+    "slug": "agntia-mi-empresa-16-talento-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Talento del compilador empresarial. Representa libros y piezas de aprendizaje ordenadas por niveles. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: matriz de competencias e itinerarios; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "16-talento — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/16-talento-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/16-talento/visuales/v1/16-talento-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "16-talento",
+      "16-talento — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-16-talento-02",
+    "title": "16-talento — icono principal",
+    "slug": "agntia-mi-empresa-16-talento-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Talento: libro. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "16-talento — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/16-talento-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/16-talento/visuales/v1/16-talento-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "16-talento",
+      "16-talento — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-16-talento-03",
+    "title": "16-talento — icono escalón",
+    "slug": "agntia-mi-empresa-16-talento-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de escalón, para Talento en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "16-talento — icono escalón",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/16-talento-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/16-talento/visuales/v1/16-talento-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "16-talento",
+      "16-talento — icono escalón"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-16-talento-04",
+    "title": "16-talento — icono práctica",
+    "slug": "agntia-mi-empresa-16-talento-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de práctica, para Talento en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "16-talento — icono práctica",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/16-talento-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/16-talento/visuales/v1/16-talento-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "16-talento",
+      "16-talento — icono práctica"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-17-versiones-01",
+    "title": "17-versiones — ilustración editorial",
+    "slug": "agntia-mi-empresa-17-versiones-01",
+    "plannedDimensions": "1536x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Versiones del compilador empresarial. Representa dos cuadernos superpuestos y una tercera hoja de alternativa separada. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: historial, comparación y publicación demo; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "17-versiones — ilustración editorial",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/17-versiones-01.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/17-versiones/visuales/v1/17-versiones-01.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "17-versiones",
+      "17-versiones — ilustración editorial"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-17-versiones-02",
+    "title": "17-versiones — icono principal",
+    "slug": "agntia-mi-empresa-17-versiones-02",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Versiones: borrador. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "17-versiones — icono principal",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/17-versiones-02.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/17-versiones/visuales/v1/17-versiones-02.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "17-versiones",
+      "17-versiones — icono principal"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-17-versiones-03",
+    "title": "17-versiones — icono comparación",
+    "slug": "agntia-mi-empresa-17-versiones-03",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de comparación, para Versiones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "17-versiones — icono comparación",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/17-versiones-03.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/17-versiones/visuales/v1/17-versiones-03.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "17-versiones",
+      "17-versiones — icono comparación"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-17-versiones-04",
+    "title": "17-versiones — icono publicación",
+    "slug": "agntia-mi-empresa-17-versiones-04",
+    "plannedDimensions": "1024x1024",
+    "prompt": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de publicación, para Versiones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "descriptionBasis": "generation specification",
+    "uxRole": "17-versiones — icono publicación",
+    "source": {
+      "repository": "uniscrolliabrain-cloud/agente",
+      "commit": "76fc21625d57e67e4521c6267e558c0a72327f7f",
+      "job": "tools/image-pipeline/jobs/mi-empresa-v1-lote-6.json",
+      "expectedGeneratedPath": "assets/generated/mi-empresa/v1/lote-6/17-versiones-04.webp",
+      "expectedCollectedPath": "apps/ui-lab/docs/dashboards/06-settings/mi-empresa/17-versiones/visuales/v1/17-versiones-04.webp"
+    },
+    "auditStatus": "generation-spec-recovered-binary-unverified",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "17-versiones",
+      "17-versiones — icono publicación"
+    ]
+  }
+]
