@@ -11,3 +11,5 @@ export * from './factory/assets/prompt-lexicon.js';
 export * from './factory/assets/style-families.js';
 export * from './factory/assets/part-anatomy.js';
 export * from './factory/behaviors/spec.js';
+export * from './factory/behaviors/grammar.js';
+export * from './factory/behaviors/candidates.js';
