@@ -59,10 +59,21 @@ try {
     return state === 'ready';
   });
   assert.equal(await evaluate('document.querySelectorAll("#stage canvas").length'), 1);
+  const clip = await evaluate(`JSON.parse(JSON.stringify(
+    document.querySelector('#stage').getBoundingClientRect()
+  ))`);
+  const screenshot = () => send('Page.captureScreenshot', {
+    format: 'png',
+    clip: { x: clip.x, y: clip.y, width: clip.width, height: clip.height, scale: 1 },
+  });
+  const closed = await screenshot();
   assert.equal(await evaluate(`
     document.querySelector('[data-clip="open"]').click();
     document.querySelector('#stage').dataset.clip;
   `), 'open');
+  await delay(1150);
+  const opened = await screenshot();
+  assert.notEqual(opened.data, closed.data, 'Opening must change the pixels rendered inside the stage');
 
   await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-reduced-motion', value: 'reduce' }] });
   await until(async () => await evaluate('document.querySelector("#stage").dataset.preview') === 'static');
