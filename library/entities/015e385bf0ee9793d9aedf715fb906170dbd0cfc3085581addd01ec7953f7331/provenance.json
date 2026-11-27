@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "apps/ui-lab/src/apps-launcher/icons/11-holded-tesoreria.webp",
+    "apps/ui-lab/docs/dashboards/11-apps/campana-launcher-v3/componentes-finales/icons/11-holded-tesoreria.webp"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

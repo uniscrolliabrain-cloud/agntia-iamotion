@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "apps/ui-lab/src/apps-launcher/icons/27-maintainx.webp",
+    "apps/ui-lab/docs/dashboards/11-apps/campana-launcher-v3/componentes-finales/icons/27-maintainx.webp"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

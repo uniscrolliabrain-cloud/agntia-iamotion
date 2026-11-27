@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-08-chatgpt",
+      "title": "Asistente",
+      "slug": "agntia-asistente-ceramic-icon-08-chatgpt",
+      "description": "a faceted four-pointed star sculpted in violet enamel with a small champagne-gold sphere at its center, floating above a subtle ivory ceramic base.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": []
+}

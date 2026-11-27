@@ -1,0 +1,10 @@
+{
+  "paths": [
+    "apps/web/public/images/agntiaprocentrodemando.png"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

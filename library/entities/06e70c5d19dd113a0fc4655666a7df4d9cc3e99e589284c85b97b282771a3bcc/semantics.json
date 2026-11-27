@@ -1,0 +1,21 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-19-personio",
+      "title": "Personas",
+      "slug": "agntia-personas-ceramic-icon-19-personio",
+      "description": "a single abstract portrait bust sculpted in smooth ivory ceramic with a softly rounded head and shoulders, a slender champagne-gold arc tracing the back of the head like a delicate hairline, on a violet enamel base.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": [
+    {
+      "termId": "business.people",
+      "evidenceRef": "launcher-v3-19-personio",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "personas"
+    }
+  ]
+}

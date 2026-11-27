@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "apps/ui-lab/docs/dashboards/20-formacion/componentes-reales/apps/ui-lab/public/formation/images/formacion-02-cognicion.webp",
+    "apps/ui-lab/public/formation/images/formacion-02-cognicion.webp"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

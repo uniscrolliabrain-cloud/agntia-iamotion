@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "termId": "style.editorial",
+      "evidenceRef": "mi-empresa-v1-10-operaciones-01",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "editorial"
+    }
+  ],
+  "observed": null
+}

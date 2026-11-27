@@ -1,0 +1,20 @@
+{
+  "claims": [
+    {
+      "termId": "business.people",
+      "evidenceRef": "launcher-v3-19-personio",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "personas"
+    },
+    {
+      "termId": "material.ceramic",
+      "evidenceRef": "launcher-v3-19-personio",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "cerámica"
+    }
+  ]
+}

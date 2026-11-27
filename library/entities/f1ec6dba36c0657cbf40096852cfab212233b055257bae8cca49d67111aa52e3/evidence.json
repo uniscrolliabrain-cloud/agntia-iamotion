@@ -1,0 +1,20 @@
+{
+  "claims": [
+    {
+      "termId": "ux.editorial",
+      "evidenceRef": "mi-empresa-v1-14-entrevistas-01",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "editorial"
+    },
+    {
+      "termId": "style.editorial",
+      "evidenceRef": "mi-empresa-v1-14-entrevistas-01",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "editorial"
+    }
+  ]
+}

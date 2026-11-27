@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "mi-empresa-v1-14-entrevistas-02",
+      "title": "14-entrevistas — icono principal",
+      "slug": "agntia-mi-empresa-14-entrevistas-02",
+      "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Entrevistas: micrófono. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+      "basis": "generation specification"
+    }
+  ],
+  "claims": []
+}

@@ -1,0 +1,10 @@
+{
+  "paths": [
+    "apps/web/public/images/juan-finanzas-demo.webp"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

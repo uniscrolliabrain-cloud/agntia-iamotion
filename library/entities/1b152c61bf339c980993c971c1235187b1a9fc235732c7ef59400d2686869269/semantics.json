@@ -1,0 +1,21 @@
+{
+  "cards": [
+    {
+      "id": "formacion-09-comunicacion",
+      "title": "Teléfono y libreta como símbolo de comunicación profesional",
+      "slug": "agntia-formacion-09-comunicacion",
+      "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Elegant modern smartphone face down next to a handwritten notebook and a cup of tea on a calm warm desk, an open doorway and daylight beyond, natural realistic textures, human-centered communication, premium editorial composition.",
+      "basis": "original generation specification"
+    }
+  ],
+  "claims": [
+    {
+      "termId": "business.communication",
+      "evidenceRef": "formacion-09-comunicacion",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "comunicación"
+    }
+  ]
+}

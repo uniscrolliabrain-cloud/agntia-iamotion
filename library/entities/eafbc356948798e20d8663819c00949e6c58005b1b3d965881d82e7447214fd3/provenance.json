@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "apps/ui-lab/src/apps-launcher/icons/28-odoo-manufacturing.webp",
+    "apps/ui-lab/docs/dashboards/11-apps/campana-launcher-v3/componentes-finales/icons/28-odoo-manufacturing.webp"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

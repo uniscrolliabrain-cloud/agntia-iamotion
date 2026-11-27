@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "termId": "material.ceramic",
+      "evidenceRef": "launcher-v3-14-zendesk",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "cerámica"
+    }
+  ]
+}

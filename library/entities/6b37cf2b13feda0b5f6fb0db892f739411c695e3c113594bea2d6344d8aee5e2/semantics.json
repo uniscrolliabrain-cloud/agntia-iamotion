@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "mi-empresa-v1-04-estrategia-04",
+      "title": "04-estrategia — icono brújula",
+      "slug": "agntia-mi-empresa-04-estrategia-04",
+      "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de brújula, para Estrategia en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+      "basis": "generation specification"
+    }
+  ],
+  "claims": []
+}

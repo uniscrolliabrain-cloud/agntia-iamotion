@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-28-odoo-manufacturing",
+      "title": "Producción",
+      "slug": "agntia-produccion-ceramic-icon-28-odoo-manufacturing",
+      "description": "a compact sculptural production line: an ivory ceramic base with three small violet enamel blocks moving along it and a slim champagne-gold robotic arm arched above the middle block.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": []
+}

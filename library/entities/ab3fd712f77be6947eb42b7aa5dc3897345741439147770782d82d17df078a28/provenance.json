@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "apps/ui-lab/public/landing/laia.png",
+    "apps/web/public/landing/laia.png"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

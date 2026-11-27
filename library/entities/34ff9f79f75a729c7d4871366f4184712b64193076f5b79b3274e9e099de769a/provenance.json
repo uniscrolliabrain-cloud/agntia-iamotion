@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "apps/ui-lab/docs/dashboards/19-general/campana-promocion-dogfooding-v1/capturas/live-login.png",
+    "apps/ui-lab/docs/dashboards/19-general/campana-promocion-dogfooding-v1/capturas/login-banner.png"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

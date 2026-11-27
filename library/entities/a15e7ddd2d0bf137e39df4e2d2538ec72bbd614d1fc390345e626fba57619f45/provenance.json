@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "apps/ui-lab/public/landing/workspaces.webp",
+    "apps/web/public/landing/workspaces.webp"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

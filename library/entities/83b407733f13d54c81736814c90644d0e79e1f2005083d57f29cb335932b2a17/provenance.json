@@ -1,0 +1,11 @@
+{
+  "paths": [
+    "apps/site/agntiapro-icon.png",
+    "apps/web/public/agntiapro-icon.png"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

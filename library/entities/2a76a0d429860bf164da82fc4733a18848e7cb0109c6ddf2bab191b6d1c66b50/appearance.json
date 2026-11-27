@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "termId": "material.ceramic",
+      "evidenceRef": "launcher-v3-19-personio",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "cerámica"
+    }
+  ],
+  "observed": null
+}

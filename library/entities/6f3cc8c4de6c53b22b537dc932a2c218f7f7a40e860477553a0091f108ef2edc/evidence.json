@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "termId": "color.ivory",
+      "evidenceRef": "formacion-01-pensamiento",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "marfil"
+    }
+  ]
+}

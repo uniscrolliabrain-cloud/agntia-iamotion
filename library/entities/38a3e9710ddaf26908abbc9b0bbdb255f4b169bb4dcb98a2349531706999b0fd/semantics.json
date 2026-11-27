@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-06-google-calendar",
+      "title": "Agenda",
+      "slug": "agntia-agenda-ceramic-icon-06-google-calendar",
+      "description": "a single calendar tile in ivory ceramic with rounded corners, one raised violet date block and a champagne-gold ring binding at the top.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": []
+}

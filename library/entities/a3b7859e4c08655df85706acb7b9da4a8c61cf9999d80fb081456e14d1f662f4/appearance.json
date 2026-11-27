@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "termId": "material.ceramic",
+      "evidenceRef": "launcher-v3-27-maintainx",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "cerámica"
+    }
+  ],
+  "observed": null
+}

@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-24-shopify",
+      "title": "Tienda",
+      "slug": "agntia-tienda-ceramic-icon-24-shopify",
+      "description": "a miniature sculptural shopfront with a softly arched ivory ceramic facade and a scalloped awning of alternating violet and ivory panels, a champagne-gold door handle at the center.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": []
+}

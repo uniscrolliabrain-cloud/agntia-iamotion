@@ -1,0 +1,13 @@
+{
+  "claims": [
+    {
+      "termId": "ux.editorial",
+      "evidenceRef": "mi-empresa-v1-01-identidad-01",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "editorial"
+    }
+  ],
+  "verifiedComponentUses": null
+}

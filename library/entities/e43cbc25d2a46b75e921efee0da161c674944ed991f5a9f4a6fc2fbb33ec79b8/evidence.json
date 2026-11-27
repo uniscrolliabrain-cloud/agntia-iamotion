@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "termId": "business.operations",
+      "evidenceRef": "mi-empresa-v1-10-operaciones-03",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "operaciones"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-11-holded-tesoreria",
+      "title": "Tesorería",
+      "slug": "agntia-tesoreria-ceramic-icon-11-holded-tesoreria",
+      "description": "a short stack of thick ivory ceramic coins with champagne-gold rims and one coin standing upright on edge in violet enamel.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": [
+    {
+      "termId": "business.finance",
+      "evidenceRef": "launcher-v3-11-holded-tesoreria",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "tesorería"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "mi-empresa-v1-14-entrevistas-01",
+      "title": "14-entrevistas — ilustración editorial",
+      "slug": "agntia-mi-empresa-14-entrevistas-01",
+      "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Entrevistas del compilador empresarial. Representa micrófono de sobremesa junto a libreta de notas. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: tarjetas de entrevistas y captura contextual; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+      "basis": "generation specification"
+    }
+  ],
+  "claims": []
+}

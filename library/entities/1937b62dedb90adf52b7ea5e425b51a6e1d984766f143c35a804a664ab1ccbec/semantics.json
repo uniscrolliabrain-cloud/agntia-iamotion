@@ -1,0 +1,21 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-01-gmail",
+      "title": "Correo",
+      "slug": "agntia-correo-ceramic-icon-01-gmail",
+      "description": "a single sealed envelope, folded thick ivory ceramic with a soft crease, closed by a violet wax-seal disc with a fine champagne-gold rim.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": [
+    {
+      "termId": "business.communication",
+      "evidenceRef": "launcher-v3-01-gmail",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "correo"
+    }
+  ]
+}

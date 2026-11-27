@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-02-whatsapp",
+      "title": "Conversaciones",
+      "slug": "agntia-conversaciones-ceramic-icon-02-whatsapp",
+      "description": "two overlapping rounded speech bubbles, the larger in ivory ceramic and the smaller in violet enamel, joined by a fine champagne-gold seam.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": []
+}

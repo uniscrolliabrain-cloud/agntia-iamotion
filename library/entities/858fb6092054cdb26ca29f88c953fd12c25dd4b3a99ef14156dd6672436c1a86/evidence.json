@@ -1,0 +1,20 @@
+{
+  "claims": [
+    {
+      "termId": "business.finance",
+      "evidenceRef": "launcher-v3-04-holded",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "facturación"
+    },
+    {
+      "termId": "material.ceramic",
+      "evidenceRef": "launcher-v3-04-holded",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "cerámica"
+    }
+  ]
+}

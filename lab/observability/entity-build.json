@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "status": "generated-pending-review",
+  "entities": 403,
+  "classified": 166,
+  "claims": 206,
+  "inputHashes": {
+    "library/catalog/assets.json": "bc11a392d98ebbdd61c9843105697ea5ae9a592d7439ee7ce681dcbf01bc870b",
+    "library/catalog/semantic.json": "a0bcbbb5967c692b8e197b06cddf22205d94ff98915d565497ed18baf53820f2",
+    "library/taxonomy/lexicon.v1.json": "e566e0b2002f8345aea87ed08e113d748575627d437d0ed65d835245734a668a"
+  }
+}

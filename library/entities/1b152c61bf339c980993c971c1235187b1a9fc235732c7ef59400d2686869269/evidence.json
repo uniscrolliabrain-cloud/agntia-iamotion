@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "termId": "business.communication",
+      "evidenceRef": "formacion-09-comunicacion",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "comunicación"
+    }
+  ]
+}

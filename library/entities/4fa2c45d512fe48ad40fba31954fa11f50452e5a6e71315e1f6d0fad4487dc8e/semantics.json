@@ -1,0 +1,21 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-04-holded",
+      "title": "Facturación",
+      "slug": "agntia-facturacion-ceramic-icon-04-holded",
+      "description": "a crisp ivory ceramic invoice sheet with softly embossed horizontal ruled lines and a raised violet circular seal edged in champagne gold, tilted slightly in space.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": [
+    {
+      "termId": "business.finance",
+      "evidenceRef": "launcher-v3-04-holded",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "facturación"
+    }
+  ]
+}

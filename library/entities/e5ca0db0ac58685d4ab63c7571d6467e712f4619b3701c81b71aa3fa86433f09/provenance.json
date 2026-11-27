@@ -1,0 +1,12 @@
+{
+  "paths": [
+    "apps/ui-lab/docs/dashboards/04-chat-boton-transversal/campana-transversal-v3/assets/laia-videollamada.webp",
+    "apps/ui-lab/src/chat-transversal-v3/assets/laia-videollamada.webp",
+    "apps/ui-lab/docs/dashboards/04-chat-boton-transversal/campana-transversal-v3/componentes-finales/assets/laia-videollamada.webp"
+  ],
+  "refs": [
+    "main",
+    "ui-lab",
+    "ui-lab-pro"
+  ]
+}

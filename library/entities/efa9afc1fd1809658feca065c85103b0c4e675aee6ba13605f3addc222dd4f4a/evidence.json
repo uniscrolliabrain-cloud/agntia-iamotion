@@ -1,0 +1,28 @@
+{
+  "claims": [
+    {
+      "termId": "business.finance",
+      "evidenceRef": "mi-empresa-v1-08-finanzas-01",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "finanzas"
+    },
+    {
+      "termId": "ux.editorial",
+      "evidenceRef": "mi-empresa-v1-08-finanzas-01",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "editorial"
+    },
+    {
+      "termId": "style.editorial",
+      "evidenceRef": "mi-empresa-v1-08-finanzas-01",
+      "basis": "source-spec",
+      "confidence": "low",
+      "reviewStatus": "pending",
+      "matchedPhrase": "editorial"
+    }
+  ]
+}

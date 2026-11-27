@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "id": "launcher-v3-14-zendesk",
+      "title": "Atención",
+      "slug": "agntia-atencion-ceramic-icon-14-zendesk",
+      "description": "a sculptural customer-support headset in ivory ceramic with two violet enamel ear cushions connected by a slim champagne-gold arch, one earpiece turned toward the viewer with a fine boom microphone.",
+      "basis": "generation prompt, not visual observation"
+    }
+  ],
+  "claims": []
+}
