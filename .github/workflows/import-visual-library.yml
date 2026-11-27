@@ -22,7 +22,10 @@ jobs:
         with:
           node-version: '22'
       - run: node library/scripts/inventory.mjs source library/inventory "${{ matrix.ref }}"
+      - run: node library/scripts/stage-assets.mjs source "library/inventory/${{ matrix.ref }}.json" staging
       - uses: actions/upload-artifact@v4
         with:
           name: inventory-${{ matrix.ref }}
-          path: library/inventory/*.json
+          path: |
+            library/inventory/*.json
+            staging/
