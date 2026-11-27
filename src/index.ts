@@ -13,3 +13,5 @@ export * from './factory/assets/part-anatomy.js';
 export * from './factory/behaviors/spec.js';
 export * from './factory/behaviors/grammar.js';
 export * from './factory/behaviors/candidates.js';
+export * from './factory/renderers/blender/recipe.js';
+export * from './factory/renderers/export-spec.js';
