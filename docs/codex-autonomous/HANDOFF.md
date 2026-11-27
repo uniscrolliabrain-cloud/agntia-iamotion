@@ -2,6 +2,14 @@
 
 Rama local `campaign/visual-knowledge-lab-execution` desde `e813901194bef2478bf300738273eadf38d9e5c8`. El [registro de ejecución](ledger.json) enumera P01–P52 y las 260 unidades. Los tres commits principales son `3fa751d` para auditoría y simulación de migración, `ca0f959` para contratos y `0cfd2ec` para el render y la demo. `c07fca0` verifica el cambio de la imagen renderizada en Chromium.
 
+## Cuarto tramo de ejecución
+
+- P13–P15. Doce primitivas producen tracks acotados. La composición serial y paralela usa milisegundos enteros para intervalos, admite repeticiones finitas autorizadas y rechaza la superposición de la misma propiedad sobre el mismo destino. El plan reproduce cuatro propuestas sobre tres casos sintéticos. Las 133 fichas reales quedan pendientes de identidades visuales revisadas. El runtime web y Blender todavía no consumen estos timelines.
+- P16–P17. Los contratos validan jerarquía, geometría declarativa, materiales, hashes autorizados, revisión, fallback, transparencia y presupuestos. El builder del correo anterior usa su propia fixture. Falta conectar los contratos a renderizadores y validar los archivos resultantes.
+- P18–P20. El compilador RAG separa observaciones y propuestas, conserva contradicciones, emite índice de evidencia y detecta cambios y bajas por ámbito. El índice léxico usa BM25 por título y texto. Los filtros de ámbito, idioma y base se aplican antes de calcular puntuaciones. El briefing mantiene referencias separadas de los activos que autoriza el llamador. El smoke test sintético cubre la cadena completa y la abstención fuera del ámbito.
+- P21. El evaluador calcula Recall@5/10, MRR, nDCG@10 y abstención con denominadores explícitos. Rechaza identidades visuales que crucen validación y prueba. La aritmética se verificó con juicios sintéticos. Faltan juicios humanos, comparación con la línea base y latencia.
+- Verificación con 50 pruebas Node, tres pruebas Python, typecheck y build de UI Lab. El ledger registra 81 unidades verificadas de 260. El objetivo de madurez mantiene sus propios criterios de aceptación.
+
 ## Tercer tramo de ejecución
 
 - P07. El adaptador Git leyó 41 archivos fuente en `4979c06` y obtuvo cero referencias coincidentes. Dos informes fueron idénticos. Los casos positivos y negativos de JSX, HTML, CSS, globs, enlaces simbólicos y cambios del árbol de trabajo se verificaron en fixtures. El extractor cubre atributos HTML básicos y `url()` de declaraciones CSS. Quedan pendientes `srcset`, CSS embebido y la evaluación manual sobre fuentes autorizadas.
@@ -51,6 +59,6 @@ La puntuación inicial y final de madurez sigue pendiente de un desglose verific
 
 ## Reanudar
 
-Retomar P13.C/E y P14 con el adaptador de propuestas y la expansión de primitivas. Mantener P05.E pendiente de identidades revisadas, P06.C/E pendiente de persistencia durable y P07.E pendiente de evidencia de uso revisada. Generar recibos en `lab/staging/` con audit:library, stage:library, export:ontology, reconcile:library y plan:claims. Ejecutar build antes de export:ontology y plan:claims. El registro incluye rutas y hashes. Las instrucciones de la demo están en [UI Lab](../../apps/ui-lab/src/README.md).
+Retomar el corpus durable P18.C/E, el adaptador de evaluación P21.C/E y el consumo de timelines por renderizadores P13.E/P14.E. Continuar P22–P26 con puertos y mocks explícitos dentro de la autorización local. Mantener P05.E pendiente de identidades revisadas, P06.C/E pendiente de persistencia durable y P07.E pendiente de evidencia de uso revisada. Generar recibos en `lab/staging/` con audit:library, stage:library, export:ontology, reconcile:library y plan:claims. Ejecutar build antes de export:ontology y plan:claims. El registro incluye rutas y hashes. Las instrucciones de la demo están en [UI Lab](../../apps/ui-lab/src/README.md).
 
 Para regresar a la línea base, usar la rama `main` en un checkout limpio. El plan no escribió punteros, snapshots públicos, revisiones ni activos. Los recibos y binarios generados están fuera de seguimiento Git.
