@@ -22,7 +22,8 @@
     "render:ceramic-mail": "bash lab/scripts/render-ceramic-mail.sh",
     "stage:library": "node lab/scripts/stage-library-snapshot.mjs",
     "export:ontology": "node lab/scripts/export-ontology.mjs",
-    "reconcile:library": "node lab/scripts/reconcile-library.mjs"
+    "reconcile:library": "node lab/scripts/reconcile-library.mjs",
+    "plan:claims": "node lab/scripts/plan-legacy-claims.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",
