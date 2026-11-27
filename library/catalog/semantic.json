@@ -1,0 +1,2280 @@
+[
+  {
+    "id": "launcher-v3-01-gmail",
+    "collection": "launcher-v3",
+    "title": "Correo",
+    "slug": "agntia-correo-ceramic-icon-01-gmail",
+    "description": "a single sealed envelope, folded thick ivory ceramic with a soft crease, closed by a violet wax-seal disc with a fine champagne-gold rim.",
+    "keywords": [
+      "Correo",
+      "01-gmail",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "dc0d7bbe8a05fed833dbcd9b8e6f390cc424e8c956067645d22e0b52d0e69f08",
+      "7c120f0d7e0720b21f6992a92a7e877e6c0c4086afebf9a09cd89e885474fa23",
+      "1937b62dedb90adf52b7ea5e425b51a6e1d984766f143c35a804a664ab1ccbec",
+      "6a1165b1c960943d34b5716288068cb19b4f6cfa830f34b3b7f4b5dfeba8b21a"
+    ]
+  },
+  {
+    "id": "launcher-v3-02-whatsapp",
+    "collection": "launcher-v3",
+    "title": "Conversaciones",
+    "slug": "agntia-conversaciones-ceramic-icon-02-whatsapp",
+    "description": "two overlapping rounded speech bubbles, the larger in ivory ceramic and the smaller in violet enamel, joined by a fine champagne-gold seam.",
+    "keywords": [
+      "Conversaciones",
+      "02-whatsapp",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "4d088ff189c1336b2d92eaf4dfbce2142a5384c63b38e29bb3ff88fbdbdae519",
+      "e215a22be556dac899a23c2cb4fa76123c3412d290404b5a530fd8ffb0f0248e",
+      "9a9f6ce13d6ca609f39b759f380be6b9f78212c9d66fefdf61ae21351915f874",
+      "ddce3d49ae5480b7a834cb6e23567f8dfb1f784ecea16aa020e3c0a843758bdd"
+    ]
+  },
+  {
+    "id": "launcher-v3-03-hubspot",
+    "collection": "launcher-v3",
+    "title": "Clientes",
+    "slug": "agntia-clientes-ceramic-icon-03-hubspot",
+    "description": "three ivory ceramic spheres of different sizes connected by slender champagne-gold arcs, like a small constellation of relationships.",
+    "keywords": [
+      "Clientes",
+      "03-hubspot",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "e6dda90a961a40e15c41d4da48bf034e3b99b8f90497ce630973053f8b40586e",
+      "594c489606370365a1ea33e7539a6ec6b55ebf6876cfe2daf5b53321282e94a5",
+      "fe09547d623fddf7af8baf1855e7aff0f93bd6f0e9916828948dc697ee870dac",
+      "c3685189c96efd32cf13c141a2f7616122187068f7b2918eaf3a6f0fcdcb5e7c"
+    ]
+  },
+  {
+    "id": "launcher-v3-04-holded",
+    "collection": "launcher-v3",
+    "title": "Facturación",
+    "slug": "agntia-facturacion-ceramic-icon-04-holded",
+    "description": "a crisp ivory ceramic invoice sheet with softly embossed horizontal ruled lines and a raised violet circular seal edged in champagne gold, tilted slightly in space.",
+    "keywords": [
+      "Facturación",
+      "04-holded",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "c761128aaeb216683fc7d8ea5c11518956e4d6194689feb47da46b2bf54dee45",
+      "858fb6092054cdb26ca29f88c953fd12c25dd4b3a99ef14156dd6672436c1a86",
+      "0a3f44dfc8a8490d76b2e2fe2a726238a05645031117fe7d5e90c67e40c51862",
+      "4fa2c45d512fe48ad40fba31954fa11f50452e5a6e71315e1f6d0fad4487dc8e"
+    ]
+  },
+  {
+    "id": "launcher-v3-05-google-drive",
+    "collection": "launcher-v3",
+    "title": "Archivos",
+    "slug": "agntia-archivos-ceramic-icon-05-google-drive",
+    "description": "three stacked ivory ceramic file folders with softly rounded corners, the front folder opening in violet enamel and a thin champagne-gold tab.",
+    "keywords": [
+      "Archivos",
+      "05-google-drive",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "77a787b8f9ae6c52b4f8f21e1b9e47d5488b82df339adb2f93837b66a5c3e78e",
+      "eb152a28b649c36237603039318e7d5331846b907098783e228e3449443a68d5",
+      "5116fbecf3998c041e4ba5a25694ab367bb1fb40d2edf6217331a6216d5f6bee",
+      "d4153496f528600f7d652aa345cfff92b5eab9356361f45efe1940286cbba784"
+    ]
+  },
+  {
+    "id": "launcher-v3-06-google-calendar",
+    "collection": "launcher-v3",
+    "title": "Agenda",
+    "slug": "agntia-agenda-ceramic-icon-06-google-calendar",
+    "description": "a single calendar tile in ivory ceramic with rounded corners, one raised violet date block and a champagne-gold ring binding at the top.",
+    "keywords": [
+      "Agenda",
+      "06-google-calendar",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "37622adc23206485303b0a9808c8101830cd5efb89413b682de0f41f1c5d0b03",
+      "131200d0d50deba7faf4d3a97c0a7fb3cf58bf7449daecb80618758b8d927678",
+      "4d1717db96f53f1a37bd8a293d1e0e2e5fcf0533a638e24e66ef9374998593e1",
+      "38a3e9710ddaf26908abbc9b0bbdb255f4b169bb4dcb98a2349531706999b0fd"
+    ]
+  },
+  {
+    "id": "launcher-v3-07-linear",
+    "collection": "launcher-v3",
+    "title": "Plan de trabajo",
+    "slug": "agntia-plan-de-trabajo-ceramic-icon-07-linear",
+    "description": "three stacked ivory ceramic task cards fanned in depth, the front card carrying a single raised champagne-gold check mark.",
+    "keywords": [
+      "Plan de trabajo",
+      "07-linear",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "d036677766d1fe88484a7d28173a0a64e3f5930afbcac6cfea575b8c3d062d42",
+      "84dccd6e9299c018ba4ad18aafb8cebab506d2e52d3ca00d2fca71352736ecb7",
+      "623556cb09841a5808189f41d208a57a18f72a8688ca3ecccdf8063d722fa9e8",
+      "599dfdb585912a94c10dfa500a03182830fe0e9634ab43832ba245fd1e563fd6"
+    ]
+  },
+  {
+    "id": "launcher-v3-08-chatgpt",
+    "collection": "launcher-v3",
+    "title": "Asistente",
+    "slug": "agntia-asistente-ceramic-icon-08-chatgpt",
+    "description": "a faceted four-pointed star sculpted in violet enamel with a small champagne-gold sphere at its center, floating above a subtle ivory ceramic base.",
+    "keywords": [
+      "Asistente",
+      "08-chatgpt",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "1f4f1c7f3147522bb3e90716a0c6bb932b994063990cb5295604b2cfa10b8bf1",
+      "20baab1b6ca570a6aae30ab51dcd20c395bcbb5d8c3db07f4de1d3c07c5f3557",
+      "cfece45d3d3a700a51777c957cc9f814756a42b1cd38cc894765fe419fc5e611",
+      "33819ecbb9f4dc7fa6dc0b0124d3ab867ccd6800d32e7ace73599674f2bd6809"
+    ]
+  },
+  {
+    "id": "launcher-v3-09-airtable",
+    "collection": "launcher-v3",
+    "title": "Registros",
+    "slug": "agntia-registros-ceramic-icon-09-airtable",
+    "description": "a precise three-by-three grid of nine small ivory ceramic tiles set in a violet enamel frame, with one tile slightly raised in champagne gold like a selected record.",
+    "keywords": [
+      "Registros",
+      "09-airtable",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "c31204207b34f17f64856f29a4f840f6ea979a2875259e4551dd6e3e43781a11",
+      "6c862b469b65a66b28638b10c914af645871245a5f9c8e711a1dbdb685bd7180",
+      "74c23b3809773579855747d60fa7a134f6a1937f58ff7f404663388bc907c77f",
+      "2a4383e22a192b45b74246fff5110ad069d1aca25b45af2770a62d4b62538eb4"
+    ]
+  },
+  {
+    "id": "launcher-v3-10-perdoo",
+    "collection": "launcher-v3",
+    "title": "Objetivos",
+    "slug": "agntia-objetivos-ceramic-icon-10-perdoo",
+    "description": "a concentric target of three ivory ceramic rings with violet inner rings and a small champagne-gold sphere at the exact center.",
+    "keywords": [
+      "Objetivos",
+      "10-perdoo",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "5811d83b5cec9142c00c8bfdc79d1ad86d21d9959a8171d46f8ac8bed30d6eb4",
+      "67094795a5f5bb27eb003c3895a1864fbbb4a94a7d547c1fa36d03ef018ca1a6",
+      "f188276fbcc925a1b7df1377fb0b33a88356e287a26f6ac57e0458cc91e4184a",
+      "2830750b36228b782e17b2c8e3554f7a14490c5f2dc2ce97f44696244951ab0d"
+    ]
+  },
+  {
+    "id": "launcher-v3-11-holded-tesoreria",
+    "collection": "launcher-v3",
+    "title": "Tesorería",
+    "slug": "agntia-tesoreria-ceramic-icon-11-holded-tesoreria",
+    "description": "a short stack of thick ivory ceramic coins with champagne-gold rims and one coin standing upright on edge in violet enamel.",
+    "keywords": [
+      "Tesorería",
+      "11-holded-tesoreria",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "2852026b43ddd7d08fe0b916c661ea23eb7a6d24d1d2f43ef09177e17f55d360",
+      "227b6084f35db09e5411e6450d89b959bf29642d7629c9df545918acfebc0ec8",
+      "4350e2521304892e24e34d1fed4ab9225b436622782066c94f7ab063e891ed62",
+      "015e385bf0ee9793d9aedf715fb906170dbd0cfc3085581addd01ec7953f7331"
+    ]
+  },
+  {
+    "id": "launcher-v3-12-odoo-purchase",
+    "collection": "launcher-v3",
+    "title": "Compras",
+    "slug": "agntia-compras-ceramic-icon-12-odoo-purchase",
+    "description": "a sculptural ivory ceramic shopping bag with softly inflated body, a violet enamel handle and a small champagne-gold tag.",
+    "keywords": [
+      "Compras",
+      "12-odoo-purchase",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "17da54f39c499ee6bf7214ab3b415369a1ec845795263b230f019876a24c4530",
+      "3e89556a4edecdc9425a7028598c24dfedca3a1b538cc765998c28228b1c1fec",
+      "94ec8fcfc84ca8db05807fb5759f73855a558baad68a6f76f63c8c824ca2d779",
+      "51f3f4b2b8bc9841ed98e6aae94b9b0ad990d36f1caa87849ee0c77109b275d8"
+    ]
+  },
+  {
+    "id": "launcher-v3-13-productive",
+    "collection": "launcher-v3",
+    "title": "Rentabilidad",
+    "slug": "agntia-rentabilidad-ceramic-icon-13-productive",
+    "description": "three ascending beveled ivory ceramic bars of increasing height with champagne-gold top edges, the middle bar inlaid with a thin violet enamel stripe.",
+    "keywords": [
+      "Rentabilidad",
+      "13-productive",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "7e79af61eac94ab1b6eed699d41c435debf0594fc95d96ea45f2a43fb40bd7cf",
+      "0f9df05a0a291ba14a688edd9491f001bbe708a116dcc6b24d1fea277d1579ac",
+      "7270154c616355f105efeb55c6f716cef92d1687dcec8ddddedd29cd0c820c0e",
+      "04398be69cc2a0eacaa252aae023fd18ea4713ca209a08563d0c4187ccaecdc2"
+    ]
+  },
+  {
+    "id": "launcher-v3-14-zendesk",
+    "collection": "launcher-v3",
+    "title": "Atención",
+    "slug": "agntia-atencion-ceramic-icon-14-zendesk",
+    "description": "a sculptural customer-support headset in ivory ceramic with two violet enamel ear cushions connected by a slim champagne-gold arch, one earpiece turned toward the viewer with a fine boom microphone.",
+    "keywords": [
+      "Atención",
+      "14-zendesk",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "918f5ed7add590ee9ec990e6b57936859f666bc9d1b6ab7a74099f4ad67c7c88",
+      "d4317462128610e6d6ba5cbabbf1546b55fe92d6392545a7383d319e4dffcfdd",
+      "6337e0cfdba8e2072b36efedcd8f1055bc097d6ab842db574301369f512deb90",
+      "9f85a14359a8284bc18d5a73a5f62eb9f014f0f34260c2a528ac42a4da3d09a0"
+    ]
+  },
+  {
+    "id": "launcher-v3-15-docusign",
+    "collection": "launcher-v3",
+    "title": "Firmas",
+    "slug": "agntia-firmas-ceramic-icon-15-docusign",
+    "description": "an elegant fountain-pen nib sculpted in champagne gold standing upright, set into a violet enamel grip section, its slit and breather hole crisply defined.",
+    "keywords": [
+      "Firmas",
+      "15-docusign",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "e6232e8889ce2caa3a42849a507c49e2161fc36f28c99fb54095fdbf63f83b21",
+      "e380fda99e6cb87f945b051d2aa682a7fbca674c3b7d1ec814c63de2c5b5374a",
+      "78af2decc6e3380f953ce7d1d75409f28767e16824f9f1adb9b4c76c0390e1c5",
+      "78f19edceea1eb25a46c51dd0cf7bb6dff268dbf1c74571348ef4f9e2f8c6c72"
+    ]
+  },
+  {
+    "id": "launcher-v3-16-n8n",
+    "collection": "launcher-v3",
+    "title": "Automatizaciones",
+    "slug": "agntia-automatizaciones-ceramic-icon-16-n8n",
+    "description": "two interlocking mechanical gears, one in ivory ceramic and one in violet enamel, with champagne-gold tooth edges and a visible machined axle hole.",
+    "keywords": [
+      "Automatizaciones",
+      "16-n8n",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "dd04e5b08c2b923f8f73c01a346e7bdda42a9413d52227600ebe747ba22bd500",
+      "36a58231c9123d05716e44dea26f01ddf051b5fdb437c88367c196d6893bb939",
+      "e2795040f283b8a2227bb9eb326773351e3863bcf32f65eed6aba230214d066c",
+      "0a4bb58a081027c536aa0e31f166311de1398de9e997e5f7f96799754d369325"
+    ]
+  },
+  {
+    "id": "launcher-v3-17-process-street",
+    "collection": "launcher-v3",
+    "title": "Procedimientos",
+    "slug": "agntia-procedimientos-ceramic-icon-17-process-street",
+    "description": "three stepped ivory ceramic slabs ascending like a staircase, each with a shallow engraved rounded square, the top step inlaid with a small champagne-gold check mark.",
+    "keywords": [
+      "Procedimientos",
+      "17-process-street",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "91a9fba1d5f63cdb10dc153b9732841bc32e5a4047a9e064edf967d7971de5ab",
+      "031812d7baf7bfe102c788fef55e75d6bdeb203780284de24014e7275c66e59c",
+      "9c14533fe4640fca0267951265ee602cda2f6a69497dfea4f26cffb7403bc344",
+      "8edddd96a62942172cd3d9ef0ca55dc2f5911c24413155f0d4485335d6c0dfb2"
+    ]
+  },
+  {
+    "id": "launcher-v3-18-factorial",
+    "collection": "launcher-v3",
+    "title": "Equipo",
+    "slug": "agntia-equipo-ceramic-icon-18-factorial",
+    "description": "three abstract figures sculpted as smooth ivory ceramic forms with rounded heads and softly tapered shoulders, standing shoulder to shoulder, the central figure in violet enamel, a fine champagne-gold line unifying their bases.",
+    "keywords": [
+      "Equipo",
+      "18-factorial",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "5ec55712bf500f63ede7b067fc6ee0ad6d97322fe35dd1044837929a14a9eb0a",
+      "3d4966945d8df3605b51c576f983dbc5df59e0bf22c284722d4f366031771798",
+      "55efa7b14a5043c306a66bb3cd5d16fe22bd4d1a62b2f9009668e59012f0e7b3",
+      "d5457f6052e200985224e1437c328a4bccad10577b0bfe832f0ee2e2b1661ffa"
+    ]
+  },
+  {
+    "id": "launcher-v3-19-personio",
+    "collection": "launcher-v3",
+    "title": "Personas",
+    "slug": "agntia-personas-ceramic-icon-19-personio",
+    "description": "a single abstract portrait bust sculpted in smooth ivory ceramic with a softly rounded head and shoulders, a slender champagne-gold arc tracing the back of the head like a delicate hairline, on a violet enamel base.",
+    "keywords": [
+      "Personas",
+      "19-personio",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "95fc10dbac1dd00fb62b517802f1270a9bd8b41eb92856ffb01c55195017b42b",
+      "2a76a0d429860bf164da82fc4733a18848e7cb0109c6ddf2bab191b6d1c66b50",
+      "06e70c5d19dd113a0fc4655666a7df4d9cc3e99e589284c85b97b282771a3bcc",
+      "9e4e828a66a09f3ad179d4e2bd0a6a885dfbb816b98b45120814d1f8efa77748"
+    ]
+  },
+  {
+    "id": "launcher-v3-20-ramp",
+    "collection": "launcher-v3",
+    "title": "Gastos",
+    "slug": "agntia-gastos-ceramic-icon-20-ramp",
+    "description": "a rolled ivory ceramic receipt scroll with softly curling edges, wrapped by a violet enamel band with a tiny champagne-gold clasp.",
+    "keywords": [
+      "Gastos",
+      "20-ramp",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "4a8d95fdef75b66cfd5224716473886a8d1516892738cd424ec8eb83bbd6a081",
+      "e031b376276305103e8aa77310d066e70be2a79e3aa4497aa3e302dfa752a232",
+      "357cacd6e594b7ca58f764c9703a43390f54f99003de16df59a9441c243da10e",
+      "7d04f397cb8152b82d7f21ab915276fe942e288ee75cf8a6311c389bff8b0860"
+    ]
+  },
+  {
+    "id": "launcher-v3-21-stripe",
+    "collection": "launcher-v3",
+    "title": "Cobros",
+    "slug": "agntia-cobros-ceramic-icon-21-stripe",
+    "description": "a thick ivory ceramic payment card standing slightly tilted with a champagne-gold chip and one embossed stripe, accompanied by a small violet enamel sphere resting beside it.",
+    "keywords": [
+      "Cobros",
+      "21-stripe",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "4ef7da1e024289b41f8fcff02f2411e220eb7f158dd3a9e0557bbeacc388cae9",
+      "30dc6d2880872f1bf4fee652a8c4a42fe9d8cc5563bcaf3958c2ca398f7591e2",
+      "11d4367af433940fbbd7efa02d05328f29106ed4c6c18e476b3cb52d679aee88",
+      "ed4f18befb59b71445d8701259ebeae3bcf1cde82be4860d58c8e6d975e44de0"
+    ]
+  },
+  {
+    "id": "launcher-v3-22-canva",
+    "collection": "launcher-v3",
+    "title": "Diseño",
+    "slug": "agntia-diseno-ceramic-icon-22-canva",
+    "description": "an artist's oval palette sculpted in ivory ceramic with a violet enamel thumb hole and a small mound of violet paint, alongside a slim champagne-gold brush resting across it.",
+    "keywords": [
+      "Diseño",
+      "22-canva",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "ed8be1b3366f0dd41ed84a9c7d6711f5fc53ad2556808b80087933327b5ef633",
+      "9f62ea12e4bfe279f989b0f77ffb8645b67068f3277dc4bf2039439b3092284b",
+      "d228d5d5b9edca36b624c5cff07c38564bba27f5376c84d3741a77302ed69118",
+      "281f7a707824de681376d7ba865b68fb1c1f5441be3b1f731f86a72b3e4c42ba"
+    ]
+  },
+  {
+    "id": "launcher-v3-23-buffer",
+    "collection": "launcher-v3",
+    "title": "Publicaciones",
+    "slug": "agntia-publicaciones-ceramic-icon-23-buffer",
+    "description": "three slim ivory ceramic cards floating in a fanned stack, the front card inlaid with a violet enamel broadcast arc and a small champagne-gold dot at its origin.",
+    "keywords": [
+      "Publicaciones",
+      "23-buffer",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "b2cdccca1ee59bff64afe786cb6bbf2b21734bd416b5f8d1bea5d6ff46786914",
+      "d8783cbfa846061901b8acb4fc103bff1a2b589fcfc54007deb461eadb0d186f",
+      "3c3c6af0bb4ce840b32a2618c518dafcc26f6974ff52a48ada70ebaaf7012b94",
+      "fe9c513ff53dbe1950e2a1f422239f3ae53a311f23a9f4f9971e35fbb8287071"
+    ]
+  },
+  {
+    "id": "launcher-v3-24-shopify",
+    "collection": "launcher-v3",
+    "title": "Tienda",
+    "slug": "agntia-tienda-ceramic-icon-24-shopify",
+    "description": "a miniature sculptural shopfront with a softly arched ivory ceramic facade and a scalloped awning of alternating violet and ivory panels, a champagne-gold door handle at the center.",
+    "keywords": [
+      "Tienda",
+      "24-shopify",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "da99570d51dfac9cd753e219e73b5946160de4ce0b580d2efdfb3c3bda246569",
+      "c4ce760446d029b2e476165eae1c24ea731b4f7ada3e6697b9ebe68c72bf0103",
+      "235575212efd1622e0b653e25bdf74fd8df401495aeecc741fc36a3ded40cdeb",
+      "e73ae1dd01a8e2edd4590c2b95d87c1532197252226b3dc0a2b08ad496d20f11"
+    ]
+  },
+  {
+    "id": "launcher-v3-25-intercom",
+    "collection": "launcher-v3",
+    "title": "Soporte",
+    "slug": "agntia-soporte-ceramic-icon-25-intercom",
+    "description": "a sculptural lifebuoy ring in ivory ceramic with four violet enamel segments and a fine champagne-gold rope looped around it.",
+    "keywords": [
+      "Soporte",
+      "25-intercom",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "3a951ca20c848c4e999cb8214cf56300d58c1035f322a1afae08b27fae03a564",
+      "96a0b6dd03fbf5d396af6c5f8280bd437abf060170eca1fec52aec29bb3fa75c",
+      "9859cddb1a17ccc5e39a6ea715cda53c791e125d8fd735d0fa40797302ec3528",
+      "725fd6febd5d11c1e3804a04191b6d15cfb37aece468544dbff028ca303c3e56"
+    ]
+  },
+  {
+    "id": "launcher-v3-26-odoo-inventory",
+    "collection": "launcher-v3",
+    "title": "Inventario",
+    "slug": "agntia-inventario-ceramic-icon-26-odoo-inventory",
+    "description": "two stacked ivory ceramic storage crates with softly rounded edges and slatted sides, the upper crate bearing a small violet enamel label plate with a champagne-gold corner.",
+    "keywords": [
+      "Inventario",
+      "26-odoo-inventory",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "4cf84044a3a4ad0f68214eef394940ba9d73abdde6d45b39deee116368d96ee2",
+      "0cbfb9c80aa31ae37a023dfae455c40e9dbd787531535739bc38ea084c5e31e4",
+      "bac0e715bfc82f872cce88b99e009613ba83bc5dedb070fcc7f5e7a49c4457f3",
+      "ca50b1e857fdb045f64e5bcc1f28c621e5b9bd37ec4684785c100b03ed1731e1"
+    ]
+  },
+  {
+    "id": "launcher-v3-27-maintainx",
+    "collection": "launcher-v3",
+    "title": "Mantenimiento",
+    "slug": "agntia-mantenimiento-ceramic-icon-27-maintainx",
+    "description": "an elegant open-end wrench sculpted in champagne-gold metal with a violet enamel handle insert, angled diagonally with a crisp jaw opening.",
+    "keywords": [
+      "Mantenimiento",
+      "27-maintainx",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "931ba52932d954f1064c3dde2778a27cd8385338e29e6a35237200466b4b0dbb",
+      "eacd04e0082a589a2aa614bdc8a1f8b44a678a56cc3990846793e48eecfee8aa",
+      "a3b7859e4c08655df85706acb7b9da4a8c61cf9999d80fb081456e14d1f662f4",
+      "701534415a79dc9e53c33a9c5d56aaf7870ed44927d901e5ad1db1dbec772408"
+    ]
+  },
+  {
+    "id": "launcher-v3-28-odoo-manufacturing",
+    "collection": "launcher-v3",
+    "title": "Producción",
+    "slug": "agntia-produccion-ceramic-icon-28-odoo-manufacturing",
+    "description": "a compact sculptural production line: an ivory ceramic base with three small violet enamel blocks moving along it and a slim champagne-gold robotic arm arched above the middle block.",
+    "keywords": [
+      "Producción",
+      "28-odoo-manufacturing",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "7dd5145d73d243e7c4bdf4d0a3ab415f1fd0e12f521fab5a181df241f458586b",
+      "70da8b55b3836ee30495a6bfd0b75abe16eb1112b6acf7e3be8e800f1574326d",
+      "08d1067df63532c1e20346dc608c294f67d32568ef57fa05640ba672fdf98af7",
+      "eafbc356948798e20d8663819c00949e6c58005b1b3d965881d82e7447214fd3"
+    ]
+  },
+  {
+    "id": "launcher-v3-29-isms-online",
+    "collection": "launcher-v3",
+    "title": "Cumplimiento",
+    "slug": "agntia-cumplimiento-ceramic-icon-29-isms-online",
+    "description": "a heraldic shield sculpted in ivory ceramic with a softly beveled border, a violet enamel field and a raised champagne-gold check mark at its center.",
+    "keywords": [
+      "Cumplimiento",
+      "29-isms-online",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "79067a3d3e040f7a221d81fe73386fd307ae571d8f60a52f695975b0cb298232",
+      "928364de6f27013c4dd1dade0809319e9d08a4260094455608cdfb2b5cdbd205",
+      "012c00b12f801c9105fceeca5995bba5019dc0f874fc543f564abb4ec2fabb72",
+      "13f883bf2207e63a1673fc302f0a0a5688f004ec566cb443a7ae530ab94db92f"
+    ]
+  },
+  {
+    "id": "launcher-v3-30-microsoft-entra",
+    "collection": "launcher-v3",
+    "title": "Accesos",
+    "slug": "agntia-accesos-ceramic-icon-30-microsoft-entra",
+    "description": "a large sculptural key with a rounded violet enamel bow, an ivory ceramic shaft and two crisp champagne-gold teeth.",
+    "keywords": [
+      "Accesos",
+      "30-microsoft-entra",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "2c363996c7ca1c10160669971583ddc5fccbc8b96a53b9a3663e36ab78cc0b98",
+      "5394933f1fa53940f33e1d4fcc9f417b9d69553af38b92e08e34a237b10733e7",
+      "3e212f45f8418c3718bac905f087e193c75d530e492efb0eadd1c19b0264fd3d",
+      "3dc6c55d76a421a7b39d84f3bbdd7c67f47430b70a286853e6597e3daaafd405"
+    ]
+  },
+  {
+    "id": "launcher-v3-31-suitedash",
+    "collection": "launcher-v3",
+    "title": "Portal cliente",
+    "slug": "agntia-portal-cliente-ceramic-icon-31-suitedash",
+    "description": "an elegant arched portal sculpted in ivory ceramic with a deep violet enamel interior, standing on a slim champagne-gold threshold, like a private client doorway.",
+    "keywords": [
+      "Portal cliente",
+      "31-suitedash",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "28325e12b3dc5ff197181eb783993556ca4288ee0cc1219ada3889f0a6f1c643",
+      "7502df0ed0d5188754f51da92ec52584e08c3cdc3df8064f02a63e15d8143e24",
+      "c06b6706197d9e99db958b4afb7a607807b92d77956352d8ebfdcffee9efef0f",
+      "65a92fd86f0939b41711b469e063a1b32242190a712a55d3f6cce41e61221cc6"
+    ]
+  },
+  {
+    "id": "launcher-v3-32-notion",
+    "collection": "launcher-v3",
+    "title": "Conocimiento",
+    "slug": "agntia-conocimiento-ceramic-icon-32-notion",
+    "description": "an open book sculpted in ivory ceramic with softly curved pages, a violet enamel spine and delicate champagne-gold page edges, seen from a three-quarter angle.",
+    "keywords": [
+      "Conocimiento",
+      "32-notion",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "85e402476cdbdb6b6dfdbb3450da0bc710e02d18879f4af43c065a99e02a3804",
+      "bfe759a460f5610c43a037811a5ea6230eadfd1363c75b63ed0f76224b59810a",
+      "4d39370624292e0117b063ed6565543149ee25834ab5ad2ef9c143593e02fe00",
+      "b59cdf7c3c923a04c2db8e9396410bedb952a1f6a1823bbf15340224d5ca50fd"
+    ]
+  },
+  {
+    "id": "launcher-v3-33-langsmith",
+    "collection": "launcher-v3",
+    "title": "Observabilidad IA",
+    "slug": "agntia-observabilidad-ia-ceramic-icon-33-langsmith",
+    "description": "a circular instrument dial in ivory ceramic with a violet enamel outer ring and a slender champagne-gold needle pointing upward, like a precision observability gauge.",
+    "keywords": [
+      "Observabilidad IA",
+      "33-langsmith",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "0616fd75c82b0e74edae1e0bbecc88df30cd6a96d44fc9d2c6453507ce68e306",
+      "07ab51a29ae6e79c5a33019a68056b9eb7a45ba0cb75d430d928cafa868c1027",
+      "a8393ddb31b1fd62c290de77235ecb36630947a6889a8ccad02e43213626d637",
+      "5bba51d5f91bc3a036ada9821f100b9b7cb3d6289a1e5fb3a53f1f1e3810b514"
+    ]
+  },
+  {
+    "id": "launcher-v3-34-trello",
+    "collection": "launcher-v3",
+    "title": "Tableros",
+    "slug": "agntia-tableros-ceramic-icon-34-trello",
+    "description": "three vertical ivory ceramic board columns of different heights, each holding two or three small violet enamel tiles, the tallest column topped with a champagne-gold cap.",
+    "keywords": [
+      "Tableros",
+      "34-trello",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "12f4081233aae1cf9c512609896b267625b89e4e0f9dc3d6e32d2f9ee90a4430",
+      "74717a89a32a30dce1c2265589a1a5d94769b0b27d870b9f8272174023e87c16",
+      "efcb8b1c4890822ab80fe77efaf0925f2c6e0d511a414a4831804d18cd08a9d3",
+      "30cf96849b04a82c67a51e92f9405fc7906a4a3af9c8d5ae2a347e4c37330109"
+    ]
+  },
+  {
+    "id": "launcher-v3-35-centro-mando",
+    "collection": "launcher-v3",
+    "title": "Centro de Mando",
+    "slug": "agntia-centro-de-mando-ceramic-icon-35-centro-mando",
+    "description": "a circular command console sculpted in ivory ceramic with a violet enamel inset ring and a champagne-gold compass needle, four subtle gold cardinal marks around the bezel.",
+    "keywords": [
+      "Centro de Mando",
+      "35-centro-mando",
+      "AgntiaPro",
+      "cerámica",
+      "workspace",
+      "icono 3D"
+    ],
+    "basis": "generation prompt, not visual observation",
+    "assetIds": [
+      "ab0dfa45ac27ca19ab5340fafdbb977edb6858c030bc2d34e6b0475f264aa81e",
+      "db8f0290f578dacacf1e44caa13f5a23a457abbca6f97371391fa46c9a9cc926",
+      "8ac6a6d647cedd40445bfdb4536f42071df752a1c4c2108508717b731df185d6",
+      "ee47d05f419687c324140e12462e759ae652ee3515149b61bc495f1ec0fc7cd8"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-00-inicio-01",
+    "collection": "mi-empresa-v1",
+    "title": "00-inicio — ilustración editorial",
+    "slug": "agntia-mi-empresa-00-inicio-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Inicio del compilador empresarial. Representa maqueta de empresa formada por módulos de madera clara y cerámica, una pieza aún separada. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: mapa de dimensiones, ideas en desarrollo y siguiente paso; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "00-inicio",
+      "00-inicio — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "7585116ea8ea59f3856afaf442565fbefbf5369b1acf9f300f7e59b7e7c5ab48"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-00-inicio-02",
+    "collection": "mi-empresa-v1",
+    "title": "00-inicio — icono principal",
+    "slug": "agntia-mi-empresa-00-inicio-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Inicio: brújula de mesa. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "00-inicio",
+      "00-inicio — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "5c6a8dd806fbce046d923f447df3cc479d3dc59f4eebab13d97ee1afc445aab8"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-00-inicio-03",
+    "collection": "mi-empresa-v1",
+    "title": "00-inicio — icono módulo encajable",
+    "slug": "agntia-mi-empresa-00-inicio-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de módulo encajable, para Inicio en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "00-inicio",
+      "00-inicio — icono módulo encajable"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "9e22c46ff8c05536783e31dbd34f253450fdc0981d566ee1cbbd3b2208a8af8f"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-00-inicio-04",
+    "collection": "mi-empresa-v1",
+    "title": "00-inicio — icono cuaderno abierto",
+    "slug": "agntia-mi-empresa-00-inicio-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de cuaderno abierto, para Inicio en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "00-inicio",
+      "00-inicio — icono cuaderno abierto"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "1ff2fc0a7b33c38137580da4ffb1517f80de5fdaf0c863d6a905c5c612f78b42"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-01-identidad-01",
+    "collection": "mi-empresa-v1",
+    "title": "01-identidad — ilustración editorial",
+    "slug": "agntia-mi-empresa-01-identidad-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Identidad del compilador empresarial. Representa libro de historia abierto con raíz vegetal estilizada y piedra fundacional. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: cabecera editorial de propósito, misión, visión y cultura; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "01-identidad",
+      "01-identidad — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "c3c42d4d7925d2ade1f998bac23fa2c5d282f10dd6fd63419c001fc65a6a1e92"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-01-identidad-02",
+    "collection": "mi-empresa-v1",
+    "title": "01-identidad — icono principal",
+    "slug": "agntia-mi-empresa-01-identidad-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Identidad: huella grabada. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "01-identidad",
+      "01-identidad — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "8051de79cae5547654ca20097bea52664696308a63a147d05cea3783490dc9cc"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-01-identidad-03",
+    "collection": "mi-empresa-v1",
+    "title": "01-identidad — icono horizonte",
+    "slug": "agntia-mi-empresa-01-identidad-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de horizonte, para Identidad en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "01-identidad",
+      "01-identidad — icono horizonte"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "052bf0109d90176d2d34d801e54343e5a8f838c810cf99476f6862f0411e837c"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-01-identidad-04",
+    "collection": "mi-empresa-v1",
+    "title": "01-identidad — icono raíces",
+    "slug": "agntia-mi-empresa-01-identidad-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de raíces, para Identidad en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "01-identidad",
+      "01-identidad — icono raíces"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "28d6c3a13ac354f7bcc97290a65c31ed1357b4001a43578db07f94a228f9ca0a"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-02-modelo-de-negocio-01",
+    "collection": "mi-empresa-v1",
+    "title": "02-modelo-de-negocio — ilustración editorial",
+    "slug": "agntia-mi-empresa-02-modelo-de-negocio-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Modelo de negocio del compilador empresarial. Representa piezas de un modelo empresarial encajando sobre una mesa de trabajo. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: canvas de propuesta de valor, clientes, ingresos y costes; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "02-modelo-de-negocio",
+      "02-modelo-de-negocio — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "0de037d24d14f4969ed0c4b3c1f94f684e0bcababeff0fe3226fcac8a8a65896"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-02-modelo-de-negocio-02",
+    "collection": "mi-empresa-v1",
+    "title": "02-modelo-de-negocio — icono principal",
+    "slug": "agntia-mi-empresa-02-modelo-de-negocio-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Modelo de negocio: pieza de encaje. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "02-modelo-de-negocio",
+      "02-modelo-de-negocio — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "50078b0da6ab2054b62751e51047b02007b0df55500eaea313000498dfd86ce9"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-02-modelo-de-negocio-03",
+    "collection": "mi-empresa-v1",
+    "title": "02-modelo-de-negocio — icono balanza de valor",
+    "slug": "agntia-mi-empresa-02-modelo-de-negocio-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de balanza de valor, para Modelo de negocio en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "02-modelo-de-negocio",
+      "02-modelo-de-negocio — icono balanza de valor"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "98d62690ff921f541c5a9665bd0a7f3e751b8f4ed64b43e5e88b949313c4677c"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-02-modelo-de-negocio-04",
+    "collection": "mi-empresa-v1",
+    "title": "02-modelo-de-negocio — icono documento one-pager",
+    "slug": "agntia-mi-empresa-02-modelo-de-negocio-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de documento one-pager, para Modelo de negocio en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "02-modelo-de-negocio",
+      "02-modelo-de-negocio — icono documento one-pager"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "72793d23626cecb13269339612227b7fadba92236cf7f86717a80cc217757b33"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-03-marca-01",
+    "collection": "mi-empresa-v1",
+    "title": "03-marca — ilustración editorial",
+    "slug": "agntia-mi-empresa-03-marca-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Marca del compilador empresarial. Representa muestrario editorial de papel, tipografía abstracta y materiales de marca. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: galería de referencias y guía de marca; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "03-marca",
+      "03-marca — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "a22f2ff2a3dde12a726f79d121974edbf3490804e853ef70b3ca6d47a33b9577"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-03-marca-02",
+    "collection": "mi-empresa-v1",
+    "title": "03-marca — icono principal",
+    "slug": "agntia-mi-empresa-03-marca-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Marca: muestrario cromático. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "03-marca",
+      "03-marca — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "d2e9716109e18415f8179c505afe2eb2576f6f8a7879b2268bdf31cec418a05a"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-03-marca-03",
+    "collection": "mi-empresa-v1",
+    "title": "03-marca — icono pluma",
+    "slug": "agntia-mi-empresa-03-marca-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de pluma, para Marca en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "03-marca",
+      "03-marca — icono pluma"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "e82c88a0e3470786083cc8767b4db8adcb4bcaeb9299a76b017277458df301ef"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-03-marca-04",
+    "collection": "mi-empresa-v1",
+    "title": "03-marca — icono marco de imagen",
+    "slug": "agntia-mi-empresa-03-marca-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de marco de imagen, para Marca en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "03-marca",
+      "03-marca — icono marco de imagen"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "4b14ed5a9d536920b9aa7afed70c46b93fcc4b1c4a405d110fc04001ca6f5dbd"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-04-estrategia-01",
+    "collection": "mi-empresa-v1",
+    "title": "04-estrategia — ilustración editorial",
+    "slug": "agntia-mi-empresa-04-estrategia-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Estrategia del compilador empresarial. Representa ruta topográfica con tres hitos y horizonte abierto. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: objetivos trimestrales, anuales e iniciativas; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "04-estrategia",
+      "04-estrategia — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "77f63fc38781089eb8124d2d99e13d37964a3b3062bbd55d6ec3437008701a2d"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-04-estrategia-02",
+    "collection": "mi-empresa-v1",
+    "title": "04-estrategia — icono principal",
+    "slug": "agntia-mi-empresa-04-estrategia-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Estrategia: diana. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "04-estrategia",
+      "04-estrategia — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "9ed4025da139ca05dcb405a6307e4d766d5035943a25aaf496f585825b0b0876"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-04-estrategia-03",
+    "collection": "mi-empresa-v1",
+    "title": "04-estrategia — icono hito",
+    "slug": "agntia-mi-empresa-04-estrategia-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de hito, para Estrategia en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "04-estrategia",
+      "04-estrategia — icono hito"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "5b6dc001a36834f4037a6adfde9b81884487949a1743a6bf621323fbd41016ab"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-04-estrategia-04",
+    "collection": "mi-empresa-v1",
+    "title": "04-estrategia — icono brújula",
+    "slug": "agntia-mi-empresa-04-estrategia-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de brújula, para Estrategia en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "04-estrategia",
+      "04-estrategia — icono brújula"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "6b37cf2b13feda0b5f6fb0db892f739411c695e3c113594bea2d6344d8aee5e2"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-05-organizacion-01",
+    "collection": "mi-empresa-v1",
+    "title": "05-organizacion — ilustración editorial",
+    "slug": "agntia-mi-empresa-05-organizacion-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Organización del compilador empresarial. Representa estructura modular de personas y agentes representados por figuras geométricas sin rostros. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: organigrama y responsabilidades; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "05-organizacion",
+      "05-organizacion — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "a8d2c0c77b8e27e1606ade6ff7aa38d1fbe92cad3d882659e5f9498b98832317"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-05-organizacion-02",
+    "collection": "mi-empresa-v1",
+    "title": "05-organizacion — icono principal",
+    "slug": "agntia-mi-empresa-05-organizacion-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Organización: grupo humano. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "05-organizacion",
+      "05-organizacion — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "7bc70187e9855cd0e8d88ea8d4335740b66153f26220b5c9dba8e7cb9289db53"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-05-organizacion-03",
+    "collection": "mi-empresa-v1",
+    "title": "05-organizacion — icono nodo coordinador",
+    "slug": "agntia-mi-empresa-05-organizacion-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de nodo coordinador, para Organización en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "05-organizacion",
+      "05-organizacion — icono nodo coordinador"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "a1cee0c8fc599fc7bba379c1c39f1aa839da3b569de2e03a3133f3039088b93c"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-05-organizacion-04",
+    "collection": "mi-empresa-v1",
+    "title": "05-organizacion — icono puesto de trabajo",
+    "slug": "agntia-mi-empresa-05-organizacion-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de puesto de trabajo, para Organización en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "05-organizacion",
+      "05-organizacion — icono puesto de trabajo"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "056497d1a6c7a9a30d3ced3d79cde6dc0ee7084b22e12f6cc4fb252530cb06c5"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-06-productos-y-servicios-01",
+    "collection": "mi-empresa-v1",
+    "title": "06-productos-y-servicios — ilustración editorial",
+    "slug": "agntia-mi-empresa-06-productos-y-servicios-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Productos y servicios del compilador empresarial. Representa catálogo físico abierto con módulos de servicio abstractos. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: fichas de oferta, alcance y entregables; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "06-productos-y-servicios",
+      "06-productos-y-servicios — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "7f0c48d691c457151ccc30c796af856f407a0723781c3d376d7b038d41ec059a"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-06-productos-y-servicios-02",
+    "collection": "mi-empresa-v1",
+    "title": "06-productos-y-servicios — icono principal",
+    "slug": "agntia-mi-empresa-06-productos-y-servicios-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Productos y servicios: paquete. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "06-productos-y-servicios",
+      "06-productos-y-servicios — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "40729e76c5b188f742b0edc28aa1dd5b264656a63f0417bf6a51cb600c58e020"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-06-productos-y-servicios-03",
+    "collection": "mi-empresa-v1",
+    "title": "06-productos-y-servicios — icono ficha de servicio",
+    "slug": "agntia-mi-empresa-06-productos-y-servicios-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de ficha de servicio, para Productos y servicios en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "06-productos-y-servicios",
+      "06-productos-y-servicios — icono ficha de servicio"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "67c22a762f964ec1237dbd73ca0e42d189375af8cad317a62793dc1eb475edf5"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-06-productos-y-servicios-04",
+    "collection": "mi-empresa-v1",
+    "title": "06-productos-y-servicios — icono etiqueta de precio",
+    "slug": "agntia-mi-empresa-06-productos-y-servicios-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de etiqueta de precio, para Productos y servicios en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "06-productos-y-servicios",
+      "06-productos-y-servicios — icono etiqueta de precio"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "c1869c7fb2e71f3525437ce10bdacd3f34e86a0dd8f4c059db1d9627a8c5b888"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-07-mercado-01",
+    "collection": "mi-empresa-v1",
+    "title": "07-mercado — ilustración editorial",
+    "slug": "agntia-mi-empresa-07-mercado-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Mercado del compilador empresarial. Representa lente de observación sobre mapa abstracto de segmentos. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: matriz de clientes, competencia y oportunidades; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "07-mercado",
+      "07-mercado — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "d1a2fe5c5d0a6c2cf97fda49cf05fcb59069ff7399fba22ed26f8cfd4b90e2db"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-07-mercado-02",
+    "collection": "mi-empresa-v1",
+    "title": "07-mercado — icono principal",
+    "slug": "agntia-mi-empresa-07-mercado-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Mercado: lente. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "07-mercado",
+      "07-mercado — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "89267a1d348fb167917147416a3916f80475c1ceceffd434be9f60880f462f48"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-07-mercado-03",
+    "collection": "mi-empresa-v1",
+    "title": "07-mercado — icono segmentos",
+    "slug": "agntia-mi-empresa-07-mercado-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de segmentos, para Mercado en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "07-mercado",
+      "07-mercado — icono segmentos"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "400d7863489e88e06f5f4ca72fcdb1973b1b787455509993feaf0f7483624609"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-07-mercado-04",
+    "collection": "mi-empresa-v1",
+    "title": "07-mercado — icono señal de oportunidad",
+    "slug": "agntia-mi-empresa-07-mercado-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de señal de oportunidad, para Mercado en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "07-mercado",
+      "07-mercado — icono señal de oportunidad"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "daf96d387d9f6e6a6e020f71f4a6e4b8ca852d761f1c10df547aab0a03b76f50"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-08-finanzas-01",
+    "collection": "mi-empresa-v1",
+    "title": "08-finanzas — ilustración editorial",
+    "slug": "agntia-mi-empresa-08-finanzas-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Finanzas del compilador empresarial. Representa libro contable abierto, ábaco discreto y dos columnas de fichas. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: cuentas, presupuesto y escenarios separados; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "08-finanzas",
+      "08-finanzas — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "efa9afc1fd1809658feca065c85103b0c4e675aee6ba13605f3addc222dd4f4a"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-08-finanzas-02",
+    "collection": "mi-empresa-v1",
+    "title": "08-finanzas — icono principal",
+    "slug": "agntia-mi-empresa-08-finanzas-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Finanzas: libro mayor. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "08-finanzas",
+      "08-finanzas — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "a79a5783e4a75777e795e5d2bf3b6254b2ee594e20afb93d544dac6742a8e943"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-08-finanzas-03",
+    "collection": "mi-empresa-v1",
+    "title": "08-finanzas — icono calculadora",
+    "slug": "agntia-mi-empresa-08-finanzas-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de calculadora, para Finanzas en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "08-finanzas",
+      "08-finanzas — icono calculadora"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "eb1aeec28cd0f14dfc2b75cd8ca21f56139346e6458bcd2149980e5f1626619e"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-08-finanzas-04",
+    "collection": "mi-empresa-v1",
+    "title": "08-finanzas — icono balanza",
+    "slug": "agntia-mi-empresa-08-finanzas-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de balanza, para Finanzas en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "08-finanzas",
+      "08-finanzas — icono balanza"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "c7d7b375a86e0ab978cbd747ee10ce6eda9461000931372b6de45f51fd2fce79"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-09-relaciones-01",
+    "collection": "mi-empresa-v1",
+    "title": "09-relaciones — ilustración editorial",
+    "slug": "agntia-mi-empresa-09-relaciones-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Relaciones del compilador empresarial. Representa dos piezas enlazadas sobre agenda abierta. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: agenda de proveedores, socios y acuerdos; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "09-relaciones",
+      "09-relaciones — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "210c99d4e71cfeaf20c89d64bc9e405fadba2fbb55167c51fc3341173b66fa5c"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-09-relaciones-02",
+    "collection": "mi-empresa-v1",
+    "title": "09-relaciones — icono principal",
+    "slug": "agntia-mi-empresa-09-relaciones-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Relaciones: enlace. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "09-relaciones",
+      "09-relaciones — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "d38b6a485d15f2c508ef5c2c0bd5eebbe151c5c89393b0bda2bb56afc3cf1cc2"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-09-relaciones-03",
+    "collection": "mi-empresa-v1",
+    "title": "09-relaciones — icono agenda",
+    "slug": "agntia-mi-empresa-09-relaciones-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de agenda, para Relaciones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "09-relaciones",
+      "09-relaciones — icono agenda"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "6c9fa78d8670d3f082d6dd69e0dd0fc0145ea69fa4fad77bbba1af88dd66f840"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-09-relaciones-04",
+    "collection": "mi-empresa-v1",
+    "title": "09-relaciones — icono acuerdo",
+    "slug": "agntia-mi-empresa-09-relaciones-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de acuerdo, para Relaciones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "09-relaciones",
+      "09-relaciones — icono acuerdo"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "50e3a983afd39872d81ce9723a64ad19c4ddbf2f72f24d2a37036d09a9505575"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-10-operaciones-01",
+    "collection": "mi-empresa-v1",
+    "title": "10-operaciones — ilustración editorial",
+    "slug": "agntia-mi-empresa-10-operaciones-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Operaciones del compilador empresarial. Representa mesa de trabajo con estaciones modulares conectadas. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: flujo de entrega, excepciones y responsables; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "10-operaciones",
+      "10-operaciones — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "a373cd57f2b6177d7d145302d6d2f12e4b61cc1abc604895682b5cb455b1e85e"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-10-operaciones-02",
+    "collection": "mi-empresa-v1",
+    "title": "10-operaciones — icono principal",
+    "slug": "agntia-mi-empresa-10-operaciones-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Operaciones: estación. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "10-operaciones",
+      "10-operaciones — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "39bb868c7c8be9622808c36e46a9c44e14020ab54ac8623e3582194349a254c8"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-10-operaciones-03",
+    "collection": "mi-empresa-v1",
+    "title": "10-operaciones — icono relevo",
+    "slug": "agntia-mi-empresa-10-operaciones-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de relevo, para Operaciones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "10-operaciones",
+      "10-operaciones — icono relevo"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "e43cbc25d2a46b75e921efee0da161c674944ed991f5a9f4a6fc2fbb33ec79b8"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-10-operaciones-04",
+    "collection": "mi-empresa-v1",
+    "title": "10-operaciones — icono control de calidad",
+    "slug": "agntia-mi-empresa-10-operaciones-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de control de calidad, para Operaciones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "10-operaciones",
+      "10-operaciones — icono control de calidad"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "102268f970a9465e5f2c8ef770cd0bf8adc5e747028569b0e6c2cde91551fd9a"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-11-tecnologia-01",
+    "collection": "mi-empresa-v1",
+    "title": "11-tecnologia — ilustración editorial",
+    "slug": "agntia-mi-empresa-11-tecnologia-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Tecnología del compilador empresarial. Representa módulos de herramientas conectados a una base común. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: mapa de capacidades, conexiones y autorizaciones; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "11-tecnologia",
+      "11-tecnologia — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "d183a30ffb7f380c050afbfe1ef4ccd80bf6ad79ba43e1c9cabd5fa021222747"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-11-tecnologia-02",
+    "collection": "mi-empresa-v1",
+    "title": "11-tecnologia — icono principal",
+    "slug": "agntia-mi-empresa-11-tecnologia-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Tecnología: conector. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "11-tecnologia",
+      "11-tecnologia — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "4a1115b9c4315e74339e3adf8800602c523b58b2843b184def72d994a6307b61"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-11-tecnologia-03",
+    "collection": "mi-empresa-v1",
+    "title": "11-tecnologia — icono módulo de aplicación",
+    "slug": "agntia-mi-empresa-11-tecnologia-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de módulo de aplicación, para Tecnología en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "11-tecnologia",
+      "11-tecnologia — icono módulo de aplicación"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "1c4d4cffad240bc8a4ed5140e6c1b484867f0d2978c1b30e4452f1c029065f27"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-11-tecnologia-04",
+    "collection": "mi-empresa-v1",
+    "title": "11-tecnologia — icono interruptor",
+    "slug": "agntia-mi-empresa-11-tecnologia-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de interruptor, para Tecnología en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "11-tecnologia",
+      "11-tecnologia — icono interruptor"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "4927037caf08de3624e41632d015a523d56b4a2c12b923a8b6fa38b42c1d3861"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-12-gobierno-01",
+    "collection": "mi-empresa-v1",
+    "title": "12-gobierno — ilustración editorial",
+    "slug": "agntia-mi-empresa-12-gobierno-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Gobierno del compilador empresarial. Representa archivo protegido con llave y documento de reglas. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: permisos, políticas y aprobaciones; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "12-gobierno",
+      "12-gobierno — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "67e0f975135f2cf4c9af6ee05deac37d994e50bc8280fb2ff1bfc8deaf518e77"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-12-gobierno-02",
+    "collection": "mi-empresa-v1",
+    "title": "12-gobierno — icono principal",
+    "slug": "agntia-mi-empresa-12-gobierno-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Gobierno: llave. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "12-gobierno",
+      "12-gobierno — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "455314d95b167678582b083266d527d3ee78a474cb577d0d8d25360589f9f9fe"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-12-gobierno-03",
+    "collection": "mi-empresa-v1",
+    "title": "12-gobierno — icono escudo",
+    "slug": "agntia-mi-empresa-12-gobierno-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de escudo, para Gobierno en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "12-gobierno",
+      "12-gobierno — icono escudo"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "64f6adea33ffd0ea2916d82872ecb7e82524e613a2f052cc2414f355f4be647c"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-12-gobierno-04",
+    "collection": "mi-empresa-v1",
+    "title": "12-gobierno — icono sello de revisión",
+    "slug": "agntia-mi-empresa-12-gobierno-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de sello de revisión, para Gobierno en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "12-gobierno",
+      "12-gobierno — icono sello de revisión"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "f3f6fa8348a7f91789038812ec2dfde1d0a959058527dcf7882093cc7ad24a19"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-13-fuentes-01",
+    "collection": "mi-empresa-v1",
+    "title": "13-fuentes — ilustración editorial",
+    "slug": "agntia-mi-empresa-13-fuentes-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Fuentes del compilador empresarial. Representa archivo abierto con papel, fotografía abstracta y cinta de audio. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: explorador de originales y procedencia; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "13-fuentes",
+      "13-fuentes — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "a461d5f921bd7fec87ec104788f8b11d4c54b9eebbb9c8e37ec4311e7b634a99"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-13-fuentes-02",
+    "collection": "mi-empresa-v1",
+    "title": "13-fuentes — icono principal",
+    "slug": "agntia-mi-empresa-13-fuentes-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Fuentes: archivo. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "13-fuentes",
+      "13-fuentes — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "80e3b027c9d288e31e41e126758cf9df95f4b4bfbe7dc6558e3304e94671523d"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-13-fuentes-03",
+    "collection": "mi-empresa-v1",
+    "title": "13-fuentes — icono onda de audio",
+    "slug": "agntia-mi-empresa-13-fuentes-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de onda de audio, para Fuentes en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "13-fuentes",
+      "13-fuentes — icono onda de audio"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "895faf6fe638004a23a4c60383f60fd117556e673218a61a62f617477fe7d727"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-13-fuentes-04",
+    "collection": "mi-empresa-v1",
+    "title": "13-fuentes — icono fotograma",
+    "slug": "agntia-mi-empresa-13-fuentes-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de fotograma, para Fuentes en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "13-fuentes",
+      "13-fuentes — icono fotograma"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "9f5c4eeab5881b330a9a8d092596831f893ff9b5fe30bc6c20c083212b48dace"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-14-entrevistas-01",
+    "collection": "mi-empresa-v1",
+    "title": "14-entrevistas — ilustración editorial",
+    "slug": "agntia-mi-empresa-14-entrevistas-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Entrevistas del compilador empresarial. Representa micrófono de sobremesa junto a libreta de notas. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: tarjetas de entrevistas y captura contextual; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "14-entrevistas",
+      "14-entrevistas — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "f1ec6dba36c0657cbf40096852cfab212233b055257bae8cca49d67111aa52e3"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-14-entrevistas-02",
+    "collection": "mi-empresa-v1",
+    "title": "14-entrevistas — icono principal",
+    "slug": "agntia-mi-empresa-14-entrevistas-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Entrevistas: micrófono. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "14-entrevistas",
+      "14-entrevistas — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "754875b0b40da4463acbc54619fed24eb7a78d480d272affecdbc1bb4bacfdb6"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-14-entrevistas-03",
+    "collection": "mi-empresa-v1",
+    "title": "14-entrevistas — icono conversación",
+    "slug": "agntia-mi-empresa-14-entrevistas-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de conversación, para Entrevistas en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "14-entrevistas",
+      "14-entrevistas — icono conversación"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "bd97762bb6142e90602eef3b8afbb5682e9b6ff50c56d8daa331fe324c7c5573"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-14-entrevistas-04",
+    "collection": "mi-empresa-v1",
+    "title": "14-entrevistas — icono transcripción",
+    "slug": "agntia-mi-empresa-14-entrevistas-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de transcripción, para Entrevistas en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "14-entrevistas",
+      "14-entrevistas — icono transcripción"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "bdc269455914e973229965974c3e3998ced72f54cd4a8e608cce0eaa6343d458"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-15-procesos-01",
+    "collection": "mi-empresa-v1",
+    "title": "15-procesos — ilustración editorial",
+    "slug": "agntia-mi-empresa-15-procesos-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Procesos del compilador empresarial. Representa secuencia de bloques con bifurcación y punto de control. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: editor de SOP y mapa de decisiones; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "15-procesos",
+      "15-procesos — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "2b9fea0417099a7341c570d580c0892c8243f4bbceb3a555423ae2dd188c4086"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-15-procesos-02",
+    "collection": "mi-empresa-v1",
+    "title": "15-procesos — icono principal",
+    "slug": "agntia-mi-empresa-15-procesos-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Procesos: paso. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "15-procesos",
+      "15-procesos — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "63f96b9e7da05b74d039fcc671119ab1a913db3d8aea90e7b65eb8cfbe46354f"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-15-procesos-03",
+    "collection": "mi-empresa-v1",
+    "title": "15-procesos — icono bifurcación",
+    "slug": "agntia-mi-empresa-15-procesos-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de bifurcación, para Procesos en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "15-procesos",
+      "15-procesos — icono bifurcación"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "d1fc99381833e85397bf625a1a3c0e80880cc1e7e0d0b15b2a73b6e76cd6222d"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-15-procesos-04",
+    "collection": "mi-empresa-v1",
+    "title": "15-procesos — icono verificación",
+    "slug": "agntia-mi-empresa-15-procesos-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de verificación, para Procesos en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "15-procesos",
+      "15-procesos — icono verificación"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "13233ebce041de75bfa10591adec06c5606082bc516c23f34218163947cde9ce"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-16-talento-01",
+    "collection": "mi-empresa-v1",
+    "title": "16-talento — ilustración editorial",
+    "slug": "agntia-mi-empresa-16-talento-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Talento del compilador empresarial. Representa libros y piezas de aprendizaje ordenadas por niveles. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: matriz de competencias e itinerarios; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "16-talento",
+      "16-talento — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "668605038d356cd8b5e4e1a330c2b671908a4efd05b8334dfb652522df7ff4ab"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-16-talento-02",
+    "collection": "mi-empresa-v1",
+    "title": "16-talento — icono principal",
+    "slug": "agntia-mi-empresa-16-talento-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Talento: libro. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "16-talento",
+      "16-talento — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "01140a3de846dfde7cd56dec5f7e05cf010592a3d678e8e8141487a595e462c2"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-16-talento-03",
+    "collection": "mi-empresa-v1",
+    "title": "16-talento — icono escalón",
+    "slug": "agntia-mi-empresa-16-talento-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de escalón, para Talento en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "16-talento",
+      "16-talento — icono escalón"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "97e1fd89d45dade7622fda001e8f96bd7b0e3ade34a43637da47ab08bf1675e4"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-16-talento-04",
+    "collection": "mi-empresa-v1",
+    "title": "16-talento — icono práctica",
+    "slug": "agntia-mi-empresa-16-talento-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de práctica, para Talento en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "16-talento",
+      "16-talento — icono práctica"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "37d64a03a702b1856d98024cdf8ae072a744faa341e1c5eba118982334988001"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-17-versiones-01",
+    "collection": "mi-empresa-v1",
+    "title": "17-versiones — ilustración editorial",
+    "slug": "agntia-mi-empresa-17-versiones-01",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una ilustración de producto para AgntiaPro, sección Versiones del compilador empresarial. Representa dos cuadernos superpuestos y una tercera hoja de alternativa separada. Composición horizontal 3:2, objeto agrupado en el centro con 18% de margen libre, perspectiva tres cuartos suave, fondo papel uniforme, escala humana y tactilidad discreta. Debe comunicar la acción de diseñar la empresa, no la ejecución operativa. Sin interfaz dibujada ni texto. Entregar una imagen independiente 1536×1024, PNG maestro y WebP optimizado tras aprobación. Uso previsto: historial, comparación y publicación demo; reservar espacio real para copy HTML, no usar como fondo de tablas.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "17-versiones",
+      "17-versiones — ilustración editorial"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "b71d97638f5f381b2d9290451a678d45fad9d3e621480735c5d062b9b27fd6d9"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-17-versiones-02",
+    "collection": "mi-empresa-v1",
+    "title": "17-versiones — icono principal",
+    "slug": "agntia-mi-empresa-17-versiones-02",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera un único icono escultórico de Versiones: borrador. Silueta inequívoca, volumen compacto, vista tres cuartos casi frontal, 72% del lienzo, margen uniforme, fondo #FCFAF6, cerámica marfil mate con detalle tierra y un acento violeta discreto. Sin pedestal, marco, texto ni letras. Cuadrado 1024×1024. Debe distinguirse a 48 px. Exportar WebP 512/320 después de aprobación.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "17-versiones",
+      "17-versiones — icono principal"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "1c034ab91594ab54a0168ad8bfc901dc82776700174b52b6e53e3e1fa9dd44f8"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-17-versiones-03",
+    "collection": "mi-empresa-v1",
+    "title": "17-versiones — icono comparación",
+    "slug": "agntia-mi-empresa-17-versiones-03",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de comparación, para Versiones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "17-versiones",
+      "17-versiones — icono comparación"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "918a2271bc83515e9a56db8205f223e2534e5485d02899eaa3b1678b292663e2"
+    ]
+  },
+  {
+    "id": "mi-empresa-v1-17-versiones-04",
+    "collection": "mi-empresa-v1",
+    "title": "17-versiones — icono publicación",
+    "slug": "agntia-mi-empresa-17-versiones-04",
+    "description": "Paleta papel#FCFAF6, marfil, tinta #242421, madera clara, tierra suave, violeta #6550DD solo como acento y latón satinado mínimo. Evitar rosa dominante, oro brillante, lujo ostentoso, neón, glassmorphism, robots, circuitos luminosos y estética SaaS genérica. Material cerámico mate, luz difusa superior izquierda, sombra de contacto suave, geometría legible. Sin texto generado, logotipos, cifras ni marcas de agua. No alterar el shell ni crear nuevos workspaces.\nGenera una imagen independiente de publicación, para Versiones en Tu Empresa. Usa como referencia visual el icono principal aprobado de esta carpeta y la familia Apps/Documentos aprobada. Mantén cámara, iluminación, escala del 72%, fondo papel, cerámica mate y acentos tierra/violeta; cambia únicamente la silueta y detalles semánticos necesarios. Sin letras, números, pedestal ni borde de tarjeta. 1024×1024, legible a 48 px. Propuesta preliminar pendiente de comparación con referencia aprobada.",
+    "keywords": [
+      "AgntiaPro",
+      "Mi Empresa",
+      "17-versiones",
+      "17-versiones — icono publicación"
+    ],
+    "basis": "generation specification",
+    "assetIds": [
+      "ba0d39305d6f53f2118e48b4c3e5a0da71d3400e2044b0bdaa41a2a0274034ce"
+    ]
+  },
+  {
+    "id": "01-webhook",
+    "collection": "automation-nodes",
+    "title": "Webhook entrante",
+    "slug": "agntia-01-webhook",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Receiving webhook: a monolithic upright ivory ceramic docking arch, like a refined architectural doorway with a deep violet enamel concave interior. A short thick satin-brass arrow enters diagonally from upper left and ends visibly inside the cavity. The arch has a broad flat foot and rounded shoulders, not a horseshoe magnet. Show the inner wall thickness and a soft violet reflection on the ivory lip. Keep arrow and arch as one tightly grouped composition; no external cables. The dark open cavity is the dominant feature.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "04-agent",
+    "collection": "automation-nodes",
+    "title": "Agente IA",
+    "slug": "agntia-04-agent",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Agent: a substantial four-pointed violet enamel star, directly related to the Apps Asistente icon, with concave edges and four sculpted facets converging on a small satin champagne sphere embedded at its center. One ivory ceramic rear facet is visible at the lower right, revealing real thickness. The star is upright, not lying flat, and has a broad strong violet face with delicate reflections. No pedestal, robot, face, glow or extra stars.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "06-condition",
+    "collection": "automation-nodes",
+    "title": "Condición y bifurcación",
+    "slug": "agntia-06-condition",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Condition: a single substantial ivory ceramic Y junction, with one broad lower stem and two curved upper arms spreading symmetrically. One terminal face is violet enamel, the other ivory with a fine champagne rim. The fork has a deep clean negative space between arms, rounded continuous junction and visible thickness; no diamond, arrows or extra branches. Make the branching silhouette dominant, like a beautifully machined routing component.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "02-schedule",
+    "collection": "automation-nodes",
+    "title": "Programación temporal",
+    "slug": "agntia-02-schedule",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Schedule: a compact precision timepiece, thick ivory ceramic bezel surrounding a recessed deep violet enamel dial. Two broad ivory hands with tiny brass pivot, positioned at approximately ten and two, four shallow ivory index cuts only. Show the curved sidewall at right and the fine satin rim catching light. No second clock, calendar or recurrence arrow. The dial must contrast strongly with the lavender background.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "03-event",
+    "collection": "automation-nodes",
+    "title": "Evento empresarial",
+    "slug": "agntia-03-event",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Enterprise event: a sculptural signal emitter, a low rounded ivory ceramic dome with a broad violet enamel raised central pulse ridge, flanked by two short thick concentric ivory relief arcs on the same continuous base. The ridge and arcs resemble a physical ripple spreading from a single source. Brass only as a hairline inlay at the origin. No bell, alarm, speaker grille or loose particles; a compact low radial silhouette, distinct from the webhook arch.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "05-sop",
+    "collection": "automation-nodes",
+    "title": "Ejecutar SOP",
+    "slug": "agntia-05-sop",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: SOP: a single architectural staircase of three thick ivory ceramic slabs rising left to right, each step physically joined to the next. A broad violet enamel inset occupies the middle riser, and a thin champagne inlay follows the upper edge of the final step. Show the three distinct horizontal treads and rounded sidewall; no checkmark, gears or written instructions. The stepped profile itself communicates ordered execution.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "07-transform",
+    "collection": "automation-nodes",
+    "title": "Transformar datos",
+    "slug": "agntia-07-transform",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Transform: one compact sculptural die assembly, a thick violet enamel circular collar holding a broad ivory square-section piece on its left and a rounded ivory cylindrical end on its right. Both ends are physically joined through the collar, showing a single continuous change of cross-section. Fine brass seam only at the collar. Tilt the horizontal axis slightly upward to reveal both end shapes. No floating shapes, arrows or diagram; the silhouette reads as a single manufactured object.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "08-http",
+    "collection": "automation-nodes",
+    "title": "Petición API / HTTP",
+    "slug": "agntia-08-http",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: API HTTP: two broad opposing ceramic coupling halves, one ivory and one deep violet, aligned along a diagonal from lower left to upper right. One has a single broad recessed socket, the other a short thick champagne-metal tongue, separated by a small clear gap. Rounded rectangular bodies, visible machined edges and restrained reflected color. No thin pins, cables, globe or incoming arrow. The two equal masses distinguish this from the webhook arch.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "09-record",
+    "collection": "automation-nodes",
+    "title": "Consultar o guardar registro",
+    "slug": "agntia-09-record",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Record: a compact upright cylinder composed of three thick stacked ivory ceramic discs, separated by two deep shadow seams; the middle disc is violet enamel, the top has a narrow champagne rim. Show the top ellipse and substantial curved sidewalls. The three broad bands are the entire visual message. No marks, labels, server rack, query glyphs or tiny ornament.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "10-message",
+    "collection": "automation-nodes",
+    "title": "Enviar comunicación",
+    "slug": "agntia-10-message",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Communication: a single thick folded ivory ceramic envelope, directly related to Apps Correo, with a broad triangular flap and deep violet enamel wax seal edged by a fine champagne rim. A short sculptural violet arrow emerges from the right side of the envelope as an integrated extension, not a floating glyph. Angle the envelope slightly so the folded edge catches light. No address, additional sheets, speech bubbles or inbox.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "11-task",
+    "collection": "automation-nodes",
+    "title": "Crear o asignar tarea",
+    "slug": "agntia-11-task",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Task: one upright rectangular ivory ceramic work card with softly rounded corners and a single broad recessed violet square containing a raised ivory check. Two shallow horizontal grooves below, a small champagne edge detail only. Show thick card edge at right, slight backward tilt, generous blank porcelain. No second card, circular seal, text or extra checks. The rectangular silhouette must dominate.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "12-approval",
+    "collection": "automation-nodes",
+    "title": "Aprobación humana",
+    "slug": "agntia-12-approval",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Human approval: a substantial sculptural signet stamp with a rounded ivory ceramic handle rising above a broad circular violet enamel stamp foot, edged by a thin champagne-metal seam. The foot is tilted enough to reveal its thickness but not its underside. The handle and foot create a distinct vertical silhouette, no checkmark or document. Communicates a deliberate human authorization, not a completed status.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "13-wait",
+    "collection": "automation-nodes",
+    "title": "Espera y reintento",
+    "slug": "agntia-13-wait",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Wait/retry: a single compact hourglass with thick ivory ceramic upper and lower caps, two clear softly frosted glass chambers and a broad violet enamel waist ring. A small quantity of violet sand forms one visible mound in the lower chamber; no individual grains. Fine champagne seam at the waist only. No return arrow or clock hands. The pinched vertical silhouette communicates waiting; retry mode is conveyed by UI label.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "14-result",
+    "collection": "automation-nodes",
+    "title": "Resultado y evidencia",
+    "slug": "agntia-14-result",
+    "description": "Create exactly ONE square 1024x1024 three-dimensional AgntiaPro workflow-node artwork. Art direction: exquisite sculptural industrial product photography in the same family as the approved Apps icons: warm ivory satin ceramic, deep sophisticated violet enamel, restrained brushed champagne brass, seamless soft lavender studio background (#F0ECFC). The object must feel manufactured, tactile and refined, not an extruded flat glyph. Use broad continuous surfaces, believable wall thickness, carefully rounded bevels, subtle material-specific reflections and soft contact shadow. Keep ivory warm rather than white, violet visibly saturated on selected surfaces rather than washed-out pastel, brass a fine accent rather than dominant gold. Background is a continuous lavender cyclorama, softly shaded darker behind the upper object and lighter below, no horizon line or visible tile. Camera: near-frontal three-quarter product view, modest elevation, long-lens-like perspective, consistent scale; broad softbox upper left, gentle right fill, delicate occlusion in recesses. Center the complete object and shadow within a 76% diameter safe circle; dominant object span approximately 62–68% of canvas, with generous negative space and optical centering. The final UI applies the circular crop; do not draw a circular frame or ports. Prioritize a strong silhouette and contrast at 48–96px. No typography, numerals, logos, watermarks, UI, graph edges, pedestal, decorative particles, excessive gloss, toy clay or multiple unrelated objects. Subject: Result/evidence: a single low ivory ceramic presentation tray holding one thick upright document slab, with a broad violet enamel folded corner and one small champagne circular embossed seal. The tray has a visible front lip and the slab leans slightly back, forming a coherent L-shaped profile. Show the document thickness and soft shadow within the tray. No checkmark, writing, envelope flap or extra papers.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": []
+  },
+  {
+    "id": "formacion-01-pensamiento",
+    "collection": "formation",
+    "title": "Libro abierto y escultura de cristal sobre escritorio marfil",
+    "slug": "agntia-formacion-01-pensamiento",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. An open linen-bound book and a single faceted clear glass sculpture on a pale ivory writing desk, late morning window light, architectural shadows, human thought and deliberate attention, warm paper, restrained violet reflection, exquisite editorial still life, ample negative space on the left.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "6f3cc8c4de6c53b22b537dc932a2c218f7f7a40e860477553a0091f108ef2edc"
+    ]
+  },
+  {
+    "id": "formacion-02-cognicion",
+    "collection": "formation",
+    "title": "Capas transparentes de información sobre una mesa de trabajo",
+    "slug": "agntia-formacion-02-cognicion",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Translucent glass sheets hovering subtly above neatly arranged handwritten paper notes, a pencil and a ceramic cup, quiet augmented cognition made tangible, warm cream daylight, a single restrained violet detail, precise cinematic editorial photography.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "e080457338c3bf3253b39b3da92c3503b18fa8318ba5cc71d6576cc7b95eca05"
+    ]
+  },
+  {
+    "id": "formacion-03-lenguaje",
+    "collection": "formation",
+    "title": "Páginas escultóricas que representan modelos de lenguaje",
+    "slug": "agntia-formacion-03-lenguaje",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Sculptural curled sheets of handmade paper arranged in a gentle wave, delicate light and shadow implying the structure of language, neutral parchment background, violet refractions, contemporary art direction, tactile, understated.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "35ba9635161dd77dffcb820b172088b3940fba1f7e12a4dafcdb9c83599f2af6"
+    ]
+  },
+  {
+    "id": "formacion-04-espacio-trabajo",
+    "collection": "formation",
+    "title": "Mesa de trabajo contemporánea con ordenador y cuaderno",
+    "slug": "agntia-formacion-04-espacio-trabajo",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Inviting real contemporary small-business workspace, thin elegant laptop with screen turned away, open notebook, warm timber and linen, bright natural window light, quiet human-scale productivity, sophisticated European editorial photography, generous clear space.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "dd328514b50a918bb835c51eeca4ad5de7b7051188ebe20d8f5231e95671f1e7"
+    ]
+  },
+  {
+    "id": "formacion-05-agenda",
+    "collection": "formation",
+    "title": "Agenda física y reloj analógico en escritorio cálido",
+    "slug": "agntia-formacion-05-agenda",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Minimal analogue clock, open weekly paper planner and a beautiful black pen on pale travertine, soft morning sunlight and gentle long shadows, visual metaphor for coordinated work and time, premium calm editorial photography.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "8d7adc8a1cee5f928d562bd86ae2450094ce9244abf215271825730f7565506d"
+    ]
+  },
+  {
+    "id": "formacion-06-equipo",
+    "collection": "formation",
+    "title": "Reunión humana alrededor de una mesa luminosa",
+    "slug": "agntia-formacion-06-equipo",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Candid editorial photograph of a small diverse professional team collaborating around a light oak table, natural gestures and authentic expressions, notebooks and simple tools, daylight studio, warmth and dignity, spacious framing, subtle violet accent in the environment.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "7a6f6040e8474666c5234e92144543c8f8190aa5f86e94ed57548cda87c0eedd"
+    ]
+  },
+  {
+    "id": "formacion-07-datos",
+    "collection": "formation",
+    "title": "Piezas translúcidas ordenadas como sistema de datos",
+    "slug": "agntia-formacion-07-datos",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Architectural still life of twelve translucent glass tiles carefully organized on warm ivory stone, a few violet-tinted elements suggesting data relationships, precise soft shadows, no screen, no charts, premium art magazine photography.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "6350d448f5a489c35274dcb3f3d1933219154d228d598bae9a9412b5feabfcf8"
+    ]
+  },
+  {
+    "id": "formacion-08-automatizacion",
+    "collection": "formation",
+    "title": "Secuencia de objetos conectados que sugiere un proceso",
+    "slug": "agntia-formacion-08-automatizacion",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Editorial tabletop composition of a flowing sequence of folded paper shapes and fine brass links, a coherent work process visualized with physical materials, warm off-white background, sunlight, tiny violet accent, refined tactile photography.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "cf47961623c4e7763948999a58f0f16f2bd5b2b2f66ed01c9cdd1f5ab2391cc5"
+    ]
+  },
+  {
+    "id": "formacion-09-comunicacion",
+    "collection": "formation",
+    "title": "Teléfono y libreta como símbolo de comunicación profesional",
+    "slug": "agntia-formacion-09-comunicacion",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Elegant modern smartphone face down next to a handwritten notebook and a cup of tea on a calm warm desk, an open doorway and daylight beyond, natural realistic textures, human-centered communication, premium editorial composition.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "1b152c61bf339c980993c971c1235187b1a9fc235732c7ef59400d2686869269"
+    ]
+  },
+  {
+    "id": "formacion-10-creatividad",
+    "collection": "formation",
+    "title": "Taller creativo con papeles y formas de color contenido",
+    "slug": "agntia-formacion-10-creatividad",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. A serene designer's studio table with carefully cut ivory paper, one muted violet sculptural ribbon and a brass ruler, visual exploration of creative thinking, soft cinematic daylight, tactile premium magazine still life.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "516672fb1b7c346484b022ad3fc6ef869186b60f5d48f426a6a06fe19818658a"
+    ]
+  },
+  {
+    "id": "formacion-11-decisiones",
+    "collection": "formation",
+    "title": "Dos caminos de luz en una composición arquitectónica",
+    "slug": "agntia-formacion-11-decisiones",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Minimal warm architectural interior with two gentle paths of daylight across limestone floor converging toward a quiet open threshold, metaphor for thoughtful decisions, restrained composition, elegant premium editorial architectural photography.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "1c7f65285255ba9801600021b33d190f9f9b9144572fb22d649747ca657a3d75"
+    ]
+  },
+  {
+    "id": "formacion-12-futuro",
+    "collection": "formation",
+    "title": "Paisaje arquitectónico cálido y humano orientado al futuro",
+    "slug": "agntia-formacion-12-futuro",
+    "description": "Consistent AgntiaPro art direction: warm editorial European design magazine, ivory #fcfaf6, ink #242421, subtle violet #6550dd and champagne gold #b49665 only as accents, beautiful natural materials, refined realism, quiet cinematic light, generous negative space, excellent photographic composition. No readable text, letters, logos, branding, UI, watermarks, neon, futuristic dashboards, stock-photo clichés. Quiet sunlit contemporary pavilion of warm limestone and translucent glass opening onto a green garden, one small human figure walking naturally, hopeful human-scale technology future, calm sophisticated editorial photography, no science-fiction motifs.",
+    "keywords": [],
+    "basis": "original generation specification",
+    "assetIds": [
+      "2640fe4b678da282b1c4eea643595ce5c22c2666f7d862976458bd8117354259"
+    ]
+  }
+]
