@@ -32,7 +32,8 @@
     "plan:motion": "node lab/scripts/plan-motion-candidates.mjs",
     "smoke:rag": "node lab/scripts/smoke-rag-brief.mjs",
     "smoke:proposal": "node lab/scripts/smoke-motion-proposal.mjs",
-    "smoke:pipeline": "node lab/scripts/smoke-local-pipeline.mjs"
+    "smoke:pipeline": "node lab/scripts/smoke-local-pipeline.mjs",
+    "report:package": "node lab/scripts/stage-package-report.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",
