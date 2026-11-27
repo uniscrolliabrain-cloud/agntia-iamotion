@@ -19,7 +19,8 @@
     "audit:library": "node lab/scripts/audit-baseline.mjs",
     "plan:library": "node lab/scripts/plan-library-migration.mjs",
     "schemas:library": "node lab/scripts/export-library-schemas.mjs",
-    "render:ceramic-mail": "bash lab/scripts/render-ceramic-mail.sh"
+    "render:ceramic-mail": "bash lab/scripts/render-ceramic-mail.sh",
+    "stage:library": "node lab/scripts/stage-library-snapshot.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",

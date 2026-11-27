@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { test } from 'node:test';
 import { auditBaseline } from '../../lab/scripts/audit-baseline.mjs';
+import { openSnapshotStore } from '../../lab/scripts/library-snapshot-store.mjs';
 import { planLibraryMigration } from '../../lab/scripts/plan-library-migration.mjs';
 
 const hash = (contents) => createHash('sha256').update(contents).digest('hex');
@@ -95,4 +96,60 @@ test('migration dry-run is reproducible and refuses a corrupted checkout', async
   assert.equal(blocked.status, 'blocked');
   assert.equal(blocked.reason, 'AUDIT_FAILED');
   assert.equal(blocked.manifest, undefined);
+});
+
+test('snapshot stage is idempotent and rollback preserves records and legacy', async (t) => {
+  const { root, path } = await fixture(t);
+  const store = await openSnapshotStore(join(root, 'store'));
+  const [first, retry] = await Promise.all([store.stage(root), store.stage(root)]);
+  assert.deepEqual(first, retry);
+  assert.equal((await store.load(first.snapshotId)).files[0].path, path);
+  assert.equal((await store.current()).snapshotId, null);
+
+  await assert.rejects(store.promote(first), { code: 'REVIEW_REFERENCE_REQUIRED' });
+  await store.promote({ ...first, reviewRef: 'test/review-1' });
+  const second = await store.stage(root);
+  assert.notEqual(second.snapshotId, first.snapshotId);
+  await store.promote({ ...second, reviewRef: 'test/review-2' });
+  const rolledBack = await store.rollback({ expectedRevision: 2, reviewRef: 'test/rollback' });
+  assert.equal(rolledBack.snapshotId, first.snapshotId);
+  assert.equal((await store.load(second.snapshotId)).parentSnapshotId, first.snapshotId);
+  assert.equal((await auditBaseline(root)).counts.errors, 0);
+});
+
+test('only one competing writer can advance the same pointer revision', async (t) => {
+  const { root } = await fixture(t);
+  const path = join(root, 'store');
+  const first = await openSnapshotStore(path);
+  const second = await openSnapshotStore(path);
+  const stage = await first.stage(root);
+  const results = await Promise.allSettled([
+    first.promote({ ...stage, reviewRef: 'test/first-writer' }),
+    second.promote({ ...stage, reviewRef: 'test/second-writer' }),
+  ]);
+  assert.equal(results.filter((result) => result.status === 'fulfilled').length, 1);
+  assert.equal(results.find((result) => result.status === 'rejected').reason.code, 'STALE_POINTER');
+  assert.equal((await second.current()).revision, 1);
+  const rollback = await second.rollback({ expectedRevision: 1, reviewRef: 'test/rollback' });
+  assert.equal(rollback.snapshotId, null);
+  await assert.rejects(
+    first.promote({ ...stage, reviewRef: 'test/stale-after-rollback' }), { code: 'STALE_POINTER' },
+  );
+});
+
+test('ignores interrupted writes and refuses a corrupt staged snapshot', async (t) => {
+  const { root, put, path } = await fixture(t);
+  await put('store/pointers/.pending-interrupted/pointer.json', '{"revision":');
+  await put('store/snapshots/.stage-interrupted/manifest.json', '{"snapshotId":');
+  const store = await openSnapshotStore(join(root, 'store'));
+  assert.equal((await store.current()).revision, 0);
+  const first = await store.stage(root);
+  const manifest = await store.load(first.snapshotId);
+  await put(`store/snapshots/${first.snapshotId}/${manifest.files[0].derivedPath}`, '{}');
+  await assert.rejects(store.promote({ ...first, reviewRef: 'test/corrupt' }), {
+    code: 'SNAPSHOT_RECORD_MISMATCH',
+  });
+  assert.equal((await store.current()).revision, 0);
+  await put(path, 'corrupt');
+  assert.equal((await store.stage(root)).status, 'blocked');
 });
