@@ -9,3 +9,4 @@ export * from './factory/assets/evidence.js';
 export * from './factory/assets/business-context.js';
 export * from './factory/assets/prompt-lexicon.js';
 export * from './factory/assets/style-families.js';
+export * from './factory/assets/part-anatomy.js';

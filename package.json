@@ -27,7 +27,8 @@
     "extract:usage": "node lab/scripts/extract-git-usage.mjs",
     "report:context": "node lab/scripts/report-business-context.mjs",
     "inspect:images": "python lab/scripts/inspect-library-images.py",
-    "report:prompts": "node lab/scripts/report-prompt-intent.mjs"
+    "report:prompts": "node lab/scripts/report-prompt-intent.mjs",
+    "report:appearance": "node lab/scripts/report-library-appearance.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",
