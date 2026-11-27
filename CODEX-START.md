@@ -1,0 +1,2 @@
+# Codex entrypoint
+When explicitly instructed to execute by founder, read and follow [MASTER-PROMPT](docs/codex-autonomous/MASTER-PROMPT.md), [CONCEPTUAL-CANON](docs/codex-autonomous/CONCEPTUAL-CANON.md), [MATURITY-GATES](docs/codex-autonomous/MATURITY-GATES.md), [EXECUTION-LEDGER](docs/codex-autonomous/EXECUTION-LEDGER.md) and AGENTS.md. Work autonomously in dedicated branch. Preserve all previous work. No merge, deployment, provider connections or parent install. Resolve phase 2 authorization before implementing it.
