@@ -8,3 +8,4 @@ export * from './factory/assets/ontology.js';
 export * from './factory/assets/evidence.js';
 export * from './factory/assets/business-context.js';
 export * from './factory/assets/prompt-lexicon.js';
+export * from './factory/assets/style-families.js';

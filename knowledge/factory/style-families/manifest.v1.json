@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "families": [
+    {
+      "id": "launcher-ceramic", "collection": "launcher-v3",
+      "purpose": "Identificar aplicaciones del launcher a tamaños pequeños.",
+      "paletteIntent": ["marfil cálido", "violeta", "champán discreto", "lavanda"],
+      "materialIntent": ["cerámica satinada", "esmalte", "metal cepillado"],
+      "composition": "Un objeto principal, silueta legible y margen para el recorte.",
+      "lighting": "Luz de estudio difusa y sombra de contacto.",
+      "forbidden": ["texto incrustado", "logotipos ajenos", "acabado de juguete"],
+      "candidateExamples": ["launcher-v3-01-gmail", "launcher-v3-02-whatsapp"],
+      "approvedExamples": [], "exceptions": [],
+      "sourceRefs": ["library/cards/launcher-v3.json"]
+    },
+    {
+      "id": "company-editorial", "collection": "mi-empresa-v1",
+      "purpose": "Ilustrar secciones de Mi Empresa con continuidad editorial.",
+      "paletteIntent": ["papel", "marfil", "tinta", "tierra suave", "violeta como acento"],
+      "materialIntent": ["papel", "madera clara", "latón satinado discreto"],
+      "composition": "La ilustración acompaña la jerarquía de cada sección.",
+      "lighting": "Iluminación suave que conserve las texturas de papel y madera.",
+      "forbidden": ["rosa dominante", "oro brillante", "lujo ostentoso"],
+      "candidateExamples": ["mi-empresa-v1-00-inicio-01", "mi-empresa-v1-00-inicio-02"],
+      "approvedExamples": [], "exceptions": [],
+      "sourceRefs": ["library/cards/mi-empresa-v1.json"]
+    },
+    {
+      "id": "formation-photo", "collection": "formation",
+      "purpose": "Representar el tema de cada curso mediante fotografía editorial.",
+      "paletteIntent": ["marfil", "neutros", "acentos ligados al tema del curso"],
+      "materialIntent": ["materiales fotográficos acordes al tema"],
+      "composition": "Motivo editorial reconocible como portada.",
+      "lighting": "Iluminación fotográfica coherente con el tema.",
+      "forbidden": ["aplicar de forma global la silueta del launcher"],
+      "candidateExamples": ["formacion-01-pensamiento", "formacion-02-cognicion"],
+      "approvedExamples": [], "exceptions": [],
+      "sourceRefs": ["library/inventory/formation-source-manifest.json", "library/cards/formation-automation.json"]
+    },
+    {
+      "id": "automation-nodes", "collection": "automation-nodes",
+      "purpose": "Distinguir tipos de nodo en un flujo de automatización.",
+      "paletteIntent": ["marfil", "violeta", "latón templado", "lavanda"],
+      "materialIntent": ["cerámica satinada", "esmalte", "latón cepillado"],
+      "composition": "Objeto monolítico centrado con margen para máscara circular.",
+      "lighting": "Luz frontal de tres cuartos, sombra de contacto y brillo contenido.",
+      "forbidden": ["puertos dibujados", "aristas del grafo en la imagen", "tipografía"],
+      "candidateExamples": ["01-webhook", "04-agent"],
+      "approvedExamples": [], "exceptions": [],
+      "sourceRefs": ["library/cards/formation-automation.json"]
+    }
+  ],
+  "rules": [
+    { "from": "launcher-ceramic", "to": "automation-nodes", "context": "app",
+      "disposition": "reference-only", "reason": "Pueden compartir la referencia de materiales. Conservar la silueta y las restricciones de los nodos." },
+    { "from": "automation-nodes", "to": "launcher-ceramic", "context": "app",
+      "disposition": "reference-only", "reason": "Compartir materiales requiere preservar la función y el recorte del launcher." },
+    { "from": "launcher-ceramic", "to": "company-editorial", "context": "mi-empresa",
+      "disposition": "incompatible", "reason": "La familia de papel editorial tiene composición y materiales propios." },
+    { "from": "launcher-ceramic", "to": "formation-photo", "context": "app",
+      "disposition": "incompatible", "reason": "La fotografía de portada conserva el lenguaje del curso." }
+  ]
+}
