@@ -65,3 +65,9 @@ Un macroturno por fase o grupo explícito; leer HEAD y dependencias, rama de eje
 - [RAG-LEXICON.md](motion-graphics/RAG-LEXICON.md)
 - [PATCHSETS-AND-BENCHMARK.md](motion-graphics/PATCHSETS-AND-BENCHMARK.md)
 Proposed P33–P44, M7–M8; planning only.
+
+## Prioridad productiva del fundador (prevalece sobre expansiones generalistas)
+- [PRODUCT-FOCUS.md](PRODUCT-FOCUS.md)
+- [PROGRAMMABLE-VISUALS.md](PROGRAMMABLE-VISUALS.md)
+- [BLENDER-LIVE-PIPELINE.md](BLENDER-LIVE-PIPELINE.md)
+- [VERTICAL-SLICE-EXECUTION.md](VERTICAL-SLICE-EXECUTION.md)
