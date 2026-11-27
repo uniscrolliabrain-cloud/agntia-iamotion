@@ -22,3 +22,5 @@ export * from './factory/assets/hybrid-retrieval.js';
 export * from './llm/prompts/registry.js';
 export * from './llm/proposal-runner.js';
 export * from './llm/config.js';
+export * from './factory/behaviors/sampler.js';
+export * from './sdk/visual-library.js';
