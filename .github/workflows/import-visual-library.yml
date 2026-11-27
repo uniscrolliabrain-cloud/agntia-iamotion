@@ -1,31 +1,51 @@
 name: Visual library inventory
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-visual-library.yml'
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: visual-library-import
+  cancel-in-progress: false
 jobs:
   inventory:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ref: [main, ui-lab, ui-lab-pro]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
         with:
           repository: uniscrolliabrain-cloud/agente
-          ref: ${{ matrix.ref }}
+          ref: main
           path: source
           persist-credentials: false
           lfs: true
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node library/scripts/inventory.mjs source library/inventory "${{ matrix.ref }}"
-      - run: node library/scripts/stage-assets.mjs source "library/inventory/${{ matrix.ref }}.json" staging
+      - name: Inventory and stage
+        run: |
+          set -euo pipefail
+          for ref in main ui-lab ui-lab-pro; do
+            git -C source fetch --depth=1 origin "$ref"
+            git -C source checkout --detach FETCH_HEAD
+            git -C source lfs pull
+            node library/scripts/inventory.mjs source library/inventory "$ref"
+            node library/scripts/stage-assets.mjs source "library/inventory/$ref.json" "staging/$ref"
+          done
       - uses: actions/upload-artifact@v4
         with:
-          name: inventory-${{ matrix.ref }}
-          path: |
-            library/inventory/*.json
-            staging/
+          name: visual-library-staging
+          path: staging/
+      - name: Persist inventory and execution receipt
+        env:
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          node -e 'const fs=require("fs");fs.writeFileSync("library/inventory/last-run.json",JSON.stringify({runId:process.env.RUN_ID,status:"staged",refs:["main","ui-lab","ui-lab-pro"]},null,2)+"\n")'
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add library/inventory
+          git commit -m "Record visual library inventory and staging receipt"
+          git push origin HEAD:main
