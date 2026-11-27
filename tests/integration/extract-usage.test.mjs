@@ -44,3 +44,24 @@ test('finite glob matches the pinned image set and leaves dynamic globs unresolv
     ['unresolved', []],
   ]);
 });
+
+test('HTML parses media attributes with raw source locations and ignores comments and script text', () => {
+  const records = extractUsage({ ...scope, sourcePath: 'demo/legacy/view.html',
+    contents: '<!-- <img src="ignored.png"> -->\n<img src="icon.png#preview"><video poster="/card.webp"></video>' });
+  assert.deepEqual(records.map(({ line, column, paths }) => [line, column, paths]), [
+    [2, 6, ['demo/legacy/icon.png']],
+    [2, 36, ['demo/public/card.webp', 'public/card.webp']],
+  ]);
+  const [unresolved] = extractUsage({ ...scope, sourcePath: 'demo/legacy/view.html',
+    contents: '<base href="/different/"><img src="icon.png">' });
+  assert.equal(unresolved.resolution, 'unresolved');
+});
+
+test('CSS follows url tokens while excluding comments, strings and data URLs', () => {
+  const records = extractUsage({ ...scope, sourcePath: 'demo/legacy/view.css',
+    contents: '/* url(no.png) */\n.sample { background: url("icon.png?q=x"), url(/card.webp); content: "url(no.png)"; }' });
+  assert.deepEqual(records.map(({ line, column, paths }) => [line, column, paths]), [
+    [2, 23, ['demo/legacy/icon.png']],
+    [2, 44, ['demo/public/card.webp', 'public/card.webp']],
+  ]);
+});
