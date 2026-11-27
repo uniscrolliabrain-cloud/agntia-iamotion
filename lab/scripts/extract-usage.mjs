@@ -35,13 +35,13 @@ export function extractUsage({ repository, commit, sourcePath, contents, paths, 
     return alias ? [`${aliases[alias]}/${value.slice(alias.length + 1)}`] : [];
   }
 
-  function record(node, method, candidates) {
+  function record(node, method, candidates, finite = false) {
     const { line, character } = source.getLineAndCharacterOfPosition(node.getStart(source));
     const paths = [...new Set(candidates)].sort();
     records.push({
       repository, commit, path: sourcePath, line: line + 1, column: character + 1,
       expression: node.getText(source), method, paths,
-      resolution: paths.length === 1 ? 'exact' : paths.length > 1 ? 'candidate' : 'unresolved',
+      resolution: paths.length === 0 ? 'unresolved' : finite || paths.length === 1 ? 'exact' : 'candidate',
       legacyStatus: /(?:^|\/)legacy(?:\/|$)/u.test(sourcePath) ? 'legacy' : 'unknown',
     });
   }
@@ -63,8 +63,14 @@ export function extractUsage({ repository, commit, sourcePath, contents, paths, 
     } else if (ts.isCallExpression(node) && node.expression.kind === ts.SyntaxKind.ImportKeyword) {
       staticAsset(node.arguments[0], 'dynamic-import');
     } else if (ts.isCallExpression(node) && node.expression.getText(source) === 'import.meta.glob') {
-      // Unsupported glob expressions are retained for review without expanding their domain.
-      if (node.arguments[0]) record(node.arguments[0], 'vite-glob', []);
+      const pattern = node.arguments[0];
+      if (!pattern) return;
+      const paths = isLiteral(pattern) && pattern.text.startsWith('.') &&
+        pattern.text.length <= 256 && !/[{}[\]!]/u.test(pattern.text)
+        ? locations(pattern.text).filter(safe).flatMap((glob) =>
+          [...tree].filter((path) => image.test(path) && posix.matchesGlob(path, glob)))
+        : [];
+      record(pattern, 'vite-glob', paths, true);
     }
     ts.forEachChild(node, visit);
   }

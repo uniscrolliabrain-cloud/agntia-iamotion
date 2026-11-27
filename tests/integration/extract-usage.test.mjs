@@ -19,7 +19,7 @@ test('usage extraction resolves exactly pinned imports and preserves ambiguous o
   assert.deepEqual(records.map(({ resolution, paths }) => [resolution, paths]), [
     ['exact', ['demo/legacy/icon.png']],
     ['exact', ['demo/current/icon.png']],
-    ['unresolved', []],
+    ['exact', ['demo/legacy/icon.png']],
     ['exact', ['demo/legacy/icon.png']],
     ['candidate', ['demo/public/card.webp', 'public/card.webp']],
     ['unresolved', []],
@@ -34,4 +34,13 @@ test('usage extraction refuses malformed sources and never resolves a basename o
   assert.throws(() => extractUsage({ ...scope, sourcePath: '../entry.ts', contents: '' }), /INVALID_USAGE_INPUT/u);
   const [miss] = extractUsage({ ...scope, paths: ['demo/current/icon.png'], contents: 'import "./icon.png";' });
   assert.equal(miss.resolution, 'unresolved');
+});
+
+test('finite glob matches the pinned image set and leaves dynamic globs unresolved', () => {
+  const records = extractUsage({ ...scope,
+    contents: 'import.meta.glob("../**/*.png"); import.meta.glob(pattern);' });
+  assert.deepEqual(records.map(({ resolution, paths }) => [resolution, paths]), [
+    ['exact', ['demo/current/icon.png', 'demo/legacy/icon.png']],
+    ['unresolved', []],
+  ]);
 });
