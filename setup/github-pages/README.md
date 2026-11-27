@@ -1,0 +1,2 @@
+# Demo estática futura
+Patrón leído de agente/.github/workflows/ui-lab-pages.yml: pnpm/Node, build Vite, base de repositorio, index/404/.nojekyll, upload-pages-artifact y deploy-pages. Plantilla .disabled fuera de .github/workflows para impedir ejecución. Solo tras aprobar interfaz, generar lockfile, probar build, habilitar Pages y mover plantilla; no backend ni secretos. Demo sintética separada de producción.
