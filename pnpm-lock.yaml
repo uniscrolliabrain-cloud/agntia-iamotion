@@ -15,6 +15,9 @@ importers:
         specifier: ^4.0.0
         version: 4.6.7
     devDependencies:
+      three:
+        specifier: 0.187.0
+        version: 0.187.0
       typescript:
         specifier: ^5.9.0
         version: 5.9.3
@@ -374,6 +377,9 @@ packages:
     resolution: {integrity: sha512-J7ZjMvHd9O1fcT/5V09QWaaSl2BbWx3F6O08spde82Namf9UB0GxRVIPiNbVsdKkoizHiSpTodo3vp2bAy91MA==}
     engines: {node: '>=6.0.0'}
 
+  three@0.187.0:
+    resolution: {integrity: sha512-Qiu7R+Cmh8CstZsY1uJOSWnVlfo7ZtNLV7mF8Jltk3LB3AtDu9cRZlcnRKkAk8Y4z6KKw35z7Y7Urd7jWY8etA==}
+
   tinyglobby@0.2.17:
     resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
     engines: {node: '>=12.0.0'}
@@ -669,6 +675,8 @@ snapshots:
       fsevents: 2.3.3
 
   source-map-js@1.2.4: {}
+
+  three@0.187.0: {}
 
   tinyglobby@0.2.17:
     dependencies:

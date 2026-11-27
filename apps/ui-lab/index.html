@@ -1,1 +1,25 @@
-<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agntia IAMotion — setup</title><main><h1>Agntia IAMotion</h1><p>Setup del laboratorio. Interfaz pendiente de diseño. Sin backend, proveedores ni render.</p></main></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Correo cerámico · Agntia IAMotion</title>
+  <link rel="stylesheet" href="./src/mail.css">
+  <script type="module" src="./src/mail.js"></script>
+</head>
+<body>
+  <main>
+    <header><span>Agntia IAMotion</span><h1>Correo cerámico</h1></header>
+    <section aria-label="Vista previa del prototipo">
+      <div id="stage" data-preview="pending" role="img" aria-label="Sobre de cerámica marfil con sello violeta"></div>
+      <p id="status" role="status">Cargando modelo local…</p>
+      <div class="clips" aria-label="Clips de movimiento">
+        <button type="button" data-clip="idle" disabled>Reposo</button>
+        <button type="button" data-clip="open" disabled>Abrir</button>
+        <button type="button" data-clip="settle" disabled>Asentar</button>
+      </div>
+    </section>
+    <p class="caption">Prototipo sintético para revisión interna.</p>
+  </main>
+</body>
+</html>
