@@ -24,7 +24,8 @@
     "export:ontology": "node lab/scripts/export-ontology.mjs",
     "reconcile:library": "node lab/scripts/reconcile-library.mjs",
     "plan:claims": "node lab/scripts/plan-legacy-claims.mjs",
-    "extract:usage": "node lab/scripts/extract-git-usage.mjs"
+    "extract:usage": "node lab/scripts/extract-git-usage.mjs",
+    "report:context": "node lab/scripts/report-business-context.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",

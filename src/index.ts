@@ -6,3 +6,4 @@ export * from './factory/assets/proposal-context.js';
 export * from './factory/assets/schemas/index.js';
 export * from './factory/assets/ontology.js';
 export * from './factory/assets/evidence.js';
+export * from './factory/assets/business-context.js';
