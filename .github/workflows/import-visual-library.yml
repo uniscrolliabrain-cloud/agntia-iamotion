@@ -1,0 +1,28 @@
+name: Visual library inventory
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ref: [main, ui-lab, ui-lab-pro]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: uniscrolliabrain-cloud/agente
+          ref: ${{ matrix.ref }}
+          path: source
+          persist-credentials: false
+          lfs: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node library/scripts/inventory.mjs source library/inventory "${{ matrix.ref }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: inventory-${{ matrix.ref }}
+          path: library/inventory/*.json
