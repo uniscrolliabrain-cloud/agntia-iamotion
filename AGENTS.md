@@ -1,0 +1,2 @@
+# Continuidad de agentes
+Leer docs/ARCHITECTURE.md, docs/01-motion-factory/README.md y REFERENCIAS-Y-CAPACIDADES-PRODUCCION.md. Preservar fase 2 sin implementarla. No conectar proveedores, publicar Pages, instalar en agente ni activar producción sin aprobación. No duplicar biblioteca, kernel ni cognition. Verificar HEAD, distinguir scaffold de código probado, no inventar resultados. No guardar secretos o datos privados en Git. Registrar evidencia, cambios, pruebas y rollback.
