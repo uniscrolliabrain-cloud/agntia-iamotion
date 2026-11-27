@@ -24,3 +24,4 @@ export * from './llm/proposal-runner.js';
 export * from './llm/config.js';
 export * from './factory/behaviors/sampler.js';
 export * from './sdk/visual-library.js';
+export * from './factory/graphics/composition.js';
