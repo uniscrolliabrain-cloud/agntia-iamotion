@@ -1,3 +1,5 @@
+import { mkdir } from 'node:fs/promises';
+import { stageRagCorpus } from './rag-corpus-store.mjs';
 import { buildScopedVisualBrief, compileRag, ScopedLexicalIndex } from '../../dist/index.js';
 
 const evidence = {
@@ -20,7 +22,10 @@ const partition = async (scope, sources) => {
 };
 const primary = await partition('synthetic', [source]);
 const foreign = await partition('synthetic-other', [{ ...source, title: 'Segundo corpus' }]);
-const index = new ScopedLexicalIndex([...primary.cards, ...foreign.cards]);
+const staging = process.argv[2];
+if (staging) await mkdir(staging, { recursive: true, mode: 0o700 });
+const stored = staging ? await stageRagCorpus(staging, primary) : null;
+const index = new ScopedLexicalIndex([...(stored?.cards ?? primary.cards), ...foreign.cards]);
 const access = {
   scope: 'synthetic', authorizedScopes: new Set(['synthetic']), locale: 'es',
   approvedAssetsByVisualId: new Map(), characterBudget: 512,
@@ -29,5 +34,5 @@ const brief = buildScopedVisualBrief(index, 'ceramica', access);
 const denied = buildScopedVisualBrief(index, 'segundo', { ...access, scope: 'synthetic-other' });
 if (brief.status !== 'ready' || brief.candidates.length !== 1 || brief.approvedAssetIds.length ||
     denied.status !== 'insufficient_context') throw new Error('SYNTHETIC_BRIEF_SMOKE_FAILED');
-console.log(JSON.stringify({ schemaVersion: 1, sampleKind: 'synthetic', cards: primary.cards,
+console.log(JSON.stringify({ schemaVersion: 1, sampleKind: 'synthetic', ...(stored ? { snapshotId: stored.snapshotId } : {}), cards: primary.cards,
   reverseIndex: primary.reverseIndex, brief, denied: denied.status }, null, 2));
