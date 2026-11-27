@@ -62,3 +62,7 @@ Selección provisional: verificar existencia, código, mantenimiento, licencias 
 
 ## Calidad
 Movimiento reducido, contraste, pausa fuera de pantalla, presupuestos de CPU/GPU y memoria, fallback estático, pruebas visuales y temporales, seguridad de render y aislamiento de procesos. No alterar interfaces aprobadas sin autorización. El motor debe ser pequeño, no otro framework gigantesco.
+
+## Referencias y contrato objetivo de producción
+
+[Repositorios, conceptos, integración en agente y criterios de producción](REFERENCIAS-Y-CAPACIDADES-PRODUCCION.md).
