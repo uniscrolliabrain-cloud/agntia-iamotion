@@ -29,7 +29,8 @@
     "inspect:images": "python lab/scripts/inspect-library-images.py",
     "report:prompts": "node lab/scripts/report-prompt-intent.mjs",
     "report:appearance": "node lab/scripts/report-library-appearance.mjs",
-    "plan:motion": "node lab/scripts/plan-motion-candidates.mjs"
+    "plan:motion": "node lab/scripts/plan-motion-candidates.mjs",
+    "smoke:rag": "node lab/scripts/smoke-rag-brief.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",
