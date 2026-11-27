@@ -17,3 +17,5 @@ export * from './factory/renderers/blender/recipe.js';
 export * from './factory/renderers/export-spec.js';
 export * from './factory/assets/rag-compiler.js';
 export * from './factory/assets/retrieval.js';
+export * from './llm/embeddings.js';
+export * from './factory/assets/hybrid-retrieval.js';
