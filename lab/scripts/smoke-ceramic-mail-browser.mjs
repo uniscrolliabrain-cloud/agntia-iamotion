@@ -75,11 +75,17 @@ try {
   const opened = await screenshot();
   assert.notEqual(opened.data, closed.data, 'Opening must change the pixels rendered inside the stage');
 
+  await evaluate(`document.querySelector('[data-clip="float"]').click()`);
+  await until(async () => {
+    const style = await evaluate('document.querySelector("#stage canvas").style.transform');
+    return style && style !== 'translateY(0px)';
+  });
+
   await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-reduced-motion', value: 'reduce' }] });
   await until(async () => await evaluate('document.querySelector("#stage").dataset.preview') === 'static');
   assert.equal(await evaluate('document.querySelector("#stage img").naturalWidth'), 420);
-  assert.equal(await evaluate('document.querySelectorAll("button:disabled").length'), 3);
-  console.log('Chromium: GLB loaded in WebGL, opening clip started, reduced-motion PNG displayed.');
+  assert.equal(await evaluate('document.querySelectorAll("button:disabled").length'), 4);
+  console.log('Chromium: GLB loaded in WebGL, opening clip and composed float timeline verified, reduced-motion PNG displayed.');
 } finally {
   socket.close();
 }

@@ -2,6 +2,8 @@ import {
   AmbientLight, AnimationMixer, DirectionalLight, LoopOnce, OrthographicCamera, Scene,
   WebGLRenderer,
 } from 'three';
+import floatTimeline from 'virtual:ui-lab-float-timeline';
+import { sampleBehaviorTimeline } from '../../../src/factory/behaviors/sampler.ts';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 const stage = document.querySelector('#stage');
@@ -30,7 +32,7 @@ async function start() {
   const actions = new Map();
   const mixer = new AnimationMixer(model.scene);
   for (const clip of model.animations) actions.set(clip.name, mixer.clipAction(clip));
-  if (buttons.some((button) => !actions.has(button.dataset.clip))) throw new Error('Faltan clips');
+  if (buttons.some((button) => button.dataset.clip !== 'float' && !actions.has(button.dataset.clip))) throw new Error('Faltan clips');
 
   const renderer = new WebGLRenderer({ antialias: true, alpha: true });
   const scene = new Scene();
@@ -45,6 +47,7 @@ async function start() {
   let frame = 0;
   let active;
   let previous;
+  let floatTime = null;
   let visible = true;
   function stopFrame() {
     cancelAnimationFrame(frame);
@@ -52,13 +55,20 @@ async function start() {
     previous = undefined;
   }
   function schedule() {
-    if (!frame && active?.isRunning() && visible && !document.hidden) {
+    if (!frame && (active?.isRunning() || floatTime !== null) && visible && !document.hidden) {
       frame = requestAnimationFrame(tick);
     }
   }
   function tick(now) {
     frame = 0;
-    mixer.update(previous === undefined ? 0 : Math.min((now - previous) / 1000, .05));
+    const elapsed = previous === undefined ? 0 : Math.min(now - previous, 50);
+    mixer.update(elapsed / 1000);
+    if (floatTime !== null) {
+      floatTime = Math.min(floatTimeline.durationMs, floatTime + elapsed);
+      const [sample] = sampleBehaviorTimeline(floatTimeline, floatTime);
+      renderer.domElement.style.transform = `translateY(${sample.value}px)`;
+      if (floatTime === floatTimeline.durationMs) floatTime = null;
+    }
     previous = now;
     renderer.render(scene, camera);
     schedule();
@@ -127,10 +137,15 @@ async function start() {
     button.onclick = () => {
       active?.stop();
       stopFrame();
+      floatTime = null;
+      renderer.domElement.style.transform = '';
       active = actions.get(button.dataset.clip);
-      active.reset().setLoop(LoopOnce, 1);
-      active.clampWhenFinished = true;
-      active.play();
+      if (button.dataset.clip === 'float') floatTime = 0;
+      else {
+        active.reset().setLoop(LoopOnce, 1);
+        active.clampWhenFinished = true;
+        active.play();
+      }
       stage.dataset.clip = button.dataset.clip;
       schedule();
     };

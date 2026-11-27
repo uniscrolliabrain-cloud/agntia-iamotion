@@ -1,3 +1,4 @@
+import { behaviorChannelKey } from './channel.js';
 import { z } from 'zod';
 import {
   BehaviorSpecSchema, validateBehaviorSpec, type BehaviorContext, type BehaviorSpec,
@@ -53,9 +54,13 @@ type TimelineTrack = Track & {
   endMs: number;
   fallbackAt: number;
 };
-const channelKey = (target: BehaviorSpec['target'], property: Track['property']) =>
-  JSON.stringify([target.kind, target.kind === 'part' ? target.partId : null, property]);
-
+export interface BehaviorTimeline {
+  schemaVersion: 1;
+  visualId: string;
+  durationMs: number;
+  tracks: readonly TimelineTrack[];
+  status: 'proposed';
+}
 export function composeBehaviors(input: unknown, context: BehaviorContext) {
   const parsed = Composition.safeParse(input);
   if (!parsed.success) return { ok: false, code: 'INVALID_COMPOSITION' } as const;
@@ -77,7 +82,7 @@ export function composeBehaviors(input: unknown, context: BehaviorContext) {
       const startMs = start + cycle * spec.durationMs;
       const endMs = startMs + spec.durationMs;
       for (const track of spec.tracks) {
-        const key = channelKey(spec.target, track.property);
+        const key = behaviorChannelKey(spec.target, track.property);
         const channel = channels.get(key) ?? [];
         const conflict = channel.find((item) => startMs < item.endMs && endMs > item.startMs);
         if (conflict) return { ok: false, code: 'TRACK_CONFLICT', clip: index,
@@ -92,6 +97,7 @@ export function composeBehaviors(input: unknown, context: BehaviorContext) {
     durationMs = Math.max(durationMs, end);
   }
   tracks.sort((a, b) => a.startMs - b.startMs || a.endMs - b.endMs);
-  return { ok: true, timeline: { schemaVersion: 1, visualId: context.visualId,
-    durationMs, tracks, status: 'proposed' } } as const;
+  const timeline: BehaviorTimeline = { schemaVersion: 1, visualId: context.visualId,
+    durationMs, tracks, status: 'proposed' };
+  return { ok: true, timeline } as const;
 }
