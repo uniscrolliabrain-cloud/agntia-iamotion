@@ -15,3 +15,5 @@ export * from './factory/behaviors/grammar.js';
 export * from './factory/behaviors/candidates.js';
 export * from './factory/renderers/blender/recipe.js';
 export * from './factory/renderers/export-spec.js';
+export * from './factory/assets/rag-compiler.js';
+export * from './factory/assets/retrieval.js';
