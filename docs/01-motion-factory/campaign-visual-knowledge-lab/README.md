@@ -18,3 +18,18 @@ Estado: planificación exclusivamente. No ejecutar patchsets sin autorización. 
 - [15-handoff — Consolidación y migración al runtime](15-handoff.md)
 ## Protocolo
 Un macroturno por fase o grupo explícito; leer HEAD y dependencias, rama de ejecución futura, patchsets pequeños, tests antes de promoción, recibo con evidencia y rollback. No tocar agente, Pages, proveedores ni fase 2. Los archivos de esta campaña son planes, no resultados.
+
+## Especificaciones de ejecución
+- [CONTRACTS.md](CONTRACTS.md)
+- [ALGORITHMS.md](ALGORITHMS.md)
+- [EVALUATION.md](EVALUATION.md)
+- [EXECUTION-PLAN.md](EXECUTION-PLAN.md)
+- [PATCHSETS-M1.md](PATCHSETS-M1.md)
+- [PATCHSETS-M2.md](PATCHSETS-M2.md)
+- [PATCHSETS-M3.md](PATCHSETS-M3.md)
+- [PATCHSETS-M4.md](PATCHSETS-M4.md)
+- [PATCHSETS-M5.md](PATCHSETS-M5.md)
+- [PATCHSETS-M6.md](PATCHSETS-M6.md)
+- [WIRING-MATRIX.md](WIRING-MATRIX.md)
+- [FIXTURES-AND-EXPERIMENTS.md](FIXTURES-AND-EXPERIMENTS.md)
+- [PROMPT-REGISTRY-PLAN.md](PROMPT-REGISTRY-PLAN.md)
