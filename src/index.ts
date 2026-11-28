@@ -86,3 +86,5 @@ export * from './factory/spatial/automation-sculpture.js';
 export * from './factory/spatial/process-installation.js';
 
 export * from './factory/spatial/learning-tour.js';
+
+export * from './factory/spatial/learning-sandbox.js';
