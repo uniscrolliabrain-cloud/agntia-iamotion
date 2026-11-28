@@ -79,3 +79,6 @@ export * from './factory/spatial/navigation.js';
 
 export * from './factory/spatial/meta-catalog.js';
 export * from './factory/spatial/meta-view.js';
+
+export * from './factory/spatial/exhibit-catalog.js';
+export * from './factory/spatial/automation-sculpture.js';
