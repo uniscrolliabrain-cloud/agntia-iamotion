@@ -71,3 +71,6 @@ export * from './factory/graphics/organic-mesh.js';
 export * from './factory/graphics/cinematic-sequence.js';
 
 export * from './sdk/aesthetic-session.js';
+
+export * from './factory/spatial/topography.js';
+export * from './factory/spatial/demo.js';
