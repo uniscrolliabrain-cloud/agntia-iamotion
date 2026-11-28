@@ -1,0 +1,5 @@
+# Motion Engineering Skill
+Status: initial operational handbook; editor and parent installation pending.
+Read the installed SDK capability registry and host manifest first. Never treat implemented as active. Inspect the exact parent commit, UI Lab registry, target component, tokens, approved references and fixtures. Preserve content, callbacks, semantics, layout and accessibility. Use synthetic data only. No production deployment or backend wiring.
+Workflow: inspect → retrieve → select SOP → compose typed input → compile → preview → test → review → publish approved artifact. Reject unknown capabilities and mismatched revisions. Do not execute generated arbitrary code. For each new capability add source symbol, contract, SOP, executable fixture, evidence and UX restrictions; regenerate knowledge from registry. Human-authored guidance remains separate.
+See MANUAL.md, SOPs.md, UX-CANON.md and PIPELINES.md.
