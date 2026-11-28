@@ -39,3 +39,4 @@ export * from './factory/graphics/particles/simulate.js';
 export * from './factory/graphics/particles/layout.js';
 export * from './factory/graphics/particles/render.js';
 export * from './factory/graphics/particles/interaction.js';
+export * from './factory/graphics/proposal.js';
