@@ -42,3 +42,4 @@ export * from './factory/graphics/particles/interaction.js';
 export * from './factory/graphics/proposal.js';
 export * from './factory/graphics/recipes.js';
 export * from './sdk/visual-bindings.js';
+export * from './integration/local-api.js';
