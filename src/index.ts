@@ -49,3 +49,5 @@ export * from './factory/materials/surface.js';
 export * from './factory/renderers/blender/sculpture.js';
 
 export * from './factory/graphics/analytics-sculpture.js';
+
+export * from './factory/graphics/annular-mesh.js';
