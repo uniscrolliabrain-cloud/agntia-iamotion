@@ -108,3 +108,5 @@ export * from './factory/spatial/immersive-experience.js';
 export * from './factory/spatial/experience-director.js';
 
 export * from './factory/spatial/experience-mixer.js';
+
+export * from './factory/spatial/mixer-editor.js';
