@@ -5,7 +5,10 @@
   "type": "module",
   "packageManager": "pnpm@11.25.0",
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./composition": "./dist/factory/composition/document-runtime.js",
+    "./sdk/motion-document": "./dist/sdk/motion-document.js",
+    "./package.json": "./package.json"
   },
   "types": "./dist/index.d.ts",
   "files": [
@@ -16,6 +19,7 @@
     "typecheck": "tsc --noEmit",
     "build:demo": "vite build apps/ui-lab --base /agntia-iamotion/",
     "test": "tsc -p tsconfig.json && node --test --test-isolation=none",
+    "verify:install": "node lab/scripts/verify-install-tarball.mjs",
     "audit:library": "node lab/scripts/audit-baseline.mjs",
     "plan:library": "node lab/scripts/plan-library-migration.mjs",
     "schemas:library": "node lab/scripts/export-library-schemas.mjs",
