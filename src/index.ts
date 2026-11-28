@@ -61,3 +61,5 @@ export * from './factory/graphics/aesthetic-runtime.js';
 export * from './factory/graphics/spatial-choreography.js';
 
 export * from './factory/graphics/spatial-layout.js';
+
+export * from './factory/materials/optical-layer.js';
