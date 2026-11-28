@@ -94,3 +94,5 @@ export * from './factory/spatial/learning-session.js';
 export * from './factory/spatial/constructor.js';
 
 export * from './factory/spatial/constructor-transition.js';
+
+export * from './factory/spatial/architecture.js';
