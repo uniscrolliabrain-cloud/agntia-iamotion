@@ -59,3 +59,5 @@ export * from './factory/graphics/editorial-motion.js';
 export * from './factory/graphics/aesthetic-runtime.js';
 
 export * from './factory/graphics/spatial-choreography.js';
+
+export * from './factory/graphics/spatial-layout.js';
