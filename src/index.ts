@@ -27,3 +27,5 @@ export * from './sdk/visual-library.js';
 export * from './factory/graphics/composition.js';
 export * from './factory/graphics/shapes.js';
 export * from './factory/graphics/behavior-tracks.js';
+export * from './factory/graphics/layout.js';
+export * from './factory/graphics/text.js';
