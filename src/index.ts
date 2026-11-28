@@ -29,3 +29,6 @@ export * from './factory/graphics/shapes.js';
 export * from './factory/graphics/behavior-tracks.js';
 export * from './factory/graphics/layout.js';
 export * from './factory/graphics/text.js';
+export * from './factory/graphics/data.js';
+export * from './factory/graphics/cues.js';
+export * from './factory/graphics/capabilities.js';
