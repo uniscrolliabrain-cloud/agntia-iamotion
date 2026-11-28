@@ -12,7 +12,7 @@ function interpolate(ratio: number, easing: Keyframe['easing']) {
   }
 }
 
-function sampleTrack(track: TimelineTrack, time: number) {
+export function sampleTrack(track: TimelineTrack, time: number) {
   const frames = track.keyframes;
   if (time <= frames[0].t) return frames[0].value;
   for (let index = 1; index < frames.length; index++) {
