@@ -100,3 +100,5 @@ export * from './factory/spatial/architecture.js';
 export * from './factory/spatial/fractal-composition.js';
 
 export * from './factory/spatial/fractal-navigation.js';
+
+export * from './factory/spatial/fractal-patterns.js';
