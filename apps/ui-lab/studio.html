@@ -8,6 +8,7 @@
   <script type="module" src="./src/studio.js"></script>
   <script type="module" src="./src/authoring.ts"></script>
   <link rel="stylesheet" href="./src/authoring.css">
+<script type="module" src="./src/perceptual-mixer.ts"></script>
 </head>
 <body>
   <header class="masthead">
@@ -28,7 +29,25 @@
       <div class="controls"><button id="author-apply" type="button">Aplicar</button><button id="author-undo" type="button">Deshacer</button><button id="author-redo" type="button">Rehacer</button><button id="author-export" type="button">Exportar documento</button></div>
       <p id="author-status" role="status"></p>
     </section>
-    <section id="graph">
+    <section id="perceptual-mixer">
+<h2>Mezclador perceptivo · algoritmo espacial</h2>
+<p>Datos sintéticos. Los valores permanecen visibles durante la transición.</p>
+<div class="controls">
+<label>Intensidad <input id="mix-intensity" type="range" min="0" max="100" value="60"></label>
+<label>Cascada (ms) <input id="mix-stagger" type="range" min="0" max="100" value="60"></label>
+<label>Duración (ms) <input id="mix-duration" type="range" min="400" max="1200" step="20" value="800"></label>
+<label>Foco <select id="mix-focus"><option value="">Ninguno</option><option value="sales">Ventas</option><option value="tasks">Tareas</option><option value="support">Soporte</option></select></label>
+<label><input id="mix-reduced" type="checkbox"> Reducir movimiento</label>
+<button id="mix-play" type="button">Reproducir</button>
+</div>
+<label>Tiempo <input id="mix-time" type="range" min="0" max="800" value="800"></label>
+<div class="mix-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px">
+<article data-mix-id="sales"><h3>Ventas</h3><strong>24</strong></article>
+<article data-mix-id="tasks"><h3>Tareas</h3><strong>148</strong></article>
+<article data-mix-id="support"><h3>Soporte</h3><strong>32</strong></article>
+</div><p id="mix-status" role="status"></p>
+</section>
+<section id="graph">
       <h2>Flujo de trabajo</h2><p id="graph-source">Datos sintéticos · revisión 1</p>
       <div class="graph">
         <svg aria-hidden="true" class="links" viewBox="0 0 300 35" preserveAspectRatio="none">
