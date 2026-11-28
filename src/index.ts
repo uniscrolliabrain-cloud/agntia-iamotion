@@ -84,3 +84,5 @@ export * from './factory/spatial/exhibit-catalog.js';
 export * from './factory/spatial/automation-sculpture.js';
 
 export * from './factory/spatial/process-installation.js';
+
+export * from './factory/spatial/learning-tour.js';
