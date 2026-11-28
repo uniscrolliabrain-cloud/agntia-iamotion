@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {compileLivingSkill} from '../dist/sdk/living-skill.js';
+const base={id:'scene',title:'Scene',description:'Compile scene',revision:1,source:'src/factory/graphics/aesthetic-runtime.ts',symbol:'compileAestheticScene',maturity:'implemented',environments:['browser'],requires:[],evidence:[],uxConstraints:['Preserve locked text']};
+const certified={...base,maturity:'certified',sop:'sop.md',boilerplate:'example.ts',evidence:['test']};
+test('default denies activation',()=>assert.equal(compileLivingSkill([base],'1').capabilities[0].active,false));
+test('reject duplicate and missing dependency',()=>{assert.throws(()=>compileLivingSkill([base,base],'1'),/DUPLICATE/);assert.throws(()=>compileLivingSkill([{...base,requires:['missing']}],'1'),/MISSING/);});
+test('reject cycle',()=>assert.throws(()=>compileLivingSkill([{...base,requires:['scene']}],'1'),/CYCLE/));
+test('reject incomplete certification',()=>assert.throws(()=>compileLivingSkill([{...base,maturity:'certified'}],'1'),/INCOMPLETE/));
+test('activation requires matching certified revision',()=>{const host={packageVersion:'1',enabled:[{id:'scene',revision:1}]};assert.equal(compileLivingSkill([certified],'1',host).capabilities[0].active,true);assert.throws(()=>compileLivingSkill([base],'1',host),/UNAVAILABLE/);assert.throws(()=>compileLivingSkill([certified],'2',host),/VERSION/);});
+test('dependencies must be active',()=>{const child={...certified,id:'film',requires:['scene']};assert.equal(compileLivingSkill([child,certified],'1',{packageVersion:'1',enabled:[{id:'film',revision:1}]}).capabilities[0].active,false);});
