@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {OrganicField,constellationTargets,ribbonTargets} from '../dist/factory/graphics/particles/organic-field.js';
+const spec={seed:42,count:64,drag:4,speed:.6,spring:16,flow:.3,vortex:.7,frequency:7};
+test('fixed tick replay and bounds',()=>{const a=new OrganicField(spec),b=new OrganicField(spec);a.advance(120,0);b.advance(60,0);b.advance(60,0);assert.deepEqual(a.sample(),b.sample());assert.ok(a.sample().every(x=>x>=0&&x<=1));assert.throws(()=>a.advance(241,0));});
+test('assembly converges to target',()=>{const a=new OrganicField(spec),t=constellationTargets(64);a.setTargets(t);const error=()=>a.sample().reduce((sum,x,i)=>sum+(x-t[Math.floor(i/3)][i%3])**2,0);const before=error();for(let i=0;i<4;i++)a.advance(240,1);assert.ok(error()<before*.01);assert.equal(ribbonTargets(64).length,64);});

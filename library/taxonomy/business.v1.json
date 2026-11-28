@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "workspaces": [
+    { "id": "app", "label": "Aplicación", "context": "application" },
+    { "id": "mi-empresa", "label": "Mi Empresa", "context": "metaapp" },
+    { "id": "ui-lab", "label": "UI Lab", "context": "demo" }
+  ],
+  "collections": [
+    { "id": "launcher-v3", "workspaceId": "app", "domainId": "navigation", "capabilityId": "app-discovery", "roleId": "launcher-icon" },
+    { "id": "mi-empresa-v1", "workspaceId": "mi-empresa", "domainId": "operations", "capabilityId": "company-navigation", "roleId": "editorial-illustration" },
+    { "id": "formation", "workspaceId": "app", "domainId": "learning", "capabilityId": "course-discovery", "roleId": "course-cover" },
+    { "id": "automation-nodes", "workspaceId": "app", "domainId": "automation", "capabilityId": "workflow-authoring", "roleId": "workflow-node" }
+  ]
+}

@@ -3,7 +3,7 @@
   "version": "0.0.1-alpha.0",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@11.19.0",
+  "packageManager": "pnpm@11.25.0",
   "exports": {
     ".": "./dist/index.js"
   },
@@ -14,13 +14,42 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit",
-    "build:demo": "vite build apps/ui-lab --base /agntia-iamotion/"
+    "build:demo": "vite build apps/ui-lab --base /agntia-iamotion/",
+    "test": "tsc -p tsconfig.json && node --test --test-isolation=none",
+    "audit:library": "node lab/scripts/audit-baseline.mjs",
+    "plan:library": "node lab/scripts/plan-library-migration.mjs",
+    "schemas:library": "node lab/scripts/export-library-schemas.mjs",
+    "render:ceramic-mail": "bash lab/scripts/render-ceramic-mail.sh",
+    "stage:library": "node lab/scripts/stage-library-snapshot.mjs",
+    "export:ontology": "node lab/scripts/export-ontology.mjs",
+    "reconcile:library": "node lab/scripts/reconcile-library.mjs",
+    "plan:claims": "node lab/scripts/plan-legacy-claims.mjs",
+    "extract:usage": "node lab/scripts/extract-git-usage.mjs",
+    "report:context": "node lab/scripts/report-business-context.mjs",
+    "inspect:images": "python lab/scripts/inspect-library-images.py",
+    "report:prompts": "node lab/scripts/report-prompt-intent.mjs",
+    "report:appearance": "node lab/scripts/report-library-appearance.mjs",
+    "plan:motion": "node lab/scripts/plan-motion-candidates.mjs",
+    "smoke:rag": "node lab/scripts/smoke-rag-brief.mjs",
+    "smoke:proposal": "node lab/scripts/smoke-motion-proposal.mjs",
+    "smoke:pipeline": "node lab/scripts/smoke-local-pipeline.mjs",
+    "report:package": "node lab/scripts/stage-package-report.mjs",
+    "render:graphics": "mkdir -p lab/staging/graphics-fixture && python -B lab/scripts/read-graphics-fonts.py > lab/staging/graphics-fixture/font-cmap.json && node lab/scripts/render-graphics-fixture.mjs",
+    "encode:graphics": "bash lab/scripts/encode-graphics-fixture.sh",
+    "verify:graphics": "python -B lab/scripts/verify-graphics-fixture.py",
+    "smoke:graphics-knowledge": "node lab/scripts/smoke-graphics-knowledge.mjs",
+    "encode:studio": "bash lab/scripts/encode-studio-presentation.sh",
+    "smoke:host-api": "node lab/scripts/smoke-local-host.mjs"
   },
   "dependencies": {
-    "zod": "^4.0.0",
-    "hono": "^4.0.0"
+    "hono": "^4.0.0",
+    "zod": "^4.0.0"
   },
   "devDependencies": {
+    "parse5": "8.1.1",
+    "postcss": "8.5.33",
+    "postcss-value-parser": "4.2.0",
+    "three": "0.187.0",
     "typescript": "^5.9.0",
     "vite": "^7.0.0"
   }

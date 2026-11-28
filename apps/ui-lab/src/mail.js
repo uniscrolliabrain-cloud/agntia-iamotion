@@ -1,0 +1,169 @@
+import {
+  ACESFilmicToneMapping, AmbientLight, AnimationMixer, Box3, DirectionalLight, LoopOnce, OrthographicCamera, PMREMGenerator, Scene, Vector3,
+  WebGLRenderer,
+} from 'three';
+import floatTimeline from 'virtual:ui-lab-float-timeline';
+import { sampleBehaviorTimeline } from '../../../src/factory/behaviors/sampler.ts';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+const stage = document.querySelector('#stage');
+const status = document.querySelector('#status');
+const buttons = [...document.querySelectorAll('[data-clip]')];
+const base = import.meta.env.BASE_URL;
+const motion = matchMedia('(prefers-reduced-motion: reduce)');
+
+function useFallback(message) {
+  const image = new Image();
+  image.alt = '';
+  image.onload = () => { stage.replaceChildren(image); stage.dataset.preview = 'static'; };
+  image.onerror = () => { stage.replaceChildren(); stage.dataset.preview = 'unavailable'; };
+  image.src = `${base}ceramic-mail/ceramic-mail.png`;
+  status.textContent = message;
+  for (const button of buttons) button.disabled = true;
+}
+
+async function start() {
+  if (motion.matches) {
+    useFallback('Vista estática. Movimiento reducido activo.');
+    return;
+  }
+
+  const model = await new GLTFLoader().loadAsync(`${base}ceramic-mail/ceramic-mail.glb`);
+  const actions = new Map();
+  const mixer = new AnimationMixer(model.scene);
+  for (const clip of model.animations) actions.set(clip.name, mixer.clipAction(clip));
+  if (buttons.some((button) => button.dataset.clip !== 'float' && !actions.has(button.dataset.clip))) throw new Error('Faltan clips');
+
+  const renderer = new WebGLRenderer({ antialias: true, alpha: true });
+  renderer.toneMapping = ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.15;
+  const scene = new Scene();
+  const lighting = new PMREMGenerator(renderer);
+  const room = new RoomEnvironment();
+  const environment = lighting.fromScene(room, .05);
+  room.dispose();
+  lighting.dispose();
+  scene.environment = environment.texture;
+  scene.environmentIntensity = .7;
+  model.scene.position.sub(new Box3().setFromObject(model.scene).getCenter(new Vector3()));
+  scene.add(model.scene, new AmbientLight(0xffede1, .45));
+  const key = new DirectionalLight(0xfff0e3, 1.7);
+  key.position.set(-3, 5, 4);
+  scene.add(key);
+  const camera = new OrthographicCamera(-1, 1, 1, -1, .1, 30);
+  camera.position.set(-.9, 1.35, 7.2);
+  camera.lookAt(0, 0, 0);
+
+  let frame = 0;
+  let active;
+  let previous;
+  let floatTime = null;
+  let visible = true;
+  function stopFrame() {
+    cancelAnimationFrame(frame);
+    frame = 0;
+    previous = undefined;
+  }
+  function schedule() {
+    if (!frame && (active?.isRunning() || floatTime !== null) && visible && !document.hidden) {
+      frame = requestAnimationFrame(tick);
+    }
+  }
+  function tick(now) {
+    frame = 0;
+    const elapsed = previous === undefined ? 0 : Math.min(now - previous, 50);
+    mixer.update(elapsed / 1000);
+    if (floatTime !== null) {
+      floatTime = Math.min(floatTimeline.durationMs, floatTime + elapsed);
+      const [sample] = sampleBehaviorTimeline(floatTimeline, floatTime);
+      renderer.domElement.style.transform = `translateY(${sample.value}px)`;
+      if (floatTime === floatTimeline.durationMs) floatTime = null;
+    }
+    previous = now;
+    renderer.render(scene, camera);
+    schedule();
+  }
+  function resize() {
+    const { clientWidth: width, clientHeight: height } = stage;
+    if (!width || !height) return;
+    camera.left = -1.75 * width / height;
+    camera.right = -camera.left;
+    camera.top = 1.75;
+    camera.bottom = -camera.top;
+    camera.updateProjectionMatrix();
+    renderer.setPixelRatio(Math.min(2, devicePixelRatio));
+    renderer.setSize(width, height, false);
+    renderer.render(scene, camera);
+  }
+  function visibility() {
+    if (!visible || document.hidden) stopFrame();
+    else schedule();
+  }
+  const sizes = new ResizeObserver(resize);
+  const intersection = new IntersectionObserver(([entry]) => {
+    visible = entry.isIntersecting;
+    visibility();
+  });
+  function dispose() {
+    stopFrame();
+    sizes.disconnect();
+    intersection.disconnect();
+    motion.removeEventListener('change', reduceMotion);
+    document.removeEventListener('visibilitychange', visibility);
+    renderer.domElement.removeEventListener('webglcontextlost', contextLost);
+    window.removeEventListener('pagehide', dispose);
+    mixer.stopAllAction();
+    model.scene.traverse((object) => {
+      object.geometry?.dispose();
+      for (const material of [object.material].flat()) material?.dispose();
+    });
+    environment.dispose();
+    renderer.dispose();
+    for (const button of buttons) button.onclick = null;
+  }
+  function contextLost() {
+    dispose();
+    useFallback('Vista estática. El navegador perdió el contexto 3D.');
+  }
+  function reduceMotion(event) {
+    if (!event.matches) return;
+    dispose();
+    useFallback('Vista estática. Movimiento reducido activo.');
+  }
+  if (motion.matches) {
+    reduceMotion(motion);
+    return;
+  }
+
+  stage.replaceChildren(renderer.domElement);
+  resize();
+  sizes.observe(stage);
+  intersection.observe(stage);
+  document.addEventListener('visibilitychange', visibility);
+  motion.addEventListener('change', reduceMotion);
+  window.addEventListener('pagehide', dispose, { once: true });
+  renderer.domElement.addEventListener('webglcontextlost', contextLost, { once: true });
+  for (const button of buttons) {
+    button.disabled = false;
+    button.onclick = () => {
+      active?.stop();
+      stopFrame();
+      floatTime = null;
+      renderer.domElement.style.transform = '';
+      active = actions.get(button.dataset.clip);
+      if (button.dataset.clip === 'float') floatTime = 0;
+      else {
+        active.reset().setLoop(LoopOnce, 1);
+        active.clampWhenFinished = true;
+        active.play();
+      }
+      stage.dataset.clip = button.dataset.clip;
+      schedule();
+    };
+  }
+  stage.dataset.preview = 'ready';
+  status.textContent = 'Modelo 3D listo.';
+}
+
+start().catch(() => useFallback('Modelo 3D no disponible. Genera la muestra local para previsualizarla.'));

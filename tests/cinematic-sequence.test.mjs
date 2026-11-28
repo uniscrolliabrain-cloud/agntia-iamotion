@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {compileCinematicSequence,sampleCinematicFrame,renderCinematicFrames} from '../dist/factory/graphics/cinematic-sequence.js';
+const camera={position:[0,0,5],target:[0,0,0],fov:40},ambient={base:[1,1,1],lights:[],periodMs:10000,intensity:1,reducedMotion:false,active:true};
+const shot=(id,overlapMs)=>({id,overlapMs,ambient,cameraFrom:camera,cameraTo:{...camera,position:[0,0,4]},scene:{version:1,id,durationMs:1000,layers:[{id:'surface',kind:'surface',stage:1,startMs:0,durationMs:1000}]}});
+const spec={version:1,id:'film',fps:24,shots:[shot('one',0),shot('two',500)]};
+const policy={surface:{glass:true,spatial:true,reducedMotion:false,intensity:1},particles:false,maxParticles:0,maxVertices:0,maxSculptureParts:0};
+const compile=s=>compileCinematicSequence(s,policy,new Map(),new Set(['surface','ambient','camera']));
+test('seek and overlap deterministic',()=>{const p=compile(spec),f=sampleCinematicFrame(p,18);assert.equal(p.durationMs,1500);assert.equal(f.shots.length,2);assert.equal(f.shots[0].opacity,.5);assert.deepEqual(sampleCinematicFrame(p,18),f);assert.equal(sampleCinematicFrame(p,36).ended,true);assert.throws(()=>compile({...spec,shots:[shot('one',0),shot('two',500),shot('three',500)]}));});
+test('bounded export and close',async()=>{const p=compile(spec);let count=0,closed=false;const sink={async render(){count++},async close(){closed=true}};await assert.rejects(renderCinematicFrames(p,sink,{maxFrames:10}));assert.equal(count,0);await renderCinematicFrames(p,sink,{maxFrames:36});assert.equal(count,36);assert.equal(closed,true);});

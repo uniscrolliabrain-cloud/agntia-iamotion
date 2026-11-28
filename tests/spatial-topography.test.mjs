@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {compileSpatialView} from '../dist/factory/spatial/topography.js';
+const scope={tenantId:'demo',workspaceId:'museum'},authority={scope,sourceRefs:new Set(['source']),visualRefs:new Set()};
+const entity=id=>({id,roomId:'operations',kind:'task',label:id,sourceRef:'source'});
+const view={schemaVersion:1,scope,revision:1,rooms:[{id:'operations',label:'Operations',slot:0}],entities:[entity('b'),entity('c')],relations:[]};
+test('stable anchors despite insertion and reorder',()=>{const a=compileSpatialView(view,authority);const b=compileSpatialView({...view,revision:2,entities:[entity('c'),entity('a'),entity('b')]},authority,a.layout);for(const p of a.positions)assert.deepEqual(b.positions.find(q=>q.id===p.id),p);assert.equal(new Set(b.positions.map(p=>p.x+','+p.z)).size,3);});
+test('scope, references and stale revisions fail closed',()=>{assert.throws(()=>compileSpatialView({...view,scope:{...scope,tenantId:'other'}},authority));assert.throws(()=>compileSpatialView({...view,entities:[{...entity('b'),sourceRef:'private'}]},authority));assert.throws(()=>compileSpatialView({...view,relations:[{from:'b',to:'missing',kind:'depends-on'}]},authority));assert.throws(()=>compileSpatialView(view,authority,compileSpatialView(view,authority).layout));});

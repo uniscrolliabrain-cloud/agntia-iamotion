@@ -1,0 +1,4 @@
+node_modules/
+dist/
+lab/staging/
+apps/ui-lab/public/ceramic-mail/

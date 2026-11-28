@@ -1,0 +1,23 @@
+[
+  {
+    "id": "whole-run-fade",
+    "definition": "Cambia la opacidad de una línea completa y conserva el texto y su orden lógico.",
+    "requires": ["text", "opacity"],
+    "cautions": ["Mostrar el texto completo con movimiento reducido."],
+    "evidenceId": "technique:whole-run-fade"
+  },
+  {
+    "id": "zero-based-bars",
+    "definition": "Representa los valores de un dataset fijado mediante longitudes desde cero.",
+    "requires": ["shape", "text"],
+    "cautions": ["Mantener una tabla con valores y unidades exactos."],
+    "evidenceId": "technique:zero-based-bars"
+  },
+  {
+    "id": "glyph-morph",
+    "definition": "Interpola contornos compatibles entre glifos que ya fueron resueltos por shaping.",
+    "requires": ["glyph-outlines", "path-morph"],
+    "cautions": ["Rechazar cuando no exista evidencia de topología y shaping."],
+    "evidenceId": "technique:glyph-morph"
+  }
+]

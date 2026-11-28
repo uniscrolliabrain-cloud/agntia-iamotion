@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {interpolateSpatialCamera,spatialSemanticLevel} from '../dist/factory/spatial/navigation.js';
+test('camera endpoints and reduced motion',()=>{const a={target:[0,0,0],distance:40,yaw:0,pitch:.8},b={target:[2,1,3],distance:10,yaw:1,pitch:.4};const p=interpolateSpatialCamera(a,b,.5);assert.ok(Math.abs(p.distance-20)<1e-9);assert.deepEqual(p.target,[1,.5,1.5]);assert.deepEqual(interpolateSpatialCamera(a,b,0,true).target,b.target);assert.equal(spatialSemanticLevel(7),'entity');});

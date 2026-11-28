@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {buildOrganicMesh,morphOrganicMesh} from '../dist/factory/graphics/organic-mesh.js';
+const a={points:[[-2,0,0],[-1,.5,0],[1,-.5,0],[2,0,0]],segments:48,sides:16,width:.3,depth:.12,twist:0,wave:.1,phase:0};
+test('finite closed sweep and stable morph topology',()=>{const x=buildOrganicMesh(a),b={...a,twist:2,wave:.3},y=morphOrganicMesh(a,b,.5);assert.deepEqual(x.indices,y.indices);assert.ok(y.positions.every(Number.isFinite));assert.ok(y.normals.every(Number.isFinite));assert.deepEqual(morphOrganicMesh(a,b,0).positions,x.positions);assert.throws(()=>morphOrganicMesh(a,{...b,sides:20},.5));});
