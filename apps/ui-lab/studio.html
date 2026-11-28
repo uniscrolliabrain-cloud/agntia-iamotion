@@ -6,6 +6,8 @@
   <title>Estudio de motion · Agntia IAMotion</title>
   <link rel="stylesheet" href="./src/studio.css">
   <script type="module" src="./src/studio.js"></script>
+  <script type="module" src="./src/authoring.ts"></script>
+  <link rel="stylesheet" href="./src/authoring.css">
 </head>
 <body>
   <header class="masthead">
@@ -16,6 +18,16 @@
     <a href="#graph">Infografía</a><a href="#type">Texto</a><a href="#button">Botón</a><a href="#presentation">Presentación</a>
   </nav>
   <main>
+    <section id="motion-authoring" aria-labelledby="author-title">
+      <h2 id="author-title">Motion Studio · Autoría</h2>
+      <p>Composición sintética · edición local, sin publicación</p>
+      <div class="author-preview"><strong data-author-preview="header">Actividad empresarial</strong><div data-author-preview="kpi">148 operaciones</div><div data-author-preview="detail">32 activas</div></div>
+      <div id="author-tracks"></div>
+      <label>Posición temporal <input id="author-seek" type="range" min="0" max="2400" step="10" value="0"></label>
+      <div class="controls"><label>Capa <select id="author-layer"></select></label><label>Inicio (ms) <input id="author-start" type="number" min="0" max="2400"></label><label>Duración (ms) <input id="author-duration" type="number" min="120" max="2400"></label></div>
+      <div class="controls"><button id="author-apply" type="button">Aplicar</button><button id="author-undo" type="button">Deshacer</button><button id="author-redo" type="button">Rehacer</button><button id="author-export" type="button">Exportar documento</button></div>
+      <p id="author-status" role="status"></p>
+    </section>
     <section id="graph">
       <h2>Flujo de trabajo</h2><p id="graph-source">Datos sintéticos · revisión 1</p>
       <div class="graph">
