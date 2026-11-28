@@ -102,3 +102,5 @@ export * from './factory/spatial/fractal-composition.js';
 export * from './factory/spatial/fractal-navigation.js';
 
 export * from './factory/spatial/fractal-patterns.js';
+
+export * from './factory/spatial/immersive-experience.js';
