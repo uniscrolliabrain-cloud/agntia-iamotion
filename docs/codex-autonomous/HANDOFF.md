@@ -2,6 +2,13 @@
 
 Rama local `campaign/visual-knowledge-lab-execution` desde `e813901194bef2478bf300738273eadf38d9e5c8`. El [registro de ejecución](ledger.json) enumera P01–P52 y las 260 unidades. Los tres commits principales son `3fa751d` para auditoría y simulación de migración, `ca0f959` para contratos y `0cfd2ec` para el render y la demo. `c07fca0` verifica el cambio de la imagen renderizada en Chromium.
 
+## Sexto tramo de ejecución
+
+- P33–P39. Los tracks se enlazan a capas por ID y convierten milisegundos a ticks exactos. El sampler respeta intervalos semiabiertos y usa el mismo evaluador de keyframes que la demo anterior. Se añadieron áreas seguras, breakpoints de layout, graphemes intactos y fade de texto completo con fallback legible. DejaVu Sans regular y bold se verificaron por hash, cobertura cmap y evidencia de licencia. Quedan pendientes el port de shaping avanzado, los métodos de easing restantes y el layout de texto medido en todas las orientaciones.
+- P40–P44. El gráfico usa una revisión de datos sintéticos con valores exactos 42, 28 y 16 y una escala desde cero. Chromium comprobó la tabla y ambos layouts sin desbordamiento horizontal. FFmpeg generó dos MP4 silenciosos de 1,5 segundos, 36 frames a 24 fps, en 960 × 540 y 540 × 960. Las dos codificaciones produjeron los mismos hashes. El verificador comprobó texto, duraciones, subtítulos extraídos, hashes de SVG, cambio de píxeles y bounds. La evaluación humana, el diseño de presentaciones y el adaptador de audio siguen pendientes.
+- P45–P49/P51. El campo de partículas usa posiciones enteras, semilla, límite de capacidad, fuerzas acotadas y checkpoint reproducible. La demo Canvas2D usa dos niveles de densidad, puntero normalizado y pausa fuera del viewport. Chromium verificó 180 y 96 partículas según el ancho, cancelación del puntero y vista estática con movimiento reducido. El intervalo p95 de 16,8 ms se observó en 90 frames de un Chromium headless del sandbox. Faltan pruebas en dispositivos, memoria, recetas adicionales y bindings del host.
+- Verificación con 83 pruebas Node, tres Python, typecheck y build de UI Lab. El ledger registra 184 de 260 unidades verificadas. Vite mantiene la advertencia de tamaño del bundle 3D y avisos de anotaciones en Zod. Los vídeos y la vista accesible están en `lab/staging/graphics-fixture/` junto a los recibos.
+
 ## Quinto tramo de ejecución
 
 - P13–P14. UI Lab compila el timeline de «Flotar» al construir la demo. El sampler aplica el desplazamiento en la vista WebGL. Chromium verificó el clip de apertura, la flotación y el cambio a PNG con movimiento reducido. El sampler recibe tiempo explícito y el bundle de la vista contiene el timeline validado en el build.
@@ -57,11 +64,11 @@ Los recibos de este tramo están en `lab/staging/`. `rag-durable.json`, `proposa
 | --- | --- | --- |
 | Infraestructura | Lockfile, instalación, compilación, tipos, ocho pruebas y paquete local | CI remota, rollback, matriz de instalación y observabilidad |
 | RAG | Auditoría, ontología, corpus sintético, recuperación y propuesta local | Corpus real revisado, evaluación humana y autorización del host |
-| Compilador | MotionSpec V1, composición de behavior y reloj racional | Adaptar el timeline al IR y verificar entre renderizadores |
-| Gráficos y tipografía | Formas validadas y exportación SVG local | Layout, fuentes, datos, captions y presentaciones |
+| Compilador | MotionSpec V1, tracks enlazados al IR y reloj racional | Pruebas de equivalencia para casos avanzados entre renderizadores |
+| Gráficos y tipografía | Layout, fuentes locales verificadas, SVG y dos MP4 con captions | Shaping avanzado, semántica completa del timeline y presentaciones |
 | Blender | Receta sintética, builder local y tres formatos reales | Worker aislado general, validador, tolerancias y revisión |
-| Living | Sampler local, clips, flotación y fallback verificados en Chromium | Runtime común, infografías, texto, controles, partículas y métricas |
-| UI Lab | Prototipo de correo y prueba Chromium | Otras cinco demos, catálogo, inspector, timeline y regresión |
+| Living | Sampler, clips y partículas Canvas2D verificados en Chromium | Más recetas, métricas en dispositivos, infografías conectadas al host |
+| UI Lab | Prototipos de correo y partículas, dos layouts de gráfico y recibos de Chromium | Demos restantes, catálogo, inspector, timeline y regresión |
 | Sensorial | Diseño documental | Autorización explícita de fase 2 |
 | Integración | SDK local con autorización y derechos vigentes, tarball instalado en proyecto limpio | Harness multi-tenant real, idempotencia e integración con el padre |
 | Producción | Workflow de verificación y recibos locales | CI remota, auditorías, SBOM, release candidate y despliegue autorizado |
@@ -70,6 +77,6 @@ La puntuación inicial y final de madurez sigue pendiente de un desglose verific
 
 ## Reanudar
 
-Retomar P33.C/E y P34.E para adaptar los tracks al IR y generar manifests de formas. Continuar P35–P42 con layout, tipografía, sampler de composición y negociación real de renderizadores. Mantener abierta la evaluación humana P21.E y la integración fuera del sandbox. Mantener P05.E pendiente de identidades revisadas, P06.C/E pendiente de persistencia durable y P07.E pendiente de evidencia de uso revisada. Generar recibos en `lab/staging/` con audit:library, stage:library, export:ontology, reconcile:library y plan:claims. Ejecutar build antes de export:ontology y plan:claims. El registro incluye rutas y hashes. Las instrucciones de la demo están en [UI Lab](../../apps/ui-lab/src/README.md).
+Retomar P43–P44 para conectar conocimiento gráfico con propuestas y preparar revisión verificable. Continuar P50–P52 con recetas y bindings del host, y cerrar la evaluación en dispositivos de P51 cuando haya un entorno autorizado. Mantener abierta la evaluación humana P21.E y la integración fuera del sandbox. Mantener P05.E pendiente de identidades revisadas, P06.C/E pendiente de persistencia durable y P07.E pendiente de evidencia de uso revisada. Generar recibos en `lab/staging/` con audit:library, stage:library, export:ontology, reconcile:library y plan:claims. Ejecutar build antes de export:ontology y plan:claims. El registro incluye rutas y hashes. Las instrucciones de la demo están en [UI Lab](../../apps/ui-lab/src/README.md).
 
 Para regresar a la línea base, usar la rama `main` en un checkout limpio. El plan no escribió punteros, snapshots públicos, revisiones ni activos. Los recibos y binarios generados están fuera de seguimiento Git.
