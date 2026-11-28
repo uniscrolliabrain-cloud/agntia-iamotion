@@ -45,3 +45,5 @@ export * from './sdk/visual-bindings.js';
 export * from './integration/local-api.js';
 
 export * from './factory/materials/surface.js';
+
+export * from './factory/renderers/blender/sculpture.js';
