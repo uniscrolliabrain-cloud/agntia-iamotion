@@ -1,0 +1,1089 @@
+Le daría una responsabilidad mucho más importante: construir la infraestructura central de autoría, composición y ejecución visual de IA Motion.
+
+Hasta ahora ha demostrado que sabe reparar motores, mejorar materiales y detectar problemas de integración. Ahora quiero comprobar si sabe diseñar un sistema transversal que permita que todos esos motores trabajen juntos, tanto para un diseñador humano como para el futuro agente operador de AgntiaPro.
+
+Es el fundamento del editor que hemos concebido: una combinación de mesa de mezclas, After Effects, estudio de materiales, composición espacial y programación de comportamientos vivos.
+
+Respecto a `main`, le autorizaremos a integrar su trabajo cuando supere los gates. No quiero que sus aportaciones queden indefinidamente en una rama aislada, pero tampoco que desaparezcan las capacidades que otros agentes han construido.
+
+### Prompt — Gate de ingeniería avanzada IAMotion
+
+# AGNTIA IAMOTION — ADVANCED ENGINEERING GATE II
+
+## 00. Mandato del founder y dirección técnica
+
+Tu primera entrega ha sido evaluada favorablemente.
+
+Has demostrado capacidad de diagnóstico, rectificación experimental, reutilización de motores existentes, sensibilidad hacia los contratos arquitectónicos y honestidad al reportar limitaciones.
+
+Ahora queremos evaluar si eres capaz de asumir una responsabilidad considerablemente superior dentro de nuestro equipo de ingeniería.
+
+No buscamos un desarrollador que acumule componentes, demos o animaciones aisladas. Buscamos un ingeniero capaz de construir infraestructura visual avanzada que otros ingenieros y agentes puedan utilizar durante años.
+
+Tu nueva responsabilidad consiste en contribuir a la construcción del sistema central de autoría, composición, inspección y ejecución de IA Motion.
+
+Tendrás que demostrar que puedes:
+
+- Comprender arquitecturas desarrolladas por otros agentes.
+- Converger líneas de desarrollo divergentes.
+- Preservar capacidades existentes.
+- Diseñar contratos transversales.
+- Resolver problemas matemáticos y perceptivos.
+- Construir herramientas de autoría profesionales.
+- Certificar resultados mediante pruebas reproducibles.
+- Documentar sistemas para su utilización por humanos y agentes.
+- Integrar tu trabajo en main sin destruir el trabajo de otros.
+
+Esta campaña es una prueba de ingeniería de nivel avanzado.
+
+No se evaluará principalmente por el número de archivos, commits o líneas de código.
+
+Se evaluará por la calidad de la arquitectura resultante.
+
+---
+
+# 01. Comprensión obligatoria del proyecto
+
+IA Motion tiene dos grandes dominios arquitectónicos.
+
+## Dominio A — Fábrica de assets y comportamientos vivos
+
+Es nuestro ámbito actual.
+
+Incluye:
+
+- Motion graphics.
+- Motion typography.
+- Composición visual.
+- Materiales digitales.
+- Geometría procedural.
+- Infografía viva.
+- Animaciones de interfaces.
+- Sistemas de partículas.
+- Assets tridimensionales.
+- Iluminación.
+- Renderizado.
+- Comportamientos interactivos.
+- Timeline.
+- Autoría.
+- Composición espacial.
+- Exportación de assets.
+- Ejecución visual en navegador.
+- Adaptadores hacia renderizadores especializados.
+
+## Dominio B — Inteligencia visual adaptativa
+
+Es un dominio futuro e independiente.
+
+Incluirá orquestación mediante agentes, inteligencia contextual, adaptación perceptiva, aprendizaje, preferencias, composición multisensorial y experiencias multi-tenant.
+
+No debes implementarlo ahora.
+
+Sí debes construir el Dominio A de manera que pueda ser utilizado posteriormente por ese dominio, mediante contratos claros y capacidades explícitas.
+
+No introduzcas llamadas a LLM, sistemas de memoria cognitiva, RAG, perfiles psicológicos ni personalización inteligente dentro del motor visual actual.
+
+---
+
+# 02. Primera responsabilidad: convergencia real del repositorio
+
+Tu rama actual es:
+
+`campaign/visual-excellence-integration`
+
+Tu base inicial fue:
+
+`b56f5ff`
+
+Has informado de una divergencia de 13 commits en la rama estética y 35 commits en main.
+
+Antes de continuar, vuelve a obtener las referencias remotas y comprueba si han cambiado.
+
+No asumas que los números anteriores siguen siendo correctos.
+
+Construye una auditoría de convergencia que identifique:
+
+- Ancestro común.
+- Commits exclusivos de cada rama.
+- Archivos afectados.
+- Contratos introducidos.
+- Contratos modificados.
+- Dependencias.
+- Cambios incompatibles.
+- Funcionalidades duplicadas.
+- Motores complementarios.
+- Estudios visuales.
+- Pruebas existentes.
+- Cambios de exports.
+- Cambios de empaquetado.
+- Cambios en documentación.
+
+No debes elegir una rama y descartar la otra.
+
+El objetivo es conservar las capacidades válidas de ambas.
+
+Construye una matriz de conservación por funcionalidad, no solamente por archivo.
+
+Clasifica cada capacidad como:
+
+- PRESERVE
+- REUSE
+- EXTEND
+- CONSOLIDATE
+- REPAIR
+- SUPERSEDED
+- CONFLICT
+- UNVERIFIED
+
+No declares una funcionalidad obsoleta sin estudiar sus consumidores.
+
+Realiza la convergencia en una rama de integración específica si resulta necesario.
+
+Conserva los commits de tu primera entrega.
+
+## Gate 01
+
+La rama resultante debe demostrar:
+
+- Conservación del motor estético.
+- Conservación de M01–M03.
+- Conservación de los estudios existentes.
+- Ausencia de regresiones conocidas.
+- Dependencias reproducibles.
+- Typecheck correcto.
+- Build correcto.
+- Suite de pruebas correcta.
+- Registro de conflictos y decisiones.
+
+No continúes hacia una integración irreversible si este gate falla.
+
+---
+
+# 03. Segunda responsabilidad: descubrir el modelo de composición existente
+
+Antes de diseñar nuevas abstracciones, estudia exhaustivamente los contratos que ya existen para:
+
+- Escenas.
+- Capas.
+- Assets.
+- Materiales.
+- Timeline.
+- Keyframes.
+- Transiciones.
+- Comportamientos.
+- Estados.
+- Tracks.
+- Curvas.
+- Renderizadores.
+- Exportadores.
+- Estudios de autoría.
+
+Quiero saber si IA Motion ya tiene una representación suficientemente expresiva de una composición visual completa.
+
+Si existe, reutilízala y amplíala.
+
+Si existen varias representaciones incompatibles, estudia cómo convergerlas.
+
+Si falta una representación transversal, diseña la mínima necesaria.
+
+No quiero tres motores de timeline, cuatro sistemas de interpolación ni cinco formatos de escena.
+
+Quiero una infraestructura coherente y componible.
+
+---
+
+# 04. Tercera responsabilidad: documento de composición visual
+
+Estudia la necesidad de disponer de un documento de composición visual serializable, versionado y reproducible.
+
+Los nombres de los contratos son provisionales. No crees nuevas interfaces con estos nombres si el repositorio ya dispone de equivalentes.
+
+Una composición debería poder representar, según las capacidades reales del motor:
+
+- Identidad.
+- Versión de esquema.
+- Duración.
+- Sistema temporal.
+- Dimensiones.
+- Sistema de coordenadas.
+- Escenas.
+- Capas.
+- Assets.
+- Materiales.
+- Fuentes.
+- Geometrías.
+- Tracks.
+- Keyframes.
+- Transiciones.
+- Curvas.
+- Comportamientos.
+- Eventos.
+- Estados.
+- Dependencias.
+- Referencias.
+- Restricciones.
+- Configuración de renderizado.
+- Metadatos de procedencia.
+
+Investiga cómo garantizar que una composición pueda:
+
+1. Crearse.
+2. Validarse.
+3. Guardarse.
+4. Recuperarse.
+5. Modificarse.
+6. Inspeccionarse.
+7. Reproducirse.
+8. Exportarse.
+9. Migrarse entre versiones.
+10. Compartirse entre consumidores compatibles.
+
+El documento no debe depender de objetos vivos del DOM, instancias de Three.js, referencias a componentes React ni recursos que no puedan serializarse.
+
+Diferencia estrictamente el documento declarativo de su ejecución.
+
+---
+
+# 05. Cuarta responsabilidad: arquitectura temporal de precisión
+
+Esta es una de las pruebas más importantes de tu capacidad matemática.
+
+Audita todos los mecanismos temporales existentes.
+
+Investiga:
+
+- Interpolación.
+- Easing.
+- Curvas Bézier.
+- Springs.
+- Damping.
+- Integración temporal.
+- Keyframes.
+- Tiempo absoluto.
+- Tiempo relativo.
+- Delta time.
+- Frames.
+- Seek.
+- Scrubbing.
+- Playback.
+- Pause.
+- Reverse.
+- Loop.
+- Time scaling.
+- Retargeting.
+- Interrupción de transiciones.
+
+Determina qué sistemas pueden compartir una infraestructura temporal y cuáles necesitan especialización.
+
+El motor debe poder producir resultados reproducibles cuando la composición, sus entradas, su semilla aleatoria y su configuración temporal son equivalentes.
+
+No confundas reproducibilidad con igualdad binaria entre GPUs o renderizadores diferentes.
+
+Define explícitamente los niveles de determinismo que puedes garantizar.
+
+## Problemas obligatorios que debes investigar
+
+### A. Extremos exactos
+
+Ya has detectado errores de coma flotante.
+
+Generaliza la investigación.
+
+Comprueba que los motores respetan los valores iniciales y finales cuando corresponda.
+
+### B. Continuidad
+
+Investiga continuidad de posición, velocidad y aceleración.
+
+No todas las transiciones necesitan continuidad C2, pero el sistema debe distinguir qué garantías ofrece cada familia.
+
+### C. Interrupción
+
+Una animación debe poder recibir un nuevo objetivo mientras está ejecutándose.
+
+Evita saltos perceptivos innecesarios.
+
+### D. Independencia del frame rate
+
+Compara ejecución a:
+
+- 30 Hz.
+- 60 Hz.
+- 90 Hz.
+- 120 Hz.
+- Frecuencias variables.
+- Frames perdidos.
+
+### E. Estabilidad numérica
+
+Comprueba:
+
+- NaN.
+- Infinity.
+- Duraciones cero.
+- Duraciones negativas.
+- Valores extremos.
+- Datasets vacíos.
+- Divisiones por cero.
+- Interpolaciones degeneradas.
+
+### F. Reproducción temporal
+
+Comprueba si avanzar secuencialmente y realizar seek producen resultados equivalentes.
+
+Si determinados sistemas son dependientes de estado, documenta esa propiedad y estudia checkpoints o replay.
+
+## Gate 05
+
+Construye pruebas unitarias, pruebas basadas en propiedades y casos adversariales.
+
+No limites las pruebas a animaciones bonitas.
+
+---
+
+# 06. Quinta responsabilidad: sistema de materiales perceptivos
+
+Tu solución de contraste es una buena primera intervención, pero todavía no es suficientemente sofisticada.
+
+Elevar la opacidad de 0,58 a 0,94 puede garantizar legibilidad a costa de destruir parte del carácter óptico del cristal.
+
+Quiero que investigues soluciones alternativas.
+
+Separa conceptualmente:
+
+- Material.
+- Superficie.
+- Contenido.
+- Iluminación.
+- Fondo.
+- Reflejos.
+- Refracción simulada.
+- Difusión.
+- Profundidad.
+- Contraste.
+- Percepción.
+
+La transparencia del material no debe obligar a que el contenido sea transparente.
+
+Estudia estrategias como:
+
+- Color de contenido adaptado.
+- Capas independientes de contenido.
+- Scrims localizados.
+- Separación entre alpha superficial y alpha tipográfico.
+- Ajustes de iluminación.
+- Contornos ópticos.
+- Protección localizada de legibilidad.
+- Composición por regiones.
+
+No implementes todas las estrategias indiscriminadamente.
+
+Compáralas y determina cuáles merecen formar parte del motor.
+
+Construye una matriz de evaluación que incluya:
+
+- Papel.
+- Arena.
+- Lavanda.
+- Tinta.
+- Fondos fotográficos.
+- Fondos de alto contraste.
+- Fondos dinámicos.
+- Iluminación directa.
+- Iluminación difusa.
+- Estados de interacción.
+- Reduced motion.
+
+Mantén la identidad estética de AgntiaPro.
+
+Nuestros materiales deben transmitir artesanía digital, precisión óptica, cerámica, cristal, metales y profundidad controlada.
+
+No queremos un catálogo genérico de glassmorphism.
+
+---
+
+# 07. Sexta responsabilidad: infografía viva
+
+Continúa con el motor anular, pero no lo consideres una pieza aislada.
+
+Utilízalo como caso de estudio para desarrollar una infraestructura reutilizable de visualización animada de datos.
+
+Investiga:
+
+- Conservación angular.
+- Normalización.
+- Estados cero.
+- Estados llenos.
+- Datasets vacíos.
+- Categorías nuevas.
+- Categorías eliminadas.
+- Reordenación.
+- Cambios de magnitud.
+- Interpolación de geometría.
+- Interpolación de color.
+- Interpolación de materiales.
+- Transiciones interrumpibles.
+- Correspondencia estable entre entidades.
+- Precisión de etiquetas.
+- Jerarquía visual.
+- Accesibilidad.
+- Reducción de movimiento.
+
+Un cambio de dataset no debe producir una reconstrucción visual arbitraria.
+
+Las entidades que conservan su identidad deben mantener continuidad cuando sea posible.
+
+Estudia cómo representar esa identidad.
+
+Quiero que el sistema pueda evolucionar desde una infografía estática hacia un objeto visual vivo, alimentado por datos empresariales.
+
+No introduzcas todavía conexiones reales con datos privados ni inteligencia adaptativa.
+
+Utiliza fixtures sintéticos explícitos.
+
+---
+
+# 08. Séptima responsabilidad: infraestructura de autoría
+
+Este es el núcleo de la nueva campaña.
+
+AgntiaPro necesita un espacio profesional donde podamos construir y editar experiencias visuales utilizando las capacidades de IA Motion.
+
+Conceptualmente se aproxima a una combinación de:
+
+- After Effects.
+- Una mesa de mezclas.
+- Un editor de motion graphics.
+- Un inspector de materiales.
+- Un editor de escenas.
+- Un instrumento de visualización científica.
+
+No quiero un clon superficial de ninguno de estos productos.
+
+Quiero que estudies cómo construir nuestro propio instrumento de autoría sobre los motores existentes.
+
+Primero audita M01–M03.
+
+Después amplía sus capacidades de manera coherente.
+
+El espacio debe contemplar, en función de las capacidades disponibles:
+
+## Biblioteca
+
+- Assets.
+- Materiales.
+- Geometrías.
+- Composiciones.
+- Presets.
+- Comportamientos.
+- Curvas.
+- Transiciones.
+
+## Escena
+
+- Capas.
+- Jerarquías.
+- Selección.
+- Visibilidad.
+- Transformaciones.
+- Orden.
+- Composición.
+
+## Timeline
+
+- Tracks.
+- Keyframes.
+- Playhead.
+- Scrubbing.
+- Zoom temporal.
+- Selección.
+- Reproducción.
+- Edición de parámetros.
+
+## Inspector
+
+- Propiedades tipadas.
+- Materiales.
+- Geometría.
+- Parámetros temporales.
+- Comportamientos.
+- Restricciones.
+- Información de procedencia.
+
+## Monitor
+
+- Preview.
+- Estado del motor.
+- Tiempo actual.
+- Frames.
+- Advertencias.
+- Errores.
+- Rendimiento.
+- Capacidades disponibles.
+
+## Persistencia
+
+- Guardado.
+- Carga.
+- Importación.
+- Exportación.
+- Revisiones.
+- Undo.
+- Redo.
+
+No prometas funcionalidades que el motor no soporta.
+
+Cada control debe tener una relación real con una capacidad del motor.
+
+Los controles sin implementación deben quedar claramente identificados como pendientes, no simular éxito.
+
+---
+
+# 09. Octava responsabilidad: operaciones de autoría programables
+
+El futuro agente operador de AgntiaPro deberá poder utilizar este espacio mediante instrucciones estructuradas.
+
+No vamos a introducir un LLM dentro de IA Motion.
+
+Vamos a construir una superficie de operaciones deterministas que posteriormente pueda ser utilizada por un agente externo.
+
+Estudia si ya existe una infraestructura de comandos de autoría.
+
+Si no existe, diseña una mínima infraestructura compatible con los contratos actuales.
+
+Debe poder representar operaciones como:
+
+- Crear composición.
+- Añadir capa.
+- Eliminar capa.
+- Seleccionar entidad.
+- Aplicar material.
+- Modificar propiedad.
+- Añadir keyframe.
+- Cambiar duración.
+- Aplicar comportamiento.
+- Reordenar capas.
+- Cambiar curva.
+- Exportar composición.
+
+Los nombres anteriores son ejemplos conceptuales, no una API obligatoria.
+
+Cada operación debería disponer, cuando corresponda, de:
+
+- Identificador.
+- Esquema de entrada.
+- Validación.
+- Restricciones.
+- Resultado.
+- Error tipado.
+- Cambios producidos.
+- Revisión esperada.
+- Compatibilidad de versión.
+
+Investiga comandos agrupados y operaciones atómicas.
+
+Investiga cómo implementar undo y redo sin perder coherencia.
+
+No conviertas IA Motion en otro kernel cognitivo.
+
+Esta infraestructura pertenece al dominio de edición visual.
+
+---
+
+# 10. Novena responsabilidad: descubrimiento de capacidades
+
+Quiero que un consumidor externo pueda conocer qué sabe hacer IA Motion sin tener que leer manualmente todo su código.
+
+Estudia la creación o ampliación de un catálogo de capacidades.
+
+Cada capacidad debería poder declarar:
+
+- Identificador estable.
+- Familia.
+- Descripción.
+- Versión.
+- Parámetros.
+- Tipos.
+- Valores por defecto.
+- Restricciones.
+- Ejemplos.
+- Renderizadores compatibles.
+- Limitaciones.
+- Estado de madurez.
+- Operaciones relacionadas.
+
+La documentación y el catálogo no deben divergir silenciosamente.
+
+Estudia qué partes pueden generarse automáticamente desde los contratos reales.
+
+Construye una prueba que detecte capacidades declaradas sin implementación, ejemplos inválidos o referencias inexistentes.
+
+El futuro agente operador debe recibir información verdadera sobre las capacidades disponibles.
+
+No queremos un manual estático que afirme que el motor puede hacer cosas que todavía no puede hacer.
+
+---
+
+# 11. Décima responsabilidad: manual dinámico para agentes operadores
+
+Construye la base documental que permitirá a un agente externo operar IA Motion.
+
+El manual deberá crecer conforme crezcan las capacidades del repositorio.
+
+Debe incluir:
+
+- Arquitectura.
+- Conceptos fundamentales.
+- Contratos.
+- Catálogo de capacidades.
+- Operaciones de autoría.
+- Restricciones.
+- Ejemplos válidos.
+- Patrones de composición.
+- Errores habituales.
+- Procedimientos.
+- Exportación.
+- Compatibilidad.
+- Limitaciones.
+
+Prepara SOPs técnicos para operaciones representativas.
+
+Por ejemplo:
+
+1. Crear una composición tipográfica.
+2. Construir una tarjeta con material cerámico.
+3. Animar una transición de datos.
+4. Crear una infografía anular.
+5. Aplicar un comportamiento interactivo.
+6. Editar una composición existente.
+7. Exportar una composición compatible con navegador.
+
+Cada SOP debe poder relacionarse con operaciones realmente disponibles.
+
+No introduzcas procedimientos ficticios.
+
+Estudia la generación de un índice legible por máquinas y un manual legible por humanos desde una misma fuente contractual.
+
+---
+
+# 12. Undécima responsabilidad: adaptadores y renderizadores
+
+Audita la separación entre:
+
+- Core matemático.
+- Documento de composición.
+- Motor temporal.
+- Motor de materiales.
+- Motor geométrico.
+- Comportamientos.
+- Adaptadores.
+- Renderizadores.
+- Exportadores.
+
+El core no debe depender innecesariamente de una plataforma concreta.
+
+Estudia qué partes son compatibles con:
+
+- Navegador.
+- SVG.
+- Canvas.
+- WebGL.
+- Three.js.
+- Renderizado offline.
+- Blender.
+- FFmpeg.
+
+No afirmes que todas las capacidades pueden ejecutarse de manera idéntica en todos los renderizadores.
+
+Define una matriz de compatibilidad.
+
+Cuando un renderizador no soporte una capacidad, debe comunicarlo explícitamente.
+
+No quiero fallbacks silenciosos que produzcan resultados visualmente incorrectos.
+
+Si Blender y FFmpeg continúan sin estar disponibles, intenta preparar un entorno reproducible y aislado.
+
+Si no puedes, documenta los gates bloqueados.
+
+No generes evidencias falsas.
+
+---
+
+# 13. Duodécima responsabilidad: SDK de consumo externo
+
+Tu prueba de entrypoints es un buen comienzo.
+
+Ahora debes construir un consumidor externo real del paquete.
+
+No debe importar archivos internos mediante rutas relativas al repositorio.
+
+Debe consumir los exports públicos, como lo hará AgntiaPro.
+
+Comprueba:
+
+- Empaquetado.
+- Exports.
+- Tipos.
+- Dependencias.
+- Instalación mediante tarball.
+- Compatibilidad ESM.
+- Compilación en navegador.
+- Ausencia de dependencias Node no autorizadas.
+- Tree shaking.
+- Tamaño de bundles.
+- Separación de adaptadores pesados.
+- Resolución de assets.
+
+Investiga qué ocurre cuando un consumidor utiliza únicamente el motor temporal o únicamente el motor de materiales.
+
+No debería verse obligado a incorporar toda la infraestructura tridimensional si no la necesita.
+
+Construye un smoke test real de consumo externo.
+
+No confundas la compilación interna del monorepo con la compatibilidad de un paquete publicado.
+
+---
+
+# 14. Decimotercera responsabilidad: certificación visual profesional
+
+Prepara una batería de escenas canónicas.
+
+Cada escena debe probar propiedades concretas del motor.
+
+Incluye, cuando sea posible:
+
+- Material cerámico.
+- Cristal.
+- Metal.
+- Tipografía animada.
+- Infografía anular.
+- Transición de datasets.
+- Composición multicapa.
+- Interacción de puntero.
+- Navegación mediante teclado.
+- Cambio de iluminación.
+- Reduced motion.
+- Viewport móvil.
+- Viewport desktop.
+- Interrupción de animaciones.
+- Scrubbing temporal.
+
+Captura evidencias reproducibles.
+
+Estudia visual regression testing.
+
+No utilices únicamente screenshots estáticos para certificar comportamientos temporales.
+
+Selecciona instantes relevantes y registra secuencias cuando sea posible.
+
+Define tolerancias justificadas.
+
+Distingue diferencias legítimas de renderizador de regresiones reales.
+
+---
+
+# 15. Decimocuarta responsabilidad: rendimiento y estabilidad
+
+No quiero un motor que funcione únicamente con tres objetos en una demo.
+
+Construye benchmarks representativos.
+
+Investiga escalabilidad con composiciones progresivamente más complejas.
+
+Por ejemplo:
+
+- 10 capas.
+- 100 capas.
+- 500 capas.
+- 1.000 capas, si resulta pertinente.
+
+Estudia:
+
+- Tiempo de evaluación.
+- Tiempo de renderizado.
+- Coste de serialización.
+- Coste de validación.
+- Memoria.
+- Garbage collection.
+- Recursos gráficos.
+- Coste de seek.
+- Coste de actualización parcial.
+- Liberación de recursos.
+
+No establezcas cifras de rendimiento arbitrarias sin medir la línea base.
+
+Primero mide.
+
+Después optimiza los cuellos de botella demostrados.
+
+Documenta el entorno y las limitaciones de las mediciones.
+
+---
+
+# 16. Decimoquinta responsabilidad: seguridad de composiciones
+
+Una composición puede proceder de un usuario o de un agente externo.
+
+Debe considerarse entrada no confiable.
+
+Investiga:
+
+- Referencias inválidas.
+- Dependencias circulares.
+- Assets inexistentes.
+- Documentos excesivamente grandes.
+- Valores numéricos inválidos.
+- Complejidad geométrica descontrolada.
+- Recursividad.
+- Consumo excesivo de memoria.
+- URLs externas.
+- SVG no confiable.
+- Inyección de contenido.
+- Importaciones malformadas.
+- Versiones incompatibles.
+
+No permitas ejecución arbitraria de JavaScript mediante un documento declarativo.
+
+Diferencia las extensiones de código confiables de los documentos de composición no confiables.
+
+Establece límites razonables y errores explícitos.
+
+---
+
+# 17. Decimosexta responsabilidad: vertical slice integral
+
+Al finalizar las anteriores macrofases quiero una demostración integral que atraviese toda la arquitectura.
+
+Construye una composición representativa del universo visual AgntiaPro.
+
+Debe contener, según capacidades disponibles:
+
+- Una superficie cerámica.
+- Una superficie de cristal.
+- Tipografía de precisión.
+- Una infografía anular viva.
+- Varias capas.
+- Una transición temporal.
+- Un comportamiento interactivo.
+- Una modificación mediante operaciones programables.
+
+La composición debe poder:
+
+1. Crearse desde el SDK.
+2. Abrirse en el editor.
+3. Inspeccionarse.
+4. Modificarse mediante operaciones tipadas.
+5. Guardarse.
+6. Recuperarse.
+7. Reproducirse.
+8. Exportarse.
+9. Consumirse desde una aplicación externa.
+
+Esta demostración es más importante que diez estudios independientes.
+
+Debe demostrar que el sistema funciona como infraestructura integrada.
+
+---
+
+# 18. Protocolo de trabajo
+
+Trabaja en macrofases coherentes.
+
+No saltes entre tareas sin actualizar su estado.
+
+Mantén un ledger de requisitos.
+
+Cada requisito debe registrar:
+
+- Identificador.
+- Macrofase.
+- Estado.
+- Evidencia.
+- Archivos.
+- Commit.
+- Pruebas.
+- Dependencias.
+- Limitaciones.
+- Decisiones.
+
+Estados permitidos:
+
+- NOT_STARTED
+- AUDITED
+- DESIGNED
+- IMPLEMENTED
+- TESTED
+- VERIFIED
+- BLOCKED
+- PARTIAL
+
+No declares VERIFIED si únicamente has leído el código.
+
+No declares una macrofase cerrada porque una parte de ella funcione.
+
+No aumentes artificialmente el alcance mediante nuevas abstracciones innecesarias.
+
+Cuando exista una solución válida, reutilízala.
+
+Cuando exista una solución parcial, complétala.
+
+Cuando exista una solución incorrecta, demuestra primero el defecto.
+
+---
+
+# 19. Aislamiento del entorno
+
+No vuelvas a instalar dependencias de IA Motion dentro del workspace de Agente.
+
+Utiliza un clon o worktree aislado.
+
+Comprueba explícitamente:
+
+- Directorio raíz.
+- Workspace efectivo.
+- Lockfile.
+- Versión de Node.
+- Versión de pnpm.
+- Dependencias.
+- Herramientas externas.
+
+No borres el node_modules creado anteriormente en Agente sin comprobar que tienes autorización y que no está siendo utilizado por otros agentes.
+
+No modifiques el repositorio Agente durante esta campaña.
+
+---
+
+# 20. Publicación e integración en main
+
+El founder autoriza que las aportaciones válidas de esta campaña lleguen a main de agntia-iamotion.
+
+Esta autorización está condicionada a la certificación técnica.
+
+Primero consigue acceso legítimo al repositorio mediante el mecanismo autorizado disponible.
+
+No busques credenciales de otros agentes.
+
+No copies secretos.
+
+No introduzcas tokens en archivos.
+
+Publica tu rama de trabajo.
+
+Después prepara una integración revisable contra el main actualizado.
+
+Antes de integrar:
+
+1. Obtén el HEAD actual de main.
+2. Comprueba cambios de otros agentes.
+3. Actualiza la matriz de convergencia.
+4. Resuelve conflictos de manera consciente.
+5. Ejecuta la suite completa.
+6. Ejecuta typecheck.
+7. Ejecuta build.
+8. Ejecuta build de estudios.
+9. Ejecuta smoke test del SDK externo.
+10. Verifica las funcionalidades preservadas.
+11. Documenta las limitaciones.
+12. Prepara un mecanismo de rollback.
+
+Utiliza preferentemente un pull request con evidencias.
+
+Puedes completar la integración en main cuando las comprobaciones requeridas estén verdes, las reglas del repositorio lo permitan y no existan conflictos arquitectónicos sin resolver.
+
+No hagas force push.
+
+No sobrescribas commits de otros agentes.
+
+No elimines ramas.
+
+No desactives protecciones.
+
+No despliegues AgntiaPro.
+
+Si la certificación completa no es posible por limitaciones del entorno, publica la rama y deja el pull request preparado, indicando exactamente qué impide la integración.
+
+---
+
+# 21. Criterios de evaluación
+
+Evaluaremos tu trabajo en las siguientes dimensiones:
+
+1. Comprensión arquitectónica.
+2. Capacidad de convergencia.
+3. Reutilización.
+4. Precisión matemática.
+5. Calidad perceptiva.
+6. Diseño de contratos.
+7. Composición transversal.
+8. Infraestructura de autoría.
+9. Capacidad de extensión.
+10. Compatibilidad externa.
+11. Seguridad.
+12. Rendimiento.
+13. Accesibilidad.
+14. Calidad documental.
+15. Disciplina experimental.
+16. Integridad de las evidencias.
+17. Preservación del trabajo de otros agentes.
+18. Autonomía responsable.
+
+Una solución pequeña y excelente vale más que una infraestructura enorme e innecesaria.
+
+No queremos que demuestres que sabes producir código.
+
+Queremos que demuestres que sabes construir sistemas.
+
+---
+
+# 22. Informe final obligatorio
+
+Entrega un informe que incluya:
+
+- Resumen ejecutivo.
+- Arquitectura inicial encontrada.
+- Arquitectura resultante.
+- Matriz de conservación.
+- Decisiones técnicas.
+- Contratos reutilizados.
+- Contratos ampliados.
+- Contratos nuevos y su justificación.
+- Problemas descubiertos.
+- Problemas corregidos.
+- Resultados de pruebas.
+- Resultados de benchmarks.
+- Evidencias visuales.
+- Compatibilidad de renderizadores.
+- Compatibilidad del SDK.
+- Manual de operaciones.
+- Estado de cada macrofase.
+- Limitaciones.
+- Deuda técnica.
+- Commits.
+- Rama publicada.
+- Pull request.
+- Estado de integración en main.
+- Procedimiento de rollback.
+
+Diferencia claramente lo implementado, lo probado, lo verificado y lo pendiente.
+
+Empieza ahora por la convergencia y la auditoría de los contratos de autoría.
+
+Trabaja con autonomía.
+
+No solicites validación para decisiones técnicas reversibles que puedas resolver mediante investigación y pruebas.
+
+Solicita autorización únicamente cuando exista una decisión arquitectónica irreversible, una necesidad de credenciales, un conflicto con el trabajo de otros agentes o un cambio de alcance.
+
+El objetivo final es que IA Motion empiece a convertirse en una verdadera infraestructura de ingeniería visual programable, operable tanto por humanos como por agentes externos.
+
+### Qué estamos evaluando realmente
+
+Arquitectura conceptual objetivo. El agente debe descubrir cuánto existe ya antes de introducir nuevos contratos.
+
+Esta prueba es considerablemente más difícil que la anterior porque le obliga a pensar transversalmente, integrar trabajo ajeno y convertir motores especializados en un sistema coherente.
+
+He elegido este mandato porque coincide con una necesidad estratégica que ya habíamos identificado: el editor profesional de IA Motion y su manual dinámico para agentes operadores.
+
+Si lo resuelve bien, le daría responsabilidad permanente sobre la infraestructura central de IA Motion, no solamente sobre materiales o animaciones.
+
+La autorización de integración en `main` queda incluida en la prompt, condicionada a los gates. Todavía no he verificado independientemente sus cuatro commits anteriores ni sus evidencias visuales, por lo que no recomendaría una integración incondicional.
