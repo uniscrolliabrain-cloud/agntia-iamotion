@@ -67,3 +67,5 @@ export * from './factory/materials/optical-layer.js';
 export * from './factory/materials/ambient-field.js';
 
 export * from './factory/graphics/organic-mesh.js';
+
+export * from './factory/graphics/cinematic-sequence.js';
