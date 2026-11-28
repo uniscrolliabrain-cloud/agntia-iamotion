@@ -39,7 +39,8 @@
     "verify:graphics": "python -B lab/scripts/verify-graphics-fixture.py",
     "smoke:graphics-knowledge": "node lab/scripts/smoke-graphics-knowledge.mjs",
     "encode:studio": "bash lab/scripts/encode-studio-presentation.sh",
-    "smoke:host-api": "node lab/scripts/smoke-local-host.mjs"
+    "smoke:host-api": "node lab/scripts/smoke-local-host.mjs",
+    "build:knowledge": "node scripts/build-living-skill.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",
