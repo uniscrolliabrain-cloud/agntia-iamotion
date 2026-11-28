@@ -1,8 +1,10 @@
+import { createHash } from 'node:crypto';
+import { writeFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { setTimeout as delay } from 'node:timers/promises';
 
-const [, , port = '9222', url = 'http://127.0.0.1:4173/agntia-iamotion/'] = process.argv;
-const deadline = Date.now() + 15_000;
+const [, , port = '9222', url = 'http://127.0.0.1:4173/agntia-iamotion/', shots] = process.argv;
+const deadline = Date.now() + 22_000;
 async function until(check) {
   while (Date.now() < deadline) {
     if (await check()) return;
@@ -50,6 +52,7 @@ async function evaluate(expression) {
 }
 
 try {
+  await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-reduced-motion', value: 'no-preference' }] });
   await send('Page.navigate', { url });
   await until(async () => {
     const state = await evaluate('document.querySelector("#stage")?.dataset.preview');
@@ -71,9 +74,16 @@ try {
     document.querySelector('[data-clip="open"]').click();
     document.querySelector('#stage').dataset.clip;
   `), 'open');
-  await delay(1150);
-  const opened = await screenshot();
-  assert.notEqual(opened.data, closed.data, 'Opening must change the pixels rendered inside the stage');
+  let opened;
+  const visualHash = (shot) => createHash('sha256').update(shot.data, 'base64').digest('hex');
+  const closedHash = visualHash(closed);
+  if (shots) await writeFile(`${shots}/webgl-closed.png`, Buffer.from(closed.data, 'base64'));
+  await until(async () => {
+    opened = await screenshot();
+    return visualHash(opened) !== closedHash;
+  });
+  if (shots) await writeFile(`${shots}/webgl-open.png`, Buffer.from(opened.data, 'base64'));
+  assert.notEqual(visualHash(opened), closedHash, 'Opening must change the pixels rendered inside the stage');
 
   await evaluate(`document.querySelector('[data-clip="float"]').click()`);
   await until(async () => {

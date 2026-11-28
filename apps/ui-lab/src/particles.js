@@ -1,3 +1,6 @@
+import { compileParticleRecipe, loadParticleRecipes } from '../../../src/factory/graphics/recipes.ts';
+import { createVisualBinding } from '../../../src/sdk/visual-bindings.ts';
+import recipeData from './particle-recipes.json';
 import { normalizeParticlePointer } from '../../../src/factory/graphics/particles/interaction.ts';
 import { ParticleField } from '../../../src/factory/graphics/particles/simulate.ts';
 import { layoutParticles } from '../../../src/factory/graphics/particles/layout.ts';
@@ -6,18 +9,21 @@ import { drawParticleField } from '../../../src/factory/graphics/particles/rende
 const canvas = document.querySelector('#field');
 const button = document.querySelector('#toggle');
 const label = document.querySelector('#field-status');
+const picker = document.querySelector('#recipe');
 const motion = matchMedia('(prefers-reduced-motion: reduce)');
 const context = canvas.getContext('2d');
 if (!context) {
   label.textContent = 'Vista gráfica no disponible.';
 } else {
-  const rate = 60;
-  const spec = { schemaVersion: 1, seed: 941, capacity: 180, spawnPerTick: 5,
-    lifetimeTicks: 110, tickRate: rate, maxSpeed: 9000, maxAcceleration: 400,
-    gravity: [7, -11], attraction: 110, boundary: 'wrap' };
-  const field = new ParticleField(spec);
-  field.advance(45);
-  let ticks = 45;
+  const recipes = loadParticleRecipes(recipeData);
+  const capabilities = new Set(['canvas2d']);
+  const grant = { scope: 'lab-synthetic', bindingId: 'field', allowedRecipes: [...recipes.keys()], synthetic: true };
+  const binding = createVisualBinding(grant);
+  let revision = 0;
+  let field;
+  let selection;
+  let ticks;
+  for (const { id, label } of recipes.values()) picker.add(new Option(label, id));
   let running = false;
   let visible = false;
   let stopped = false;
@@ -61,7 +67,7 @@ if (!context) {
   function frame(now) {
     handle = 0;
     if (!canAnimate()) return;
-    if (previous !== undefined) remainder += Math.min(now - previous, 100) * rate / 1000;
+    if (previous !== undefined) remainder += Math.min(now - previous, 100) * selection.spec.tickRate / 1000;
     previous = now;
     const count = Math.floor(remainder);
     if (count) {
@@ -74,10 +80,31 @@ if (!context) {
   }
   function syncStatus() {
     button.disabled = motion.matches || stopped;
+    picker.disabled = stopped;
     button.textContent = running ? 'Pausar' : 'Reproducir';
     label.textContent = stopped ? 'Vista gráfica no disponible.' : motion.matches ? 'Vista estática por preferencia de movimiento.' :
       running ? 'Simulación en reproducción.' : 'Vista pausada.';
     update();
+  }
+  function applyFrame(recipeId, state) {
+    const delivery = binding.accept({ schemaVersion: 1, scope: grant.scope, bindingId: grant.bindingId,
+      recipeId, state, revision: ++revision, synthetic: true });
+    if (!delivery.ok) throw new Error(delivery.code);
+    const frame = binding.flush();
+    if (selection?.id !== frame.recipeId) {
+      selection = compileParticleRecipe(recipes, frame.recipeId, capabilities);
+      if (!selection.ok) throw new Error(selection.code);
+      field = new ParticleField(selection.spec);
+      ticks = selection.initialTicks;
+      field.advance(ticks);
+      previous = undefined;
+      remainder = 0;
+      releasePointer();
+      canvas.dataset.recipe = frame.recipeId;
+      draw();
+    }
+    running = frame.state === 'running' && !motion.matches;
+    syncStatus();
   }
   function reduce() {
     if (motion.matches) {
@@ -94,6 +121,8 @@ if (!context) {
     resize.disconnect();
     intersection.disconnect();
     button.onclick = null;
+    picker.onchange = null;
+    binding.dispose();
     canvas.removeEventListener('pointermove', setPointer);
     canvas.removeEventListener('pointerleave', releasePointer);
     canvas.removeEventListener('pointercancel', releasePointer);
@@ -104,13 +133,13 @@ if (!context) {
   canvas.addEventListener('pointermove', setPointer);
   canvas.addEventListener('pointerleave', releasePointer);
   canvas.addEventListener('pointercancel', releasePointer);
-  button.onclick = () => { running = !running; syncStatus(); };
+  picker.onchange = () => applyFrame(picker.value, 'paused');
+  button.onclick = () => applyFrame(picker.value, running ? 'paused' : 'running');
   motion.addEventListener('change', reduce);
   document.addEventListener('visibilitychange', update);
   canvas.addEventListener('contextlost', dispose, { once: true });
   window.addEventListener('pagehide', dispose, { once: true });
   resize.observe(canvas);
   intersection.observe(canvas);
-  draw();
-  syncStatus();
+  applyFrame(picker.value, 'ready');
 }

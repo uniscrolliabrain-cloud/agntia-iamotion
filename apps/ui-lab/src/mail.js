@@ -1,9 +1,10 @@
 import {
-  AmbientLight, AnimationMixer, DirectionalLight, LoopOnce, OrthographicCamera, Scene,
+  ACESFilmicToneMapping, AmbientLight, AnimationMixer, Box3, DirectionalLight, LoopOnce, OrthographicCamera, PMREMGenerator, Scene, Vector3,
   WebGLRenderer,
 } from 'three';
 import floatTimeline from 'virtual:ui-lab-float-timeline';
 import { sampleBehaviorTimeline } from '../../../src/factory/behaviors/sampler.ts';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 const stage = document.querySelector('#stage');
@@ -35,13 +36,23 @@ async function start() {
   if (buttons.some((button) => button.dataset.clip !== 'float' && !actions.has(button.dataset.clip))) throw new Error('Faltan clips');
 
   const renderer = new WebGLRenderer({ antialias: true, alpha: true });
+  renderer.toneMapping = ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.15;
   const scene = new Scene();
-  scene.add(model.scene, new AmbientLight(0xffede1, 2));
-  const key = new DirectionalLight(0xfff0e3, 2.5);
-  key.position.set(3, 5, 4);
+  const lighting = new PMREMGenerator(renderer);
+  const room = new RoomEnvironment();
+  const environment = lighting.fromScene(room, .05);
+  room.dispose();
+  lighting.dispose();
+  scene.environment = environment.texture;
+  scene.environmentIntensity = .7;
+  model.scene.position.sub(new Box3().setFromObject(model.scene).getCenter(new Vector3()));
+  scene.add(model.scene, new AmbientLight(0xffede1, .45));
+  const key = new DirectionalLight(0xfff0e3, 1.7);
+  key.position.set(-3, 5, 4);
   scene.add(key);
   const camera = new OrthographicCamera(-1, 1, 1, -1, .1, 30);
-  camera.position.set(3.1, 2.6, 6.5);
+  camera.position.set(-.9, 1.35, 7.2);
   camera.lookAt(0, 0, 0);
 
   let frame = 0;
@@ -107,6 +118,7 @@ async function start() {
       object.geometry?.dispose();
       for (const material of [object.material].flat()) material?.dispose();
     });
+    environment.dispose();
     renderer.dispose();
     for (const button of buttons) button.onclick = null;
   }

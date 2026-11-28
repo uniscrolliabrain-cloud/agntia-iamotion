@@ -25,3 +25,5 @@ jobs:
           pnpm smoke:rag lab/staging/rag-corpora > lab/staging/rag-durable.json
           pnpm smoke:proposal > "$RUNNER_TEMP/motion-proposal.json"
           pnpm smoke:pipeline > "$RUNNER_TEMP/local-pipeline.json"
+          pnpm smoke:graphics-knowledge > "$RUNNER_TEMP/graphics-knowledge.json"
+          pnpm smoke:host-api > "$RUNNER_TEMP/host-contract.json"

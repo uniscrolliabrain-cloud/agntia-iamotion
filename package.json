@@ -36,7 +36,10 @@
     "report:package": "node lab/scripts/stage-package-report.mjs",
     "render:graphics": "mkdir -p lab/staging/graphics-fixture && python -B lab/scripts/read-graphics-fonts.py > lab/staging/graphics-fixture/font-cmap.json && node lab/scripts/render-graphics-fixture.mjs",
     "encode:graphics": "bash lab/scripts/encode-graphics-fixture.sh",
-    "verify:graphics": "python -B lab/scripts/verify-graphics-fixture.py"
+    "verify:graphics": "python -B lab/scripts/verify-graphics-fixture.py",
+    "smoke:graphics-knowledge": "node lab/scripts/smoke-graphics-knowledge.mjs",
+    "encode:studio": "bash lab/scripts/encode-studio-presentation.sh",
+    "smoke:host-api": "node lab/scripts/smoke-local-host.mjs"
   },
   "dependencies": {
     "hono": "^4.0.0",

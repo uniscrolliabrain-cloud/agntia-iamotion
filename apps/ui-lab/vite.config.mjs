@@ -22,6 +22,7 @@ const internalId = '\0' + virtualId;
 export default defineConfig({
   build: { rollupOptions: { input: {
     mail: fileURLToPath(new URL('./index.html', import.meta.url)),
+    studio: fileURLToPath(new URL('./studio.html', import.meta.url)),
     particles: fileURLToPath(new URL('./particles.html', import.meta.url)),
   } } },
   plugins: [{

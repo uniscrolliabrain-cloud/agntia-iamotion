@@ -17,6 +17,16 @@ try {
   await send('Page.navigate', { url });
   await waitForBrowserCondition(async () => await ticks() === 45);
   assert.equal(await inspect('Number(document.querySelector("#field").dataset.points)'), 180);
+  const pick = (recipe) => inspect(`(() => {
+    const select = document.querySelector('#recipe');
+    select.value = '${recipe}'; select.dispatchEvent(new Event('change'));
+  })()`);
+  for (const [recipe, count] of [['flow', 150], ['attraction', 128], ['ambient', 180]]) {
+    await pick(recipe);
+    assert.equal(await inspect('document.querySelector("#field").dataset.recipe'), recipe);
+    assert.equal(await inspect('Number(document.querySelector("#field").dataset.points)'), count);
+    assert.equal(await ticks(), 45);
+  }
   await inspect('document.querySelector("#toggle").click()');
   await waitForBrowserCondition(async () => await ticks() > 50);
   await inspect(`(() => {
@@ -65,7 +75,7 @@ try {
   const version = await send('Browser.getVersion', {});
   console.log(JSON.stringify({ status: 'passed', engine: version.product, viewport: [940, 850],
     framesMeasured: 90, frameIntervalMs: { p50: quantile(.5), p95: quantile(.95), p99: quantile(.99) },
-    particleCounts: { standard: 180, compact: 96 }, offscreenPause: true, pointerCancel: true,
+    particleCounts: { standard: 180, compact: 96 }, recipes: ['ambient', 'flow', 'attraction'], offscreenPause: true, pointerCancel: true,
     reducedMotion: 'static', sampleKind: 'synthetic', device: 'headless-sandbox' }, null, 2));
 } finally {
   close();

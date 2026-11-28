@@ -33,3 +33,11 @@ pnpm verify:graphics
 ```
 
 Los MP4, subtítulos, SVG, manifiestos y el HTML se escriben en `lab/staging/graphics-fixture/`. El HTML presenta valores sintéticos mediante un gráfico adaptable y una tabla. Los MP4 son versiones silenciosas con subtítulos seleccionables.
+
+## Estudio y revisión
+
+`studio.html` reúne la infografía, el texto bilingüe, el botón nativo y la presentación de tres escenas con navegación y búsqueda por fotograma. Los controles, los valores y el estado corresponden a fixtures sintéticos.
+
+`pnpm run render:ceramic-mail` guarda un póster lavanda, un PNG con transparencia, un GLB animable y la escena editable de Blender. Construir la demo después de renderizar para que el estudio use esos archivos locales.
+
+`lab/scripts/smoke-studio-browser.mjs` verifica la navegación, el teclado, la preferencia de movimiento reducido y la composición de las tres escenas. Después de capturar las escenas en Chromium, `pnpm encode:studio` genera los dos MP4 con cortes de escena fijos.

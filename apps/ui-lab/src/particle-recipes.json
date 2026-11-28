@@ -1,0 +1,5 @@
+[
+  { "schemaVersion": 1, "id": "ambient", "kind": "ambient", "label": "Ambiente", "seed": 941, "capacity": 180 },
+  { "schemaVersion": 1, "id": "flow", "kind": "flow", "label": "Flujo", "seed": 872, "capacity": 150, "heading": "right" },
+  { "schemaVersion": 1, "id": "attraction", "kind": "attraction", "label": "Atracción", "seed": 106, "capacity": 128, "intensity": 720 }
+]

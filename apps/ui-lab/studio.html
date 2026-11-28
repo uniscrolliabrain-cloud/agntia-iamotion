@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estudio de motion · Agntia IAMotion</title>
+  <link rel="stylesheet" href="./src/studio.css">
+  <script type="module" src="./src/studio.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a href="./">Correo cerámico</a><a href="./particles.html">Partículas</a>
+    <h1>Estudio de motion</h1>
+  </header>
+  <nav class="index" aria-label="Demos">
+    <a href="#graph">Infografía</a><a href="#type">Texto</a><a href="#button">Botón</a><a href="#presentation">Presentación</a>
+  </nav>
+  <main>
+    <section id="graph">
+      <h2>Flujo de trabajo</h2><p id="graph-source">Datos sintéticos · revisión 1</p>
+      <div class="graph">
+        <svg aria-hidden="true" class="links" viewBox="0 0 300 35" preserveAspectRatio="none">
+          <path id="edge-first" d="M50 17.5 H150"/><path id="edge-second" d="M150 17.5 H250"/>
+        </svg>
+        <div id="graph-nodes" class="nodes"></div>
+      </div>
+      <p id="graph-selection" role="status"></p>
+      <table><caption>Tareas por etapa</caption><thead><tr><th scope="col">Etapa</th><th scope="col">Tareas</th></tr></thead>
+        <tbody id="graph-table"></tbody></table>
+    </section>
+    <section id="type">
+      <h2>Texto cinematográfico</h2>
+      <div id="type-stage" class="type-stage" data-run="0">
+        <p lang="es" dir="ltr">De borrador a entrega.</p>
+        <p lang="ar" dir="rtl">من المسودة إلى التسليم.</p>
+      </div>
+      <button type="button" id="reveal">Repetir entrada</button>
+    </section>
+    <section id="button">
+      <h2>Botón cinematográfico</h2>
+      <div class="controls">
+        <label>Profundidad <input id="depth" type="range" min="0" max="12" value="6"></label>
+        <label>Radio <input id="radius" type="range" min="4" max="24" value="12"></label>
+        <label>Luz <input id="light" type="range" min="0" max="100" value="62"></label>
+        <label><input id="lock-button" type="checkbox"> Deshabilitar</label>
+      </div>
+      <div class="action-stage">
+        <button type="button" id="action" class="depth-button">Preparar vista</button>
+        <p id="action-status" role="status">Vista disponible.</p>
+      </div>
+    </section>
+    <section id="presentation">
+      <h2>Presentación</h2>
+      <label>Formato <select id="format"><option value="wide">16:9</option><option value="tall">9:16</option></select></label>
+      <div id="deck" class="deck" data-format="wide">
+        <article data-scene="mail"><h3>Correo cerámico</h3><img id="deck-mail" alt="Sobre de cerámica marfil con sello violeta"></article>
+        <article data-scene="words" hidden><h3>De borrador a entrega.</h3><p lang="ar" dir="rtl">من المسودة إلى التسليم.</p></article>
+        <article data-scene="data" hidden><h3>Tareas por etapa</h3><ul id="deck-data"></ul></article>
+      </div>
+      <div class="controls deck-controls">
+        <button type="button" id="prev-scene">Anterior</button><button type="button" id="next-scene">Siguiente</button>
+        <label>Posición <input id="seek" type="range" min="0" max="299" value="0"></label>
+      </div>
+      <p id="deck-position" role="status"></p>
+    </section>
+  </main>
+</body>
+</html>
