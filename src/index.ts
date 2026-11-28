@@ -65,3 +65,5 @@ export * from './factory/graphics/spatial-layout.js';
 export * from './factory/materials/optical-layer.js';
 
 export * from './factory/materials/ambient-field.js';
+
+export * from './factory/graphics/organic-mesh.js';
