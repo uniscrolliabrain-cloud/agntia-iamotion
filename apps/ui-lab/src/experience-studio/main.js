@@ -1,0 +1,1 @@
+import './studio.css';import {mountDesks} from './desks.js';const dispose=mountDesks(document.querySelector('#desks'));window.addEventListener('pagehide',dispose,{once:true});
