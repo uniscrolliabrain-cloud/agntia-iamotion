@@ -9,7 +9,11 @@ export const CapabilitySchema=z.strictObject({
  requires:z.array(Id), sop:Ref.optional(), boilerplate:Ref.optional(), evidence:z.array(Ref),
  uxConstraints:z.array(z.string().min(1)), 
 });
-export type Capability=z.infer<typeof CapabilitySchema>;
+// `Capability` in contracts.ts means an authorised host operation; this one describes a
+// declared engine capability. Two different concepts must not share a barrel name.
+export type EngineCapability=z.infer<typeof CapabilitySchema>;
+/** @deprecated Use EngineCapability; kept for module-level consumers. */
+export type Capability=EngineCapability;
 export const HostManifestSchema=z.strictObject({
  packageVersion:z.string().min(1), enabled:z.array(z.strictObject({id:Id,revision:z.number().int().positive()}))
 });

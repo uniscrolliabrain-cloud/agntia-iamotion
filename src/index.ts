@@ -45,6 +45,7 @@ export * from './sdk/visual-bindings.js';
 export * from './integration/local-api.js';
 
 export * from './factory/materials/surface.js';
+export * from './factory/materials/contrast.js';
 
 export * from './factory/renderers/blender/sculpture.js';
 
@@ -77,8 +78,30 @@ export * from './factory/spatial/demo.js';
 
 export * from './factory/spatial/navigation.js';
 
-export * from './sdk/living-skill.js';
+// Explicit: the living skill also keeps a deprecated `Capability` alias that would
+// shadow the authorised-operation type from contracts.ts.
+export { CapabilitySchema, HostManifestSchema, compileLivingSkill, type EngineCapability } from './sdk/living-skill.js';
 
 export * from './sdk/capability-registry.js';
 
 export * from './sdk/motion-document.js';
+
+export * from './factory/spatial/meta-catalog.js';
+export * from './factory/spatial/meta-view.js';
+export * from './factory/spatial/exhibit-catalog.js';
+export * from './factory/spatial/automation-sculpture.js';
+export * from './factory/spatial/process-installation.js';
+export * from './factory/spatial/learning-tour.js';
+export * from './factory/spatial/learning-sandbox.js';
+export * from './factory/spatial/learning-session.js';
+export * from './factory/spatial/constructor.js';
+export * from './factory/spatial/constructor-transition.js';
+export * from './factory/spatial/architecture.js';
+export * from './factory/spatial/fractal-composition.js';
+export * from './factory/spatial/fractal-navigation.js';
+export * from './factory/spatial/fractal-patterns.js';
+export * from './factory/spatial/immersive-experience.js';
+export * from './factory/spatial/experience-director.js';
+export * from './factory/spatial/experience-mixer.js';
+export * from './factory/spatial/mixer-editor.js';
+export * from './factory/spatial/experience-recording.js';

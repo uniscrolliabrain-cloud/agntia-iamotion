@@ -24,6 +24,13 @@ export default defineConfig({
     mail: fileURLToPath(new URL('./index.html', import.meta.url)),
     studio: fileURLToPath(new URL('./studio.html', import.meta.url)),
     particles: fileURLToPath(new URL('./particles.html', import.meta.url)),
+    // Studies that already existed on disk but were never compiled into the published lab.
+    'material-study': fileURLToPath(new URL('./material-study.html', import.meta.url)),
+    'annular-study': fileURLToPath(new URL('./annular-study.html', import.meta.url)),
+    'analytics-study': fileURLToPath(new URL('./analytics-study.html', import.meta.url)),
+    'editorial-study': fileURLToPath(new URL('./editorial-study.html', import.meta.url)),
+    'organic-study': fileURLToPath(new URL('./organic-study.html', import.meta.url)),
+    museum: fileURLToPath(new URL('./museum.html', import.meta.url)),
   } } },
   plugins: [{
     name: 'ui-lab-validated-timeline',
