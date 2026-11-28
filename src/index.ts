@@ -69,3 +69,5 @@ export * from './factory/materials/ambient-field.js';
 export * from './factory/graphics/organic-mesh.js';
 
 export * from './factory/graphics/cinematic-sequence.js';
+
+export * from './sdk/aesthetic-session.js';
