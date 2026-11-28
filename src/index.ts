@@ -80,3 +80,5 @@ export * from './factory/spatial/navigation.js';
 export * from './sdk/living-skill.js';
 
 export * from './sdk/capability-registry.js';
+
+export * from './sdk/motion-document.js';
