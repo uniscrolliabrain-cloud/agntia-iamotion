@@ -1,0 +1,7 @@
+export function el(tag,attrs={},...children){const n=document.createElement(tag);for(const [k,v] of Object.entries(attrs)){if(k==='class')n.className=v;else if(k.startsWith('on'))n.addEventListener(k.slice(2),v);else n.setAttribute(k,v);}n.append(...children);return n;}
+export function desk(number,title,subtitle){const body=el('div',{class:'desk-body'});const root=el('section',{class:'desk',id:'desk-'+number},el('header',{class:'desk-head'},el('span',{class:'number'},number),el('div',{},el('h2',{},title),el('p',{},subtitle)),el('span',{class:'status'},'Laboratorio local')),body);return {root,body};}
+export function panel(title,...children){return el('section',{class:'panel'},el('h3',{},title),...children);}
+export function range(label,min,max,step,value,change){const out=el('output',{},String(value)),input=el('input',{type:'range',min,max,step,value,'aria-label':label});input.addEventListener('input',()=>{out.value=input.value;change(Number(input.value));});return el('label',{class:'range'},el('span',{},label),input,out);}
+export function choice(label,values,change){const s=el('select',{'aria-label':label},...values.map(v=>el('option',{value:v},v)));s.addEventListener('change',()=>change(s.value));return el('label',{class:'choice'},label,s);}
+export function canvas(){return el('canvas',{width:720,height:320,role:'img','aria-label':'Previsualización experimental'});}
+export function report(node,fn){try{fn();node.textContent='Especificación válida';}catch(e){node.textContent=String(e.message??e);}}
