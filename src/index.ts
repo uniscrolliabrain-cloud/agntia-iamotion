@@ -76,3 +76,5 @@ export * from './factory/spatial/topography.js';
 export * from './factory/spatial/demo.js';
 
 export * from './factory/spatial/navigation.js';
+
+export * from './sdk/living-skill.js';
