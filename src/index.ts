@@ -96,3 +96,5 @@ export * from './factory/spatial/constructor.js';
 export * from './factory/spatial/constructor-transition.js';
 
 export * from './factory/spatial/architecture.js';
+
+export * from './factory/spatial/fractal-composition.js';
