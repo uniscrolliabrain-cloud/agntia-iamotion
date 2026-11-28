@@ -16,6 +16,7 @@ jobs:
       - run: pnpm install --frozen-lockfile --ignore-scripts
       - run: pnpm run typecheck
       - run: pnpm run build
+      - run: pnpm run build:knowledge
       - run: pnpm test
       - run: pnpm run build:demo
       - run: pnpm audit:library > "$RUNNER_TEMP/library-audit.json"
