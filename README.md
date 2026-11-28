@@ -1,3 +1,6 @@
+> **ARCHIVED — DO NOT DEVELOP HERE.**
+> All campaign work was integrated into [main](https://github.com/uniscrolliabrain-cloud/agntia-iamotion/tree/main) in merge commit `153e732d52353aa0b9c9f256300cc76a267b9741`. This branch is historical only. Do not merge it again or start new work here.
+
 # Agntia IAMotion
 
 Motor de identidad visual dinámica para AgntiaPro. Hono, pnpm, TypeScript. LLM propone, sistema dispone.
