@@ -28,6 +28,9 @@ export function sampleSurface(from:SurfacePose,to:SurfacePose,elapsedMs:number,d
  SurfacePoseSchema.parse(from);SurfacePoseSchema.parse(to);
  if(!Number.isFinite(elapsedMs)||!Number.isFinite(durationMs)||durationMs<0||durationMs>1000) throw new Error('INVALID_SURFACE_TIME');
  const t=durationMs===0?1:Math.max(0,Math.min(1,elapsedMs/durationMs));
+ // Exact endpoints: interpolating to t=1 reintroduces float error (0.1 -> 0.09999999999999998),
+ // so a settled retarget must return the target pose itself, not a sample of it.
+ if(t>=1) return {...to};
  const eased=1-(1-t)**3;
  const result={...from};
  for(const key of Object.keys(from) as (keyof SurfacePose)[]) result[key]=from[key]+(to[key]-from[key])*eased;

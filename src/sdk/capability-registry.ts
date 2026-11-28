@@ -1,6 +1,6 @@
-import {compileLivingSkill,type Capability} from './living-skill.js';
+import {compileLivingSkill,type EngineCapability} from './living-skill.js';
 const common={revision:1,maturity:'implemented',environments:['browser','node'],requires:[],evidence:[],uxConstraints:['Preserve approved layout, text and data; respect reduced motion.']} as const;
-export const capabilityRegistry:Capability[]=[
+export const capabilityRegistry:EngineCapability[]=[
  ['aesthetic.scene','Aesthetic scene','Compile bounded visual layers','src/factory/graphics/aesthetic-runtime.ts','compileAestheticScene'],
  ['aesthetic.sample','Scene sampling','Sample a compiled scene at a given time','src/factory/graphics/aesthetic-runtime.ts','sampleAestheticScene'],
  ['cinematic.sequence','Cinematic sequence','Compile cinematic plans','src/factory/graphics/cinematic-sequence.ts','compileCinematicSequence'],

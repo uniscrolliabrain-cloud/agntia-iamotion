@@ -45,6 +45,7 @@ export * from './sdk/visual-bindings.js';
 export * from './integration/local-api.js';
 
 export * from './factory/materials/surface.js';
+export * from './factory/materials/contrast.js';
 
 export * from './factory/renderers/blender/sculpture.js';
 
@@ -77,7 +78,9 @@ export * from './factory/spatial/demo.js';
 
 export * from './factory/spatial/navigation.js';
 
-export * from './sdk/living-skill.js';
+// Explicit: the living skill also keeps a deprecated `Capability` alias that would
+// shadow the authorised-operation type from contracts.ts.
+export { CapabilitySchema, HostManifestSchema, compileLivingSkill, type EngineCapability } from './sdk/living-skill.js';
 
 export * from './sdk/capability-registry.js';
 
