@@ -110,3 +110,5 @@ export * from './factory/spatial/experience-director.js';
 export * from './factory/spatial/experience-mixer.js';
 
 export * from './factory/spatial/mixer-editor.js';
+
+export * from './factory/spatial/experience-recording.js';
