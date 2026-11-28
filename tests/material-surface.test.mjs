@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {surfaceTarget,sampleSurface,surfaceCss} from '../dist/factory/materials/surface.js';
+const policy={glass:true,spatial:true,reducedMotion:false,intensity:1};
+test('material endpoints and policy',()=>{const a=surfaceTarget(0,policy),b=surfaceTarget(3,policy);assert.equal(a.opacity,1);assert.ok(b.blurPx>a.blurPx);assert.deepEqual(surfaceTarget(3,{...policy,glass:false}),a);assert.equal(surfaceTarget(3,{...policy,reducedMotion:true}).tiltDeg,0);assert.equal(surfaceCss(b,false)['--ag-motion-blur'],'0px');});
+test('retarget without discontinuity',()=>{const a=surfaceTarget(0,policy),b=surfaceTarget(3,policy),mid=sampleSurface(a,b,120,320);assert.deepEqual(sampleSurface(mid,a,0,320),mid);assert.deepEqual(sampleSurface(mid,a,320,320),a);assert.throws(()=>surfaceTarget(4,policy));assert.throws(()=>sampleSurface(a,b,NaN,320));});
