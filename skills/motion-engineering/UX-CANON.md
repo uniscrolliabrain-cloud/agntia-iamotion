@@ -1,0 +1,4 @@
+# UX source policy
+Provisional, not full canon certification. Parent sources: apps/ui-lab/README.md, apps/ui-lab/src/registry.tsx, apps/ui-lab/docs/agntia-demo/README.md in uniscrolliabrain-cloud/agente. Inspect exact revisions before applying.
+Use existing BrandGallery, actual component tokens and approved workspace references; do not invent replacements. Landing protected; preserve existing chat and navigation. UI Lab previews are not all approved production screens; legacy entries are comparison only. Use synthetic fixtures and no network or secrets. Preserve exact KPI values, readable contrast, keyboard focus, reduced motion and stable spatial anchors. Motion must clarify state, not delay interaction. Ceramic/ivory/violet/gold from Living Museum design is a scoped material reference, not a global override.
+Full UX guide and 18 taxonomy audit remain required before certification.
