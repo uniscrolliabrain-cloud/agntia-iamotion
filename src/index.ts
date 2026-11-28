@@ -74,3 +74,5 @@ export * from './sdk/aesthetic-session.js';
 
 export * from './factory/spatial/topography.js';
 export * from './factory/spatial/demo.js';
+
+export * from './factory/spatial/navigation.js';
