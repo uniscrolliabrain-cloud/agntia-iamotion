@@ -1,15 +1,18 @@
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { z } from 'zod';
 import { canonical } from './plan-library-migration.mjs';
 import {
-  bindCompositionBehaviors, composeBehaviors, expandBehavior, negotiateGraphicsRenderer,
+  CompositionProjectSchema, bindCompositionBehaviors, composeBehaviors, expandBehavior, negotiateGraphicsRenderer,
   planGraphicsCues, planGraphicsTextBehavior, prepareBarChart, prepareGraphicsText, resolveGraphicsLayout,
   resolveGraphicsFont, sampleCompositionFrame, serializeShapeSvg,
 } from '../../dist/index.js';
 
 const root = 'lab/staging/graphics-fixture';
 await mkdir(root, { recursive: true });
+await writeFile(join(root, 'composition-schema.json'),
+  JSON.stringify(z.toJSONSchema(CompositionProjectSchema), null, 2) + '\n');
 const hash = (value) => createHash('sha256').update(value).digest('hex');
 const write = (name, value) => writeFile(join(root, name), value);
 function must(result) {
@@ -112,6 +115,11 @@ for (const [id, viewport] of Object.entries({
       <text x="${x}" y="${viewport.height - 40}" font-size="16">Escala 0–50 · ${chart.unit}</text>
       </g></svg>\n`;
     await write(join(id, filename(frame)), svg);
+    if (frame === frameCount - 1) {
+      const chartSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${viewport.width}" height="280"
+        viewBox="0 ${y - 10} ${viewport.width} 280"><g font-family="DejaVu Sans" fill="#271a32">${bars}</g></svg>\n`;
+      await write(join(id, 'plot.svg'), chartSvg);
+    }
     samples.push({ frame, opacity, textOpacity, sha256: hash(svg) });
   }
   artifacts.push({ id, viewport, projectHash: hash(canonical(project)), layout: layout.layers[0].bounds, capabilities, samples });
@@ -120,10 +128,10 @@ const rows = chart.table.map(({ label, value }) => `<tr><th scope="row">${escape
 await write('index.html', `<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${escape(title)}</title><style>
 body {font: 1rem system-ui; background:#f9f4ed; color:#271a32; max-width:62rem; margin:auto; padding:1rem;}
-picture img {max-width:100%; height:auto; display:block} table {border-collapse:collapse; width:100%; max-width:30rem}
+figure {margin:1.5rem 0} figcaption {margin:.6rem 0} picture img {max-width:100%; height:auto; display:block} table {border-collapse:collapse; width:100%; max-width:30rem}
 th,td {padding:.65rem; border-bottom:1px solid #998da0; text-align:left}
 </style><main><h1>${escape(title)}</h1><p>${escape(cues.captions[0].text)}</p>
-<picture aria-hidden="true"><source media="(max-width: 600px)" srcset="portrait/frame-035.svg"><img src="landscape/frame-035.svg" alt=""></picture>
+<figure><picture aria-hidden="true"><source media="(max-width: 600px)" srcset="portrait/plot.svg"><img src="landscape/plot.svg" alt=""></picture><figcaption>Escala 0–50 · tareas</figcaption></figure>
 <table><caption>Tareas por estado</caption><thead><tr><th scope="col">Estado</th><th scope="col">Tareas</th></tr></thead>
 <tbody>${rows}</tbody></table></main></html>\n`);
 await write('captions.vtt', `WEBVTT\n\n00:00:00.000 --> 00:00:01.500\n${cues.captions[0].text}\n`);

@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { ParticlePointer } from './interaction.js';
 import { ParticleFieldSpec } from './spec.js';
 
 const domain = 1_000_000;
@@ -54,18 +55,27 @@ export class ParticleField {
     return this.#random = value >>> 0;
   }
 
-  advance(ticks: number) {
+  advance(ticks: number, pointerInput?: unknown) {
     if (!Number.isSafeInteger(ticks) || ticks < 0 || ticks > 4096 || this.#tick + ticks > maximumTicks) {
       throw new Error('PARTICLE_TICK_LIMIT');
     }
+    const pointer = pointerInput === undefined ? undefined : ParticlePointer.parse(pointerInput);
+    const influence = pointer && { x: Math.round(pointer.x * domain), y: Math.round(pointer.y * domain),
+      radius: Math.round(pointer.radius * domain), strength: pointer.strength };
     const { capacity, spawnPerTick, lifetimeTicks, maxSpeed, maxAcceleration, gravity, attraction } = this.#spec;
     for (let index = 0; index < ticks; index++) {
       this.#particles = this.#particles.filter((particle) => ++particle.age < lifetimeTicks);
       for (const particle of this.#particles) {
-        const accelerate = (position: number, base: number) =>
-          clamp(base + Math.trunc((domain / 2 - position) * attraction / domain), maxAcceleration);
-        particle.vx = clamp(particle.vx + accelerate(particle.x, gravity[0]), maxSpeed);
-        particle.vy = clamp(particle.vy + accelerate(particle.y, gravity[1]), maxSpeed);
+        const dx = influence ? influence.x - particle.x : 0;
+        const dy = influence ? influence.y - particle.y : 0;
+        const distance = Math.max(Math.abs(dx), Math.abs(dy));
+        const strength = influence && distance < influence.radius
+          ? Math.trunc((influence.radius - distance) * influence.strength / influence.radius) : 0;
+        const accelerate = (position: number, base: number, offset: number) =>
+          clamp(base + Math.trunc((domain / 2 - position) * attraction / domain) +
+            (distance ? Math.trunc(offset * strength / distance) : 0), maxAcceleration);
+        particle.vx = clamp(particle.vx + accelerate(particle.x, gravity[0], dx), maxSpeed);
+        particle.vy = clamp(particle.vy + accelerate(particle.y, gravity[1], dy), maxSpeed);
         particle.x = wrap(particle.x + particle.vx);
         particle.y = wrap(particle.y + particle.vy);
       }

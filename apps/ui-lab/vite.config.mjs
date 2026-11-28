@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 import { composeBehaviors, expandBehavior } from '../../src/factory/behaviors/grammar.ts';
 
@@ -19,6 +20,10 @@ function createFloat() {
 const virtualId = 'virtual:ui-lab-float-timeline';
 const internalId = '\0' + virtualId;
 export default defineConfig({
+  build: { rollupOptions: { input: {
+    mail: fileURLToPath(new URL('./index.html', import.meta.url)),
+    particles: fileURLToPath(new URL('./particles.html', import.meta.url)),
+  } } },
   plugins: [{
     name: 'ui-lab-validated-timeline',
     resolveId(id) { return id === virtualId ? internalId : undefined; },

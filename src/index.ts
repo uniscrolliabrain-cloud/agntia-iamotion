@@ -36,3 +36,6 @@ export * from './factory/graphics/fonts.js';
 export * from './factory/graphics/text-behavior.js';
 export * from './factory/graphics/particles/spec.js';
 export * from './factory/graphics/particles/simulate.js';
+export * from './factory/graphics/particles/layout.js';
+export * from './factory/graphics/particles/render.js';
+export * from './factory/graphics/particles/interaction.js';

@@ -18,3 +18,18 @@ Para verificar la carga, la acción de apertura y el modo de movimiento reducido
 ```sh
 node lab/scripts/smoke-ceramic-mail-browser.mjs
 ```
+
+## Gráficos y partículas
+
+`particles.html` se construye junto a la vista WebGL con `pnpm run build:demo`. El botón controla una simulación sembrada. La vista pausa el reloj fuera del viewport y conserva un cuadro estático con movimiento reducido.
+
+Para reproducir los dos vídeos y la vista accesible del gráfico, usar el entorno local con DejaVu Sans, fontTools, Fontconfig y FFmpeg con librsvg y libx264:
+
+```sh
+pnpm run build
+pnpm render:graphics
+pnpm encode:graphics
+pnpm verify:graphics
+```
+
+Los MP4, subtítulos, SVG, manifiestos y el HTML se escriben en `lab/staging/graphics-fixture/`. El HTML presenta valores sintéticos mediante un gráfico adaptable y una tabla. Los MP4 son versiones silenciosas con subtítulos seleccionables.

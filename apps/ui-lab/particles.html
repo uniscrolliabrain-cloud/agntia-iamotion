@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campo de partículas · Agntia IAMotion</title>
+  <link rel="stylesheet" href="./src/mail.css">
+  <script type="module" src="./src/particles.js"></script>
+  <style>
+  #field { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; background: #221832; }
+  .controls { display: flex; align-items: center; gap: 1rem; margin: 1rem;}
+  </style>
+</head>
+<body>
+  <main>
+    <header><a href="./">Correo cerámico</a><h1>Campo de partículas</h1></header>
+    <section aria-label="Simulación sintética">
+      <canvas id="field" role="img" aria-label="Campo simulado de partículas color champán"></canvas>
+      <div class="controls">
+        <button type="button" id="toggle" disabled>Reproducir</button>
+        <span id="field-status" role="status">Cargando simulación…</span>
+      </div>
+    </section>
+    <p class="caption">Simulación sintética con semilla fija.</p>
+  </main>
+</body>
+</html>
