@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {automationSculpture,sampleAutomationExhibit,museumExhibitCatalog} from '../dist/index.js';
+test('all fourteen source kinds compile into distinct recipes',()=>{const recipes=museumExhibitCatalog.nodes.map(n=>automationSculpture(n.id));assert.equal(recipes.length,14);assert.equal(new Set(recipes.map(r=>JSON.stringify(r.parts))).size,14);assert.throws(()=>automationSculpture('unknown'));});
+test('reduced motion preserves semantic state',()=>{assert.equal(sampleAutomationExhibit('running',2,true).lift,0);assert.equal(sampleAutomationExhibit('complete',2,true).accent,'verified');assert.throws(()=>sampleAutomationExhibit('idle',NaN));});
