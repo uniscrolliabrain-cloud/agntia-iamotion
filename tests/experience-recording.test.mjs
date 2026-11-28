@@ -1,0 +1,22 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {compileImmersiveExperience,createExperienceRecorder,compileExperienceRecording} from '../dist/index.js';
+const scope={tenantId:'demo',workspaceId:'museum'};
+const node=(id,parentId)=>({id,parentId,kind:'space',label:id,position:[0,0,0],scale:1,yaw:0,capabilities:['view','navigate']});
+const experience=compileImmersiveExperience({schemaVersion:1,id:'experience',composition:{schemaVersion:1,id:'world',scope,revision:1,nodes:[node('root'),node('room','root')],relations:[]},installations:[],films:[],bindings:[]},{fractal:{scope,revision:1,capabilities:new Set(['view','navigate']),recipes:new Map()},constructor:{scope,revision:1,sourceRefs:new Set(),visualRefs:new Set(),narrationRefs:new Set(),exerciseRefs:new Set(),recipes:new Map()},filmRefs:new Set(),policy:{},lockedText:new Map(),features:new Set()});
+const initial={version:1,durationMs:1000,base:{motion:1,depth:1,glass:1,particles:1,illumination:1,background:1,camera:1},tracks:[]};
+const ctx={experience,reducedMotion:true,policy:{surface:{glass:true,spatial:true,reducedMotion:true,intensity:1},particles:true,maxParticles:100,maxVertices:1000,maxSculptureParts:10},ambient:{base:[1,1,1],lights:[],periodMs:8000,intensity:1,reducedMotion:false,active:true}};
+test('recording replay preserves navigation and rejects invalid events',()=>{
+ const recorder=createExperienceRecorder(ctx,initial);
+ recorder.append({kind:'director',atMs:100,command:{kind:'navigate',command:{kind:'enter',id:'room'}}});
+ assert.throws(()=>recorder.append({kind:'director',atMs:50,command:{kind:'stop'}}));
+ recorder.append({kind:'mix',atMs:200,spec:{...initial,base:{...initial.base,glass:.3}}});
+ const recording=recorder.finish(500);
+ const replay=compileExperienceRecording(recording,ctx);
+ assert.equal(replay.sample(99).director.navigation.focusId,'root');
+ assert.equal(replay.sample(100).director.navigation.focusId,'room');
+ assert.equal(replay.sample(200).mix.values.glass,.3);
+ assert.deepEqual(replay.sample(300),replay.sample(300));
+ assert.throws(()=>compileExperienceRecording({...recording,revision:2},ctx));
+ assert.throws(()=>recorder.append({kind:'director',atMs:500,command:{kind:'stop'}}));
+});
