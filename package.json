@@ -33,7 +33,10 @@
     "smoke:rag": "node lab/scripts/smoke-rag-brief.mjs",
     "smoke:proposal": "node lab/scripts/smoke-motion-proposal.mjs",
     "smoke:pipeline": "node lab/scripts/smoke-local-pipeline.mjs",
-    "report:package": "node lab/scripts/stage-package-report.mjs"
+    "report:package": "node lab/scripts/stage-package-report.mjs",
+    "render:graphics": "mkdir -p lab/staging/graphics-fixture && python -B lab/scripts/read-graphics-fonts.py > lab/staging/graphics-fixture/font-cmap.json && node lab/scripts/render-graphics-fixture.mjs",
+    "encode:graphics": "bash lab/scripts/encode-graphics-fixture.sh",
+    "verify:graphics": "python -B lab/scripts/verify-graphics-fixture.py"
   },
   "dependencies": {
     "hono": "^4.0.0",

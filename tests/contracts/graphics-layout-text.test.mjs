@@ -35,3 +35,18 @@ test('keeps Unicode graphemes intact and preserves exact bidirectional source te
   assert.equal(prepareGraphicsText({ ...spec, spans: [{ start: 0, end: 1, styleId: 'strong' }] }).code,
     'INVALID_TEXT_SPAN');
 });
+
+test('whole-run text fade always retains original accessible text and rejects unsupported techniques', async () => {
+  const { planGraphicsTextBehavior } = await import('../../dist/index.js');
+  const text = { schemaVersion: 1, sourceText: 'Importe exacto: € 1.250,00',
+    locale: 'es', direction: 'ltr', writingMode: 'horizontal-tb', spans: [] };
+  const context = { visualId: 'v_9d7cbaa0-c4c9-4f0e-a193-a97ad9f812c3',
+    partIds: new Set(['title']), properties: new Set(['opacity']) };
+  const request = { technique: 'run-fade', behaviorId: 'title', partId: 'title', durationMs: 500 };
+  const plan = planGraphicsTextBehavior(text, request, context);
+  assert.equal(plan.accessibilityText, text.sourceText);
+  assert.equal(plan.visualText, text.sourceText);
+  assert.equal(plan.spec.reducedMotion.at, 1);
+  assert.equal(planGraphicsTextBehavior(text, { ...request, technique: 'typewriter' }, context).code,
+    'TEXT_TECHNIQUE_UNSUPPORTED');
+});

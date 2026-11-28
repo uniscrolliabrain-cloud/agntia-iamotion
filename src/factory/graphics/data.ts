@@ -1,6 +1,9 @@
 import { z } from 'zod';
 
 const Id = z.string().regex(/^[a-zA-Z0-9_.:-]{1,96}$/u);
+const DataRequest = z.strictObject({
+  scope: Id, id: Id, revision: z.number().int().positive().max(Number.MAX_SAFE_INTEGER),
+});
 const Snapshot = z.strictObject({
   schemaVersion: z.literal(1), id: Id, revision: z.number().int().positive().max(Number.MAX_SAFE_INTEGER),
   scope: Id, source: Id, synthetic: z.boolean(), unit: z.string().min(1).max(32),
@@ -15,6 +18,7 @@ export interface GraphicsDatasetReader {
 
 export async function prepareBarChart(request: { scope: string; id: string; revision: number },
   authorizedScopes: ReadonlySet<string>, reader: GraphicsDatasetReader, domainInput: unknown) {
+  if (!DataRequest.safeParse(request).success) return { ok: false, code: 'INVALID_DATA_REQUEST' } as const;
   if (!authorizedScopes.has(request.scope)) return { ok: false, code: 'DATA_SCOPE_DENIED' } as const;
   const domain = Domain.safeParse(domainInput);
   if (!domain.success) return { ok: false, code: 'INVALID_BAR_DOMAIN' } as const;

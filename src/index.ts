@@ -32,3 +32,7 @@ export * from './factory/graphics/text.js';
 export * from './factory/graphics/data.js';
 export * from './factory/graphics/cues.js';
 export * from './factory/graphics/capabilities.js';
+export * from './factory/graphics/fonts.js';
+export * from './factory/graphics/text-behavior.js';
+export * from './factory/graphics/particles/spec.js';
+export * from './factory/graphics/particles/simulate.js';
