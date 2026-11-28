@@ -1,0 +1,9 @@
+# Orden de ejecución — elevar runtime existente
+Trabaja sobre rama de ejecución Codex, no reinicies desde main ni sobrescribas trabajo. Integra esta documentación mediante cherry-pick/reconciliación segura si autorizado. Inspección mínima de módulos reales; no nueva campaña de auditorías. Prioridad código y resultados visuales.
+A: extender contratos y sampler con estados materiales, registry de efectos, policy y adapters; tests de interrupción, contraste, unsupported, reduced motion. Entregar bloque 11 y botón 12 ejecutables.
+B: generalizar worker Blender desde correo específico a recetas declarativas: curvas, bevel, modifiers allowlist, partes, materiales PBR, cámara y luces. Generar correo y calendario, .blend/GLB/PNG, verificar carga real. No código Python arbitrario.
+C: React library reusable, scheduler, lifecycle, typed props, semantic state; conectar launcher y esculturas sintéticas 05–10. No duplicar runtime en demos. Datos exactos, responsive, tabla.
+D: partículas GPU y CPU reference, shaders registrados, curl/vortex/targets, quality tiers, casos 15–17, medir rendimiento.
+E: typography y composición, fuentes reales verificadas/licenciadas, grupos semánticos, escenas y export, casos 13–14/18–20.
+F: indexar canon, recetas y evidencia en RAG existente, recuperar por contexto y capacidad, propuestas validadas, prohibir autoaprobación. UI Lab inspector de propiedades y comparación baseline/nuevo. Paquete SDK y tests.
+Por cada caso renderizar, abrir y examinar resultado real, corregir geometría/material/luz/composición antes de declarar listo. Guardar capturas de poses y vídeo; si no puedes verlos, marcar revisión visual bloqueada. Iterar hasta aceptación humana; no declarar calidad mundial por tests. No tocar padre, deploy, proveedores ni fase sensorial no autorizada. No borrar legacy ni reemplazar interfaces aprobadas.
