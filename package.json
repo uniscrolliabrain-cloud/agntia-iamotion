@@ -20,6 +20,7 @@
     "build:demo": "vite build apps/ui-lab --base /agntia-iamotion/",
     "test": "tsc -p tsconfig.json && node --test --test-isolation=none",
     "verify:install": "node lab/scripts/verify-install-tarball.mjs",
+    "verify:capabilities": "node lab/scripts/audit-capabilities.mjs",
     "audit:library": "node lab/scripts/audit-baseline.mjs",
     "plan:library": "node lab/scripts/plan-library-migration.mjs",
     "schemas:library": "node lab/scripts/export-library-schemas.mjs",
