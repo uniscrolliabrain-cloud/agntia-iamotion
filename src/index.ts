@@ -88,3 +88,5 @@ export * from './factory/spatial/process-installation.js';
 export * from './factory/spatial/learning-tour.js';
 
 export * from './factory/spatial/learning-sandbox.js';
+
+export * from './factory/spatial/learning-session.js';
